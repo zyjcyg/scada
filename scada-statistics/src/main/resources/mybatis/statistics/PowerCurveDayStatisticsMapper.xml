@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.scada.project.statistics.mapper.PowerCurveDayStatisticsMapper">
+    
+    <resultMap type="PowerCurveDayStatistics" id="PowerCurveDayStatisticsResult">
+        <result property="id"    column="id"    />
+        <result property="windFieldId"    column="wind_field_id"    />
+        <result property="windFieldName"    column="wind_field_name"    />
+        <result property="lineId"    column="line_id"    />
+        <result property="lineName"    column="line_name"    />
+        <result property="turbineId"    column="turbine_id"    />
+        <result property="turbineName"    column="turbine_name"    />
+        <result property="windSpeed"    column="wind_speed"    />
+        <result property="pover"    column="pover"    />
+        <result property="count"    column="count"    />
+        <result property="statisticalTimeLength"    column="statistical_time_length"    />
+        <result property="statisticalTime"    column="statistical_time"    />
+        <result property="computingTime"    column="computing_time"    />
+        <result property="alternateField1"    column="alternate_field1"    />
+        <result property="alternateField2"    column="alternate_field2"    />
+        <result property="alternateField3"    column="alternate_field3"    />
+    </resultMap>
+
+    <sql id="selectPowerCurveDayStatisticsVo">
+        select id, wind_field_id, wind_field_name, line_id, line_name, turbine_id, turbine_name, wind_speed, pover, count, statistical_time_length, statistical_time, computing_time, alternate_field1, alternate_field2, alternate_field3 from t_power_curve_day_statistics
+    </sql>
+
+    <select id="selectPowerCurveDayStatisticsList" parameterType="PowerCurveDayStatistics" resultMap="PowerCurveDayStatisticsResult">
+        <include refid="selectPowerCurveDayStatisticsVo"/>
+        <where>  
+            <if test="windFieldId != null "> and wind_field_id = #{windFieldId}</if>
+            <if test="windFieldName != null  and windFieldName != ''"> and wind_field_name like concat('%', #{windFieldName}, '%')</if>
+            <if test="lineId != null "> and line_id = #{lineId}</if>
+            <if test="lineName != null  and lineName != ''"> and line_name like concat('%', #{lineName}, '%')</if>
+            <if test="turbineId != null  and turbineId != ''"> and turbine_id = #{turbineId}</if>
+            <if test="turbineName != null  and turbineName != ''"> and turbine_name like concat('%', #{turbineName}, '%')</if>
+            <if test="windSpeed != null "> and wind_speed = #{windSpeed}</if>
+            <if test="pover != null "> and pover = #{pover}</if>
+            <if test="count != null "> and count = #{count}</if>
+            <if test="statisticalTimeLength != null "> and statistical_time_length = #{statisticalTimeLength}</if>
+            <if test="statisticalTime != null "> and statistical_time = #{statisticalTime}</if>
+            <if test="computingTime != null "> and computing_time = #{computingTime}</if>
+            <if test="alternateField1 != null  and alternateField1 != ''"> and alternate_field1 = #{alternateField1}</if>
+            <if test="alternateField2 != null  and alternateField2 != ''"> and alternate_field2 = #{alternateField2}</if>
+            <if test="alternateField3 != null  and alternateField3 != ''"> and alternate_field3 = #{alternateField3}</if>
+        </where>
+    </select>
+    
+    <select id="selectPowerCurveDayStatisticsById" parameterType="String" resultMap="PowerCurveDayStatisticsResult">
+        <include refid="selectPowerCurveDayStatisticsVo"/>
+        where id = #{id}
+    </select>
+        
+    <insert id="insertPowerCurveDayStatistics" parameterType="PowerCurveDayStatistics">
+        insert into t_power_curve_day_statistics
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="id != null  and id != ''">id,</if>
+            <if test="windFieldId != null ">wind_field_id,</if>
+            <if test="windFieldName != null  and windFieldName != ''">wind_field_name,</if>
+            <if test="lineId != null ">line_id,</if>
+            <if test="lineName != null  and lineName != ''">line_name,</if>
+            <if test="turbineId != null  and turbineId != ''">turbine_id,</if>
+            <if test="turbineName != null  and turbineName != ''">turbine_name,</if>
+            <if test="windSpeed != null ">wind_speed,</if>
+            <if test="pover != null ">pover,</if>
+            <if test="count != null ">count,</if>
+            <if test="statisticalTimeLength != null ">statistical_time_length,</if>
+            <if test="statisticalTime != null ">statistical_time,</if>
+            <if test="computingTime != null ">computing_time,</if>
+            <if test="alternateField1 != null  and alternateField1 != ''">alternate_field1,</if>
+            <if test="alternateField2 != null  and alternateField2 != ''">alternate_field2,</if>
+            <if test="alternateField3 != null  and alternateField3 != ''">alternate_field3,</if>
+         </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="id != null  and id != ''">#{id},</if>
+            <if test="windFieldId != null ">#{windFieldId},</if>
+            <if test="windFieldName != null  and windFieldName != ''">#{windFieldName},</if>
+            <if test="lineId != null ">#{lineId},</if>
+            <if test="lineName != null  and lineName != ''">#{lineName},</if>
+            <if test="turbineId != null  and turbineId != ''">#{turbineId},</if>
+            <if test="turbineName != null  and turbineName != ''">#{turbineName},</if>
+            <if test="windSpeed != null ">#{windSpeed},</if>
+            <if test="pover != null ">#{pover},</if>
+            <if test="count != null ">#{count},</if>
+            <if test="statisticalTimeLength != null ">#{statisticalTimeLength},</if>
+            <if test="statisticalTime != null ">#{statisticalTime},</if>
+            <if test="computingTime != null ">#{computingTime},</if>
+            <if test="alternateField1 != null  and alternateField1 != ''">#{alternateField1},</if>
+            <if test="alternateField2 != null  and alternateField2 != ''">#{alternateField2},</if>
+            <if test="alternateField3 != null  and alternateField3 != ''">#{alternateField3},</if>
+         </trim>
+    </insert>
+
+    <update id="updatePowerCurveDayStatistics" parameterType="PowerCurveDayStatistics">
+        update t_power_curve_day_statistics
+        <trim prefix="SET" suffixOverrides=",">
+            <if test="windFieldId != null ">wind_field_id = #{windFieldId},</if>
+            <if test="windFieldName != null  and windFieldName != ''">wind_field_name = #{windFieldName},</if>
+            <if test="lineId != null ">line_id = #{lineId},</if>
+            <if test="lineName != null  and lineName != ''">line_name = #{lineName},</if>
+            <if test="turbineId != null  and turbineId != ''">turbine_id = #{turbineId},</if>
+            <if test="turbineName != null  and turbineName != ''">turbine_name = #{turbineName},</if>
+            <if test="windSpeed != null ">wind_speed = #{windSpeed},</if>
+            <if test="pover != null ">pover = #{pover},</if>
+            <if test="count != null ">count = #{count},</if>
+            <if test="statisticalTimeLength != null ">statistical_time_length = #{statisticalTimeLength},</if>
+            <if test="statisticalTime != null ">statistical_time = #{statisticalTime},</if>
+            <if test="computingTime != null ">computing_time = #{computingTime},</if>
+            <if test="alternateField1 != null  and alternateField1 != ''">alternate_field1 = #{alternateField1},</if>
+            <if test="alternateField2 != null  and alternateField2 != ''">alternate_field2 = #{alternateField2},</if>
+            <if test="alternateField3 != null  and alternateField3 != ''">alternate_field3 = #{alternateField3},</if>
+        </trim>
+        where id = #{id}
+    </update>
+
+    <delete id="deletePowerCurveDayStatisticsById" parameterType="String">
+        delete from t_power_curve_day_statistics where id = #{id}
+    </delete>
+
+    <delete id="deletePowerCurveDayStatisticsByIds" parameterType="String">
+        delete from t_power_curve_day_statistics where id in 
+        <foreach item="id" collection="array" open="(" separator="," close=")">
+            #{id}
+        </foreach>
+    </delete>
+    
+</mapper>

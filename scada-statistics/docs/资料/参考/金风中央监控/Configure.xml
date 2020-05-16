@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configure>
+  <Alarm>
+    <item path="WGEN.GnTmp.BefAxl.instMag.f" datatype="1" alarmValue="80" range="5" description="发电机前轴温度"/>
+    <item path="WGEN.GnTmp.AftAxl.instMag.f" datatype="1" alarmValue="80" range="5" description="发电机后轴温度"/>
+    <item path="WTUR.CtlInput" datatype="2" alarmValue="25,26,27,28,29,30,32" range="1" description=""/>
+    <item path="WGDC.Anti_theft_warning" datatype="3" alarmValue="1" range="1" description="红外防盗报警" /> 
+    <item path="WTUR.soundlightwarning" datatype="3" alarmValue="1" range="1" description="声光报警"/>
+  </Alarm>
+  <Reports>
+		<item protocolid="1004">
+       <field fieldname="max(id30)-min(id31)" id="52" caption="电机发电量(kWh)" path="WGEN.TotPwr.InstMag.i"/>
+       <field fieldname="max(id32)-min(id33)" id="58" caption="电机发电时间(h)" path="WGEN.TotTm.actTmVal"/>
+       <field fieldname="max(id34)-min(id35)" id="64" caption="消耗电量(kWh)" path="WGEN.PwrEpd.InstMag.i"/>
+       <field fieldname="max(id36)-min(id37)" id="70" caption="无功电度+(kVarh)" path="WGEN.AmtReactPst.InstMag.i"/>
+       <field fieldname="max(id38)-min(id39)" id="76" caption="无功电度-(kVarh)" path="WGEN.AmtReactNgt.InstMag.i"/>
+       <field fieldname="max(id40)-min(id41)" id="82" caption="通电时间(h)" path="WTUR.TmHvElt.actTmVal"/>
+       <field fieldname="max(id42)-min(id43)" id="88" caption="松闸时间(h)" path="WTUR.TmNoBrk.actTmVal"/>
+       <field fieldname="max(id44)-min(id45)" id="94" caption="故障时间(h)" path="WTUR.TmExFlt.actTmVal"/>
+       <field fieldname="max(id46)-min(id47)" id="100" caption="系统正常时间(h)" path="WTUR.TmOK.actTmVal"/>
+       <field fieldname="max(id48)-min(id49)" id="106" caption="定期维护时间(h)" path="WTUR.TmMtn.actTmVal"/>
+       <field fieldname="max(id50)-min(id51)" id="112" caption="风机可利用时间(h)" path="WTUR.TotWtAvlTm.actTmVal"/>
+       <field fieldname="max(id52)-min(id53)" id="118" caption="风可利用时间(h)" path="WTUR.TotWdAvlTm.actTmVal"/>
+       <field fieldname="max(id54)-min(id55)" id="124" caption="待机时间(h)" path="WTUR.TmLf.actTmVal"/>
+       <field fieldname="max(id56)-min(id57)" id="130" caption="小风停机时间(h)" path="WTUR.TmSwStop.actTmVal"/>
+       <field fieldname="max(id58)-min(id59)" id="136" caption="外部OK时间(h)" path="WTUR.environment_ok"/>
+       <field fieldname="max(id60)-min(id61)" id="142" caption="定期检修时间(h)" path="WTUR.TmRpr.actTmVal"/>
+       <field fieldname="max(id62)-min(id63)" id="148" caption="外部故障时间(h)" path="WTUR.TmExFlt.actTmVal_out"/>
+       <field fieldname="(max(id30)-min(id31))/750" id="154" caption="标准运行小时(h)" path="WTUR.StandardRunTime"/>
+    </item>
+    <item protocolid="1011">
+      <field fieldname="max(id4)-min(id5)" id="12" caption="通电时间(h)" path="WTUR.TmHvElt.actTmVal"/>
+      <field fieldname="max(id6)-min(id7)" id="18" caption="系统正常时间(h)" path="WTUR.TmOK.actTmVal"/>
+      <field fieldname="max(id8)-min(id9)" id="24" caption="故障时间(h)" path="WTUR.TmExFlt.actTmVal"/>
+      <field fieldname="max(id10)-min(id11)" id="30" caption="环境OK时间(h)" path="WTUR.environment_ok"/>
+      <field fieldname="max(id12)-min(id13)" id="36" caption="总发电时间(h)" path="WGEN.TotTm.actTmVal"/>
+      <field fieldname="max(id14)-min(id15)" id="42" caption="总发电量(kWh)" path="WGEN.TotPwr.InstMag.i"/> 
+      <field fieldname="max(id16)-min(id17)" id="48" caption="消耗电量(kWh)" path="WGEN.PwrEpd.InstMag.i"/>
+      <field fieldname="max(id18)-min(id19)" id="54" caption="定期维护时间(h)" path="WTUR.TmMtn.actTmVal"/>
+      <field fieldname="(max(id14)-min(id15))/1500" id="100" caption="标准运行小时(h)" path="WTUR.StandardRunTime"/> 
+      <field fieldname="(max(id12)-min(id13)+0.0001)/(max(id10)-min(id11)+0.0001)" id="126" caption="风机的利用率" path="WTUR.TMAvaibility"/>
+    </item>
+    <item protocolid="1012">
+      <field fieldname="max(id4)-min(id5)" id="12" caption="通电时间(h)" path="WTUR.TmHvElt.actTmVal"/>
+      <field fieldname="max(id6)-min(id7)" id="18" caption="系统正常时间(h)" path="WTUR.TmOK.actTmVal"/>
+      <field fieldname="max(id8)-min(id9)" id="24" caption="故障时间(h)" path="WTUR.TmExFlt.actTmVal"/>
+      <field fieldname="max(id10)-min(id11)" id="30" caption="环境OK时间(h)" path="WTUR.environment_ok"/>
+      <field fieldname="max(id12)-min(id13)" id="36" caption="总发电时间(h)" path="WGEN.TotTm.actTmVal"/>
+      <field fieldname="max(id14)-min(id15)" id="42" caption="总发电量(kWh)" path="WGEN.TotPwr.InstMag.i"/> 
+      <field fieldname="max(id16)-min(id17)" id="48" caption="消耗电量(kWh)" path="WGEN.PwrEpd.InstMag.i"/>
+      <field fieldname="max(id18)-min(id19)" id="54" caption="定期维护时间(h)" path="WTUR.TmMtn.actTmVal"/>
+      <field fieldname="(max(id14)-min(id15))/1500" id="100" caption="标准运行小时(h)" path="WTUR.StandardRunTime"/> 
+      <field fieldname="(max(id12)-min(id13)+0.0001)/(max(id10)- min(id11)+0.0001)" id="126" caption="风机的利用率" path="WTUR.TMAvaibility"/>
+    </item>
+    <item protocolid="1013">
+      <field fieldname="max(id4)-min(id5)" id="12" caption="通电时间(h)" path="WTUR.TmHvElt.actTmVal"/>
+      <field fieldname="max(id6)-min(id7)" id="18" caption="系统正常时间(h)" path="WTUR.TmOK.actTmVal"/>
+      <field fieldname="max(id8)-min(id9)" id="24" caption="故障时间(h)" path="WTUR.TmExFlt.actTmVal"/>
+      <field fieldname="max(id10)-min(id11)" id="30" caption="环境OK时间(h)" path="WTUR.environment_ok"/>
+      <field fieldname="max(id12)-min(id13)" id="36" caption="总发电时间(h)" path="WGEN.TotTm.actTmVal"/>
+      <field fieldname="max(id14)-min(id15)" id="42" caption="总发电量(kWh)" path="WGEN.TotPwr.InstMag.i"/> 
+      <field fieldname="max(id16)-min(id17)" id="48" caption="消耗电量(kWh)" path="WGEN.PwrEpd.InstMag.i"/>
+      <field fieldname="max(id18)-min(id19)" id="54" caption="定期维护时间(h)" path="WTUR.TmMtn.actTmVal"/>
+      <field fieldname="(max(id14)-min(id15))/1500" id="100" caption="标准运行小时(h)" path="WTUR.StandardRunTime"/> 
+      <field fieldname="(max(id12)-min(id13)+0.0001)/(max(id10)-min(id11)+0.0001)" id="126" caption="风机的利用率" path="WTUR.TMAvaibility"/>
+    </item>
+    <item protocolid="1014">
+      <field fieldname="max(id4)-min(id5)" id="12" caption="通电时间(h)" path="WTUR.TmHvElt.actTmVal"/>
+      <field fieldname="max(id6)-min(id7)" id="18" caption="系统正常时间(h)" path="WTUR.TmOK.actTmVal"/>
+      <field fieldname="max(id8)-min(id9)" id="24" caption="故障时间(h)" path="WTUR.TmExFlt.actTmVal"/>
+      <field fieldname="max(id10)-min(id11)" id="30" caption="环境OK时间(h)" path="WTUR.environment_ok"/>
+      <field fieldname="max(id12)-min(id13)" id="36" caption="总发电时间(h)" path="WGEN.TotTm.actTmVal"/>
+      <field fieldname="max(id14)-min(id15)" id="42" caption="总发电量(kWh)" path="WGEN.TotPwr.InstMag.i"/> 
+      <field fieldname="max(id16)-min(id17)" id="48" caption="消耗电量(kWh)" path="WGEN.PwrEpd.InstMag.i"/>
+      <field fieldname="max(id18)-min(id19)" id="54" caption="定期维护时间(h)" path="WTUR.TmMtn.actTmVal"/>
+      <field fieldname="(max(id14)-min(id15))/1500" id="130" caption="标准运行小时(h)" path="WTUR.StandardRunTime"/>
+      <field fieldname="(max(id12)-min(id13)+0.0001)/(max(id10)-min(id11)+0.0001)" id="132" caption="风机的利用率" path="WTUR.TMAvaibility"/>
+    </item>
+    <item protocolid="1015">
+      <field fieldname="max(id4)-min(id5)" id="12" caption="通电时间(h)" path="WTUR.TmHvElt.actTmVal"/>
+      <field fieldname="max(id6)-min(id7)" id="18" caption="系统正常时间(h)" path="WTUR.TmOK.actTmVal"/>
+      <field fieldname="max(id8)-min(id9)" id="24" caption="故障时间(h)" path="WTUR.TmExFlt.actTmVal"/>
+      <field fieldname="max(id10)-min(id11)" id="30" caption="环境OK时间(h)" path="WTUR.environment_ok"/>
+      <field fieldname="max(id12)-min(id13)" id="36" caption="总发电时间(h)" path="WGEN.TotTm.actTmVal"/>
+      <field fieldname="max(id14)-min(id15)" id="42" caption="总发电量(kWh)" path="WGEN.TotPwr.InstMag.i"/> 
+      <field fieldname="max(id16)-min(id17)" id="48" caption="消耗电量(kWh)" path="WGEN.PwrEpd.InstMag.i"/>
+      <field fieldname="max(id18)-min(id19)" id="54" caption="定期维护时间(h)" path="WTUR.TmMtn.actTmVal"/>
+      <field fieldname="(max(id14)-min(id15))/1500" id="114" caption="标准运行小时(h)" path="WTUR.StandardRunTime"/>
+      <field fieldname="(max(id12)-min(id13)+0.0001)/(max(id10)-min(id11)+0.0001)" id="126" caption="风机的利用率" path="WTUR.TMAvaibility"/>
+    </item>
+    <item protocolid="1016">
+      <field fieldname="max(id4)-min(id5)" id="12" caption="通电时间(h)" path="WTUR.TmHvElt.actTmVal"/>
+      <field fieldname="max(id6)-min(id7)" id="18" caption="系统正常时间(h)" path="WTUR.TmOK.actTmVal"/>
+      <field fieldname="max(id8)-min(id9)" id="24" caption="故障时间(h)" path="WTUR.TmExFlt.actTmVal"/>
+      <field fieldname="max(id10)-min(id11)" id="30" caption="环境OK时间(h)" path="WTUR.environment_ok"/>
+      <field fieldname="max(id12)-min(id13)" id="36" caption="总发电时间(h)" path="WGEN.TotTm.actTmVal"/>
+      <field fieldname="max(id14)-min(id15)" id="42" caption="总发电量(kWh)" path="WGEN.TotPwr.InstMag.i"/> 
+      <field fieldname="max(id16)-min(id17)" id="48" caption="消耗电量(kWh)" path="WGEN.PwrEpd.InstMag.i"/>
+      <field fieldname="max(id18)-min(id19)" id="54" caption="定期维护时间(h)" path="WTUR.TmMtn.actTmVal"/>
+      <field fieldname="(max(id14)-min(id15))/1500" id="114" caption="标准运行小时(h)" path="WTUR.StandardRunTime"/>
+      <field fieldname="(max(id12)-min(id13)+0.0001)/(max(id10)-min(id11)+0.0001)" id="126" caption="风机的利用率" path="WTUR.TMAvaibility"/>
+    </item>
+    <item protocolid="1017">
+      <field fieldname="max(id4)-min(id5)" id="12" caption="通电时间(h)" path="WTUR.TmHvElt.actTmVal"/>
+      <field fieldname="max(id6)-min(id7)" id="18" caption="系统正常时间(h)" path="WTUR.TmOK.actTmVal"/>
+      <field fieldname="max(id8)-min(id9)" id="24" caption="故障时间(h)" path="WTUR.TmExFlt.actTmVal"/>
+      <field fieldname="max(id10)-min(id11)" id="30" caption="环境OK时间(h)" path="WTUR.environment_ok"/>
+      <field fieldname="max(id12)-min(id13)" id="36" caption="总发电时间(h)" path="WGEN.TotTm.actTmVal"/>
+      <field fieldname="max(id14)-min(id15)" id="42" caption="总发电量(kWh)" path="WGEN.TotPwr.InstMag.i"/> 
+      <field fieldname="max(id16)-min(id17)" id="48" caption="消耗电量(kWh)" path="WGEN.PwrEpd.InstMag.i"/>
+      <field fieldname="max(id18)-min(id19)" id="54" caption="定期维护时间(h)" path="WTUR.TmMtn.actTmVal"/>
+      <field fieldname="(max(id14)-min(id15))/1500" id="120" caption="标准运行小时(h)" path="WTUR.StandardRunTime"/>
+      <field fieldname="(max(id12)-min(id13)+0.0001)/(max(id10)-min(id11)+0.0001)" id="126" caption="风机的利用率" path="WTUR.TMAvaibility"/>
+    </item>
+    <item protocolid="1018">
+      <field fieldname="max(id4)-min(id5)" id="12" caption="通电时间(h)" path="WTUR.TmHvElt.actTmVal"/>
+      <field fieldname="max(id6)-min(id7)" id="18" caption="系统正常时间(h)" path="WTUR.TmOK.actTmVal"/>
+      <field fieldname="max(id8)-min(id9)" id="24" caption="故障时间(h)" path="WTUR.TmExFlt.actTmVal"/>
+      <field fieldname="max(id10)-min(id11)" id="30" caption="环境OK时间(h)" path="WTUR.environment_ok"/>
+      <field fieldname="max(id12)-min(id13)" id="36" caption="总发电时间(h)" path="WGEN.TotTm.actTmVal"/>
+      <field fieldname="max(id14)-min(id15)" id="42" caption="总发电量(kWh)" path="WGEN.TotPwr.InstMag.i"/> 
+      <field fieldname="max(id16)-min(id17)" id="48" caption="消耗电量(kWh)" path="WGEN.PwrEpd.InstMag.i"/>
+      <field fieldname="max(id18)-min(id19)" id="54" caption="定期维护时间(h)" path="WTUR.TmMtn.actTmVal"/>
+      <field fieldname="(max(id14)-min(id15))/1500" id="124" caption="标准运行小时(h)" path="WTUR.StandardRunTime"/>
+      <field fieldname="(max(id12)-min(id13)+0.0001)/(max(id10)-min(id11)+0.0001)" id="126" caption="风机的利用率" path="WTUR.TMAvaibility"/>
+    </item>
+    <item protocolid="1019">
+      <field fieldname="max(id4)-min(id5)" id="12" caption="通电时间(h)" path="WTUR.TmHvElt.actTmVal"/>
+      <field fieldname="max(id6)-min(id7)" id="18" caption="系统正常时间(h)" path="WTUR.TmOK.actTmVal"/>
+      <field fieldname="max(id8)-min(id9)" id="24" caption="故障时间(h)" path="WTUR.TmExFlt.actTmVal"/>
+      <field fieldname="max(id10)-min(id11)" id="30" caption="环境OK时间(h)" path="WTUR.environment_ok"/>
+      <field fieldname="max(id12)-min(id13)" id="36" caption="总发电时间(h)" path="WGEN.TotTm.actTmVal"/>
+      <field fieldname="max(id14)-min(id15)" id="42" caption="总发电量(kWh)" path="WGEN.TotPwr.InstMag.i"/> 
+      <field fieldname="max(id16)-min(id17)" id="48" caption="消耗电量(kWh)" path="WGEN.PwrEpd.InstMag.i"/>
+      <field fieldname="max(id18)-min(id19)" id="54" caption="定期维护时间(h)" path="WTUR.TmMtn.actTmVal"/>
+      <field fieldname="(max(id14)-min(id15))/1500" id="124" caption="标准运行小时(h)" path="WTUR.StandardRunTime"/>
+      <field fieldname="(max(id12)-min(id13)+0.0001)/(max(id10)-min(id11)+0.0001)" id="126" caption="风机的利用率" path="WTUR.TMAvaibility"/>
+    </item>
+    <item protocolid="1030">
+      <field fieldname="max(id3)-min(id4)" id="9" caption="通电时间(h)" path="WTUR.TmHvElt.actTmVal"/>
+      <field fieldname="max(id5)-min(id6)" id="13" caption="系统正常时间(h)" path="WTUR.TmOK.actTmVal"/>
+      <field fieldname="max(id7)-min(id8)" id="17" caption="故障时间(h)" path="WTUR.TmExFlt.actTmVal"/>
+      <field fieldname="max(id9)-min(id10)" id="21" caption="环境OK时间(h)" path="WTUR.environment_ok"/>
+      <field fieldname="max(id11)-min(id12)" id="25" caption="总发电量(kWh)" path="WGEN.TotPwr.InstMag.i"/> 
+      <field fieldname="max(id13)-min(id14)" id="29" caption="消耗电量(kWh)" path="WGEN.PwrEpd.InstMag.i"/>
+      <field fieldname="max(id15)-min(id16)" id="33" caption="定期维护时间(h)" path="WTUR.TmMtn.actTmVal"/>
+    </item>
+    <item protocolid="1040">
+      <field fieldname="max(id4)-min(id5)" id="11" caption="总发电时间(h)" path="WGEN.TotTm.actTmVal"/>
+      <field fieldname="max(id6)-min(id7)" id="15" caption="故障时间(h)" path="WTUR.TmExFlt.actTmVal"/>
+      <field fieldname="max(id8)-min(id9)" id="19" caption="环境OK时间(h)" path="WTUR.environment_ok"/>
+      <field fieldname="max(id12)-min(id13)" id="27" caption="总发电量(kWh)" path="WGEN.TotPwr.InstMag.i"/> 
+      <field fieldname="max(id14)-min(id15)" id="31" caption="消耗电量(kWh)" path="WGEN.PwrEpd.InstMag.i"/>
+      <field fieldname="max(id16)-min(id17)" id="35" caption="系统正常时间(h)" path="WTUR.TmOK.actTmVal"/>
+      <field fieldname="max(id18)-min(id19)" id="39" caption="定期维护时间(h)" path="WTUR.TmMtn.actTmVal"/>
+    </item>
+    <item protocolid="1041">
+      <field fieldname="max(id20)-min(id21)" id="44" caption="小风时间(h)" path="WTUR.TmSwStop.actTmVal"/>
+      <field fieldname="max(id23)-min(id22)" id="50" caption="运行时间(h)" path="WGEN.TotTm.actTmVal"/>
+      <field fieldname="max(id25)-min(id24)" id="56" caption="系统正常时间(h)" path="WTUR.TmOK.actTmVal"/>
+      <field fieldname="max(id27)-min(id26)" id="62" caption="故障时间(h)" path="WTUR.TmFlt.actTmVal"/>
+      <field fieldname="max(id28)-min(id29)" id="68" caption="环境OK时间(h)" path="WTUR.TmOutOK.actTmVal"/>
+      <field fieldname="max(id31)-min(id30)" id="74" caption="环境不OK时间(h)" path="WTUR.TmOutNotOK.actTmVal"/>
+      <field fieldname="max(id33)-min(id32)" id="80" caption="定期维护时间(h)" path="WTUR.TmMtn.actTmVal"/>
+      <field fieldname="max(id88)-min(id89)" id="194" caption="总发电量(kWh)" path="WGEN.TotPwr.InstMag.i"/> 
+      <field fieldname="max(id90)-min(id91)" id="200" caption="通电时间(h)" path="WTUR.TmHvElt.actTmVal"/>
+      <field fieldname="max(id92)-min(id93)" id="206" caption="消耗电量(kWh)" path="WGEN.PwrEpd.InstMag.i"/>
+    </item>    
+    <item protocolid="1061">
+      <field fieldname="max(id6)-min(id7)" id="15" caption="总发电量(kWh)" path="WGEN.TotPwr.InstMag.i"/> 
+      <field fieldname="max(id14)-min(id15)" id="31" caption="故障时间(h)" path="WTUR.TmExFlt.actTmVal"/>
+      <field fieldname="max(id16)-min(id17)" id="35" caption="总发电时间(h)" path="WGEN.TotTm.actTmVal"/>
+      <field fieldname="max(id18)-min(id19)" id="39" caption="定期维护时间(h)" path="WTUR.TmMtn.actTmVal"/>
+      <field fieldname="max(id20)-min(id21)" id="43" caption="消耗电量(kWh)" path="WGEN.PwrEpd.InstMag.i"/>
+      <field fieldname="max(id22)-min(id23)" id="47" caption="系统正常时间(h)" path="WTUR.TmOK.actTmVal"/>
+      <field fieldname="max(id24)-min(id25)" id="51" caption="环境OK时间(h)" path="WTUR.environment_ok"/>
+      <field fieldname="max(id56)-min(id57)" id="115" caption="限功率停机时间(h)" path="WGEN.ToStLimPowTm.actTmVal"/>
+      <field fieldname="max(id58)-min(id59)" id="119" caption="通电时间(h)" path="WTUR.TmHvElt.actTmVal"/>
+      <field fieldname="(max(id16)-min(id17)+0.0001)/(max(id24)-min(id25)+0.0001)" id="166" caption="风机的利用率" path="WTUR.TMAvaibility"/>
+    </item>
+    <item protocolid="1062">
+      <field fieldname="max(id6)-min(id7)" id="15" caption="总发电量(kWh)" path="WGEN.TotPwr.InstMag.i"/> 
+      <field fieldname="max(id14)-min(id15)" id="31" caption="故障时间(h)" path="WTUR.TmExFlt.actTmVal"/>
+      <field fieldname="max(id16)-min(id17)" id="35" caption="总发电时间(h)" path="WGEN.TotTm.actTmVal"/>
+      <field fieldname="max(id18)-min(id19)" id="39" caption="定期维护时间(h)" path="WTUR.TmMtn.actTmVal"/>
+      <field fieldname="max(id20)-min(id21)" id="43" caption="消耗电量(kWh)" path="WGEN.PwrEpd.InstMag.i"/>
+      <field fieldname="max(id22)-min(id23)" id="47" caption="系统正常时间(h)" path="WTUR.TmOK.actTmVal"/>
+      <field fieldname="max(id24)-min(id25)" id="51" caption="环境OK时间(h)" path="WTUR.environment_ok"/>
+      <field fieldname="max(id56)-min(id57)" id="115" caption="限功率停机时间(h)" path="WGEN.ToStLimPowTm.actTmVal"/>
+      <field fieldname="max(id58)-min(id59)" id="119" caption="通电时间(h)" path="WTUR.TmHvElt.actTmVal"/>
+      <field fieldname="(max(id16)-min(id17)+0.0001)/(max(id24)-min(id25)+0.0001)" id="166" caption="风机的利用率" path="WTUR.TMAvaibility"/>
+    </item>
+    <item protocolid="1063">
+      <field fieldname="max(id6)-min(id7)" id="15" caption="总发电量(kWh)" path="WGEN.TotPwr.InstMag.i"/> 
+      <field fieldname="max(id14)-min(id15)" id="31" caption="故障时间(h)" path="WTUR.TmExFlt.actTmVal"/>
+      <field fieldname="max(id16)-min(id17)" id="35" caption="总发电时间(h)" path="WGEN.TotTm.actTmVal"/>
+      <field fieldname="max(id18)-min(id19)" id="39" caption="定期维护时间(h)" path="WTUR.TmMtn.actTmVal"/>
+      <field fieldname="max(id20)-min(id21)" id="43" caption="消耗电量(kWh)" path="WGEN.PwrEpd.InstMag.i"/>
+      <field fieldname="max(id22)-min(id23)" id="47" caption="系统正常时间(h)" path="WTUR.TmOK.actTmVal"/>
+      <field fieldname="max(id24)-min(id25)" id="51" caption="环境OK时间(h)" path="WTUR.environment_ok"/>
+      <field fieldname="max(id56)-min(id57)" id="115" caption="限功率停机时间(h)" path="WGEN.ToStLimPowTm.actTmVal"/>
+      <field fieldname="max(id58)-min(id59)" id="119" caption="通电时间(h)" path="WTUR.TmHvElt.actTmVal"/>
+      <field fieldname="(max(id16)-min(id17)+0.0001)/(max(id24)-min(id25)+0.0001)" id="166" caption="风机的利用率" path="WTUR.TMAvaibility"/>
+    </item>
+    <item protocolid="1067">
+      <field fieldname="max(id6)-min(id7)" id="15" caption="总发电量(kWh)" path="WGEN.TotPwr.InstMag.i"/> 
+      <field fieldname="max(id14)-min(id15)" id="31" caption="故障时间(h)" path="WTUR.TmExFlt.actTmVal"/>
+      <field fieldname="max(id16)-min(id17)" id="35" caption="总发电时间(h)" path="WGEN.TotTm.actTmVal"/>
+      <field fieldname="max(id18)-min(id19)" id="39" caption="定期维护时间(h)" path="WTUR.TmMtn.actTmVal"/>
+      <field fieldname="max(id20)-min(id21)" id="43" caption="消耗电量(kWh)" path="WGEN.PwrEpd.InstMag.i"/>
+      <field fieldname="max(id22)-min(id23)" id="47" caption="系统正常时间(h)" path="WTUR.TmOK.actTmVal"/>
+      <field fieldname="max(id24)-min(id25)" id="51" caption="环境OK时间(h)" path="WTUR.environment_ok"/>
+      <field fieldname="max(id56)-min(id57)" id="115" caption="限功率停机时间(h)" path="WGEN.ToStLimPowTm.actTmVal"/>
+      <field fieldname="max(id58)-min(id59)" id="119" caption="通电时间(h)" path="WTUR.TmHvElt.actTmVal"/>  
+      <field fieldname="(max(id16)-min(id17)+0.0001)/(max(id24)-min(id25)+0.0001)" id="166" caption="风机的利用率" path="WTUR.TMAvaibility"/>
+    </item>
+    <item protocolid="1070">
+      <field fieldname="max(id6)-min(id7)" id="15" caption="总发电量(kWh)" path="WGEN.TotPwr.InstMag.i"/> 
+      <field fieldname="max(id14)-min(id15)" id="31" caption="故障时间(h)" path="WTUR.TmExFlt.actTmVal"/>
+      <field fieldname="max(id16)-min(id17)" id="35" caption="总发电时间(h)" path="WGEN.TotTm.actTmVal"/>
+      <field fieldname="max(id18)-min(id19)" id="39" caption="定期维护时间(h)" path="WTUR.TmMtn.actTmVal"/>
+      <field fieldname="max(id20)-min(id21)" id="43" caption="消耗电量(kWh)" path="WGEN.PwrEpd.InstMag.i"/>
+      <field fieldname="max(id22)-min(id23)" id="47" caption="系统正常时间(h)" path="WTUR.TmOK.actTmVal"/>
+      <field fieldname="max(id24)-min(id25)" id="51" caption="环境OK时间(h)" path="WTUR.environment_ok"/>
+      <field fieldname="max(id56)-min(id57)" id="115" caption="限功率停机时间(h)" path="WGEN.ToStLimPowTm.actTmVal"/>
+      <field fieldname="max(id58)-min(id59)" id="119" caption="通电时间(h)" path="WTUR.TmHvElt.actTmVal"/>
+      <field fieldname="(max(id16)-min(id17)+0.0001)/(max(id24)-min(id25)+0.0001)" id="166" caption="风机的利用率" path="WTUR.TMAvaibility"/>
+    </item>
+    <item protocolid="1072">
+      <field fieldname="max(id6)-min(id7)" id="15" caption="总发电量(kWh)" path="WGEN.TotPwr.InstMag.i"/> 
+      <field fieldname="max(id14)-min(id15)" id="31" caption="故障时间(h)" path="WTUR.TmExFlt.actTmVal"/>
+      <field fieldname="max(id16)-min(id17)" id="35" caption="总发电时间(h)" path="WGEN.TotTm.actTmVal"/>
+      <field fieldname="max(id18)-min(id19)" id="39" caption="定期维护时间(h)" path="WTUR.TmMtn.actTmVal"/>
+      <field fieldname="max(id20)-min(id21)" id="43" caption="消耗电量(kWh)" path="WGEN.PwrEpd.InstMag.i"/>
+      <field fieldname="max(id22)-min(id23)" id="47" caption="系统正常时间(h)" path="WTUR.TmOK.actTmVal"/>
+      <field fieldname="max(id24)-min(id25)" id="51" caption="环境OK时间(h)" path="WTUR.environment_ok"/>
+      <field fieldname="max(id56)-min(id57)" id="115" caption="限功率停机时间(h)" path="WGEN.ToStLimPowTm.actTmVal"/>
+      <field fieldname="max(id58)-min(id59)" id="119" caption="通电时间(h)" path="WTUR.TmHvElt.actTmVal"/>
+      <field fieldname="(max(id16)-min(id17)+0.0001)/(max(id24)-min(id25)+0.0001)" id="166" caption="风机的利用率" path="WTUR.TMAvaibility"/>
+    </item> 
+    <item protocolid="1800">
+      <field fieldname="max(id5)-min(id6)" id="13" caption="通电时间(h)" path="WTUR.TmHvElt.actTmVal"/>
+      <field fieldname="max(id7)-min(id8)" id="17" caption="系统正常时间(h)" path="WTUR.TmOK.actTmVal"/>
+      <field fieldname="max(id9)-min(id10)" id="21" caption="故障时间(h)" path="WTUR.TmExFlt.actTmVal"/>
+      <field fieldname="max(id11)-min(id12)" id="25" caption="环境OK时间(h)" path="WTUR.environment_ok"/>
+      <field fieldname="max(id13)-min(id14)" id="29" caption="总发电量(kWh)" path="WGEN.TotPwr.InstMag.i"/> 
+      <field fieldname="max(id15)-min(id16)" id="33" caption="消耗电量(kWh)" path="WGEN.PwrEpd.InstMag.i"/>
+      <field fieldname="max(id17)-min(id18)" id="37" caption="定期维护时间(h)" path="WTUR.TmMtn.actTmVal"/>
+    </item>   
+    <item protocolid="1801">
+      <field fieldname="max(id5)-min(id6)" id="13" caption="通电时间(h)" path="WTUR.TmHvElt.actTmVal"/>
+      <field fieldname="max(id7)-min(id8)" id="17" caption="系统正常时间(h)" path="WTUR.TmOK.actTmVal"/>
+      <field fieldname="max(id9)-min(id10)" id="21" caption="故障时间(h)" path="WTUR.TmExFlt.actTmVal"/>
+      <field fieldname="max(id11)-min(id12)" id="25" caption="环境OK时间(h)" path="WTUR.environment_ok"/>
+      <field fieldname="max(id13)-min(id14)" id="29" caption="总发电量(kWh)" path="WGEN.TotPwr.InstMag.i"/> 
+      <field fieldname="max(id15)-min(id16)" id="33" caption="消耗电量(kWh)" path="WGEN.PwrEpd.InstMag.i"/>
+      <field fieldname="max(id17)-min(id18)" id="37" caption="定期维护时间(h)" path="WTUR.TmMtn.actTmVal"/>
+      <field fieldname="max(id64)-min(id98)" id="39" caption="发电时间(h)" path="WGEN.nov_power_production_time"/>
+      <field fieldname="max(id65)-min(id99)" id="40" caption="电网故障时间(h)" path="WTUR.GridError.actTmVal"/>
+      
+    </item>  
+  </Reports>
+  <StandPowerCurves>
+    <Curve name="标准空气密度功率曲线" id="standard">
+      <item windspeed="3" power="26"/>
+      <item windspeed="4" power="90"/>
+      <item windspeed="5" power="183"/>
+      <item windspeed="6" power="323"/>
+      <item windspeed="7" power="518"/>
+      <item windspeed="8" power="779"/>
+      <item windspeed="9" power="1086"/>
+      <item windspeed="10" power="1415"/>
+      <item windspeed="11" power="1500"/>
+      <item windspeed="12" power="1500"/>
+      <item windspeed="13" power="1500"/>
+      <item windspeed="14" power="1500"/>
+      <item windspeed="15" power="1500"/>
+      <item windspeed="16" power="1500"/>
+      <item windspeed="17" power="1500"/>
+      <item windspeed="18" power="1500"/>
+      <item windspeed="19" power="1500"/>
+      <item windspeed="20" power="1500"/>
+      <item windspeed="21" power="1500"/>
+      <item windspeed="22" power="1500"/>
+    </Curve>
+    <Curve name="担保功率曲线" id="1">
+      <item windspeed="3" power="27"/>
+      <item windspeed="4" power="75"/>
+      <item windspeed="5" power="156"/>
+      <item windspeed="6" power="272"/>
+      <item windspeed="7" power="435"/>
+      <item windspeed="8" power="647"/>
+      <item windspeed="9" power="899"/>
+      <item windspeed="10" power="1158"/>
+      <item windspeed="11" power="1360"/>
+      <item windspeed="12" power="1500"/>
+      <item windspeed="13" power="1500"/>
+      <item windspeed="14" power="1500"/>
+      <item windspeed="15" power="1500"/>
+      <item windspeed="16" power="1500"/>
+      <item windspeed="17" power="1500"/>
+      <item windspeed="18" power="1500"/>
+      <item windspeed="19" power="1500"/>
+      <item windspeed="20" power="1500"/>
+      <item windspeed="21" power="1500"/>
+      <item windspeed="22" power="1500"/>
+    </Curve>
+  </StandPowerCurves>
+</Configure>

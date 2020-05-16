@@ -1,0 +1,1188 @@
+EgroupStat:2017-12-1 2:26:28      ERROR: 57014: canceling statement due to user request
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:0
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:1
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:2
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:3
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:4
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:5
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:6
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:7
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:8
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:9
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:10
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:11
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:12
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:13
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:14
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:15
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:16
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:17
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:18
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:19
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:20
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:21
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:22
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:23
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:24
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:25
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:26
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:27
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:28
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:29
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:30
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:0
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:1
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:0
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:2
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:0
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:3
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:1
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:4
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:2
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:1
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:2
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:3
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:4
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:5
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:6
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:7
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:8
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:9
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:10
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:11
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:12
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:13
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:14
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:15
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:16
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:17
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:18
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:19
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:20
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:21
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:22
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:23
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:24
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:25
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:26
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:27
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:28
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:29
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:30
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:1
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:4
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:2
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:5
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:3
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:6
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:4
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:7
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:5
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:8
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:6
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:7
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:9
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:8
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:9
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:12
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:13
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:14
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:7
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:15
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:8
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:9
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:2
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:14
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:3
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:15
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:4
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:16
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:5
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:27
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:28
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:8
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:30
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:10
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:11
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:12
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:13
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:14
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:15
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:16
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:17
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:18
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:19
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:20
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:21
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:22
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:23
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:24
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:25
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:26
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:27
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:28
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:29
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:30
+Start:2017-12-1 2:27:46
+2017-12-1 2:27:52  Thread was being aborted.
+2017-12-1 7:12:37  Thread was being aborted.
+2017-12-1 9:36:44  Thread was being aborted.
+2017-12-1 9:49:16  Thread was being aborted.
+2017-12-1 13:28:02  Thread was being aborted.
+2017-12-1 16:04:26  Thread was being aborted.
+GetDataValue:select a.wtid, max(b.id30) as elec from  wtinfo as a, daydata as b where  a.wttype='1004'  and (b.wfid='642103') and a.wtid=b.wtid and b.rectime>='2016-12-22' and b.rectime<'2017-1-1'group by a.wtid union select a.wtid, max(b.id14) as elec from  wtinfo as a, daydata as b where  a.wttype>=1010 and a.wttype<=1020 and (b.wfid='642103')   and a.wtid=b.wtid and  b.rectime>='2016-12-22' and b.rectime<'2017-1-1'group by a.wtid union select a.wtid, max(b.id11) as elec from  wtinfo as a, daydata as b where  a.wttype='1030'  and (b.wfid='642103')   and a.wtid=b.wtid and  b.rectime>='2016-12-22' and b.rectime<'2017-1-1'group by a.wtid union select a.wtid, max(b.id12) as elec from  wtinfo as a, daydata as b where  a.wttype='1040'  and (b.wfid='642103')   and a.wtid=b.wtid and  b.rectime>='2016-12-22' and b.rectime<'2017-1-1'group by a.wtid union select a.wtid, max(b.id88) as elec from  wtinfo as a, daydata as b where  a.wttype='1041'  and (b.wfid='642103')   and a.wtid=b.wtid and  b.rectime>='2016-12-22' and b.rectime<'2017-1-1'group by a.wtid union select a.wtid, max(b.id6) as elec from  wtinfo as a, daydata as b where  a.wttype>=1061 and a.wttype<=1080  and (b.wfid='642103')   and a.wtid=b.wtid and  b.rectime>='2016-12-22' and b.rectime<'2017-1-1'group by a.wtid union select a.wtid, max(b.id13) as elec from  wtinfo as a, daydata as b where  a.wttype>=1800 and a.wttype<=1820  and (b.wfid='642103')   and a.wtid=b.wtid and  b.rectime>='2016-12-22' and b.rectime<'2017-1-1'group by a.wtid:2017-12-1 16:55:01  The Connection is broken.
+GetDataValue:select a.wtid, max(b.id30) as elec from  wtinfo as a, daydata as b where  a.wttype='1004'  and (b.wfid='642103') and a.wtid=b.wtid and b.rectime>='2016-12-22' and b.rectime<'2017-1-1'group by a.wtid union select a.wtid, max(b.id14) as elec from  wtinfo as a, daydata as b where  a.wttype>=1010 and a.wttype<=1020 and (b.wfid='642103')   and a.wtid=b.wtid and  b.rectime>='2016-12-22' and b.rectime<'2017-1-1'group by a.wtid union select a.wtid, max(b.id11) as elec from  wtinfo as a, daydata as b where  a.wttype='1030'  and (b.wfid='642103')   and a.wtid=b.wtid and  b.rectime>='2016-12-22' and b.rectime<'2017-1-1'group by a.wtid union select a.wtid, max(b.id12) as elec from  wtinfo as a, daydata as b where  a.wttype='1040'  and (b.wfid='642103')   and a.wtid=b.wtid and  b.rectime>='2016-12-22' and b.rectime<'2017-1-1'group by a.wtid union select a.wtid, max(b.id88) as elec from  wtinfo as a, daydata as b where  a.wttype='1041'  and (b.wfid='642103')   and a.wtid=b.wtid and  b.rectime>='2016-12-22' and b.rectime<'2017-1-1'group by a.wtid union select a.wtid, max(b.id6) as elec from  wtinfo as a, daydata as b where  a.wttype>=1061 and a.wttype<=1080  and (b.wfid='642103')   and a.wtid=b.wtid and  b.rectime>='2016-12-22' and b.rectime<'2017-1-1'group by a.wtid union select a.wtid, max(b.id13) as elec from  wtinfo as a, daydata as b where  a.wttype>=1800 and a.wttype<=1820  and (b.wfid='642103')   and a.wtid=b.wtid and  b.rectime>='2016-12-22' and b.rectime<'2017-1-1'group by a.wtid:2017-12-1 17:35:21  The Connection is broken.
+2017-12-2 3:56:40  Thread was being aborted.
+2017-12-2 4:36:34  Thread was being aborted.
+2017-12-2 4:50:40  Thread was being aborted.
+2017-12-2 7:07:40  Thread was being aborted.
+2017-12-2 9:30:50  Thread was being aborted.
+2017-12-2 10:03:57  Thread was being aborted.
+2017-12-2 11:08:52  Thread was being aborted.
+2017-12-2 12:57:29  Thread was being aborted.
+2017-12-2 13:58:07  Thread was being aborted.
+2017-12-2 14:10:16  Thread was being aborted.
+EGetDetailData:2017-12-2 14:10:24  Object reference not set to an instance of an object.
+2017-12-2 14:10:36  Thread was being aborted.
+2017-12-2 14:30:00  Thread was being aborted.
+2017-12-2 15:42:09  Thread was being aborted.
+2017-12-2 15:54:03  Thread was being aborted.
+2017-12-2 16:11:08  Thread was being aborted.
+2017-12-2 18:49:48  Thread was being aborted.
+2017-12-3 7:55:40  Thread was being aborted.
+2017-12-3 9:30:05  Thread was being aborted.
+2017-12-3 10:36:27  Thread was being aborted.
+2017-12-3 11:50:14  Thread was being aborted.
+2017-12-3 11:50:16  Thread was being aborted.
+2017-12-3 11:50:17  Thread was being aborted.
+2017-12-3 11:51:24  Thread was being aborted.
+2017-12-3 14:01:04  Thread was being aborted.
+2017-12-3 18:29:24  Thread was being aborted.
+2017-12-3 18:29:26  Thread was being aborted.
+2017-12-3 18:29:27  Thread was being aborted.
+2017-12-3 18:29:27  Thread was being aborted.
+2017-12-3 18:29:29  Thread was being aborted.
+2017-12-3 18:29:30  Thread was being aborted.
+2017-12-3 18:29:31  Thread was being aborted.
+2017-12-3 18:29:32  Thread was being aborted.
+2017-12-3 18:29:33  Thread was being aborted.
+2017-12-3 18:29:36  Thread was being aborted.
+2017-12-3 18:29:37  Thread was being aborted.
+2017-12-3 18:29:38  Thread was being aborted.
+2017-12-3 18:29:39  Thread was being aborted.
+2017-12-3 18:29:40  Thread was being aborted.
+2017-12-3 18:29:40  Thread was being aborted.
+2017-12-3 18:29:42  Thread was being aborted.
+2017-12-3 18:29:43  Thread was being aborted.
+2017-12-3 18:29:44  Thread was being aborted.
+2017-12-3 18:29:45  Thread was being aborted.
+2017-12-3 18:30:20  Thread was being aborted.
+2017-12-3 19:10:52  Thread was being aborted.
+2017-12-3 19:16:03  Thread was being aborted.
+2017-12-3 19:31:18  Thread was being aborted.
+2017-12-3 19:48:23  Thread was being aborted.
+2017-12-4 0:54:18  Thread was being aborted.
+2017-12-4 3:17:31  Thread was being aborted.
+2017-12-4 10:08:38  Thread was being aborted.
+2017-12-4 13:10:07  Thread was being aborted.
+2017-12-4 13:10:27  Thread was being aborted.
+2017-12-4 13:11:04  Thread was being aborted.
+2017-12-4 14:16:27  Thread was being aborted.
+2017-12-4 15:14:48  Thread was being aborted.
+2017-12-4 16:24:19  Thread was being aborted.
+2017-12-4 16:39:22  Thread was being aborted.
+2017-12-4 17:54:50  Thread was being aborted.
+2017-12-5 9:21:21  Thread was being aborted.
+2017-12-5 14:00:36  Thread was being aborted.
+2017-12-5 17:22:57  Thread was being aborted.
+2017-12-5 17:54:54  Thread was being aborted.
+2017-12-6 8:39:29  Thread was being aborted.
+2017-12-6 9:53:06  Thread was being aborted.
+2017-12-6 10:56:37  Thread was being aborted.
+2017-12-6 12:07:06  Thread was being aborted.
+2017-12-6 12:12:43  Thread was being aborted.
+2017-12-6 14:22:44  Thread was being aborted.
+2017-12-6 15:13:31  Thread was being aborted.
+2017-12-6 16:00:22  Thread was being aborted.
+2017-12-6 21:08:25  Thread was being aborted.
+2017-12-7 1:27:15  Thread was being aborted.
+2017-12-7 4:05:04  Thread was being aborted.
+2017-12-7 9:03:35  Thread was being aborted.
+2017-12-7 9:51:06  Thread was being aborted.
+2017-12-7 10:24:15  Thread was being aborted.
+2017-12-7 10:51:34  Thread was being aborted.
+2017-12-7 13:44:42  Thread was being aborted.
+2017-12-7 14:14:17  Thread was being aborted.
+2017-12-7 20:55:04  Thread was being aborted.
+2017-12-8 1:39:20  Thread was being aborted.
+2017-12-8 2:48:33  Thread was being aborted.
+2017-12-8 3:27:21  Thread was being aborted.
+2017-12-8 7:09:27  Thread was being aborted.
+2017-12-8 8:05:40  Thread was being aborted.
+2017-12-8 8:18:36  Thread was being aborted.
+2017-12-8 9:02:02  Thread was being aborted.
+2017-12-8 11:37:37  Thread was being aborted.
+2017-12-8 14:26:56  Thread was being aborted.
+2017-12-8 15:13:42  Thread was being aborted.
+2017-12-8 23:14:25  Thread was being aborted.
+2017-12-9 0:37:19  Thread was being aborted.
+2017-12-9 8:45:34  Thread was being aborted.
+2017-12-9 8:45:39  Thread was being aborted.
+2017-12-9 8:47:13  Thread was being aborted.
+2017-12-9 9:17:00  Thread was being aborted.
+2017-12-9 9:23:13  Thread was being aborted.
+2017-12-9 9:38:14  Thread was being aborted.
+2017-12-9 10:53:20  Thread was being aborted.
+2017-12-9 17:05:20  Thread was being aborted.
+2017-12-9 17:24:10  Thread was being aborted.
+2017-12-9 21:33:16  Thread was being aborted.
+2017-12-10 0:40:47  Thread was being aborted.
+2017-12-10 2:46:34  Thread was being aborted.
+2017-12-10 9:37:17  Thread was being aborted.
+2017-12-10 9:57:12  Thread was being aborted.
+2017-12-10 10:43:49  Thread was being aborted.
+2017-12-10 11:08:44  Thread was being aborted.
+2017-12-10 11:43:17  Thread was being aborted.
+2017-12-11 9:31:27  Thread was being aborted.
+2017-12-11 11:29:54  Thread was being aborted.
+2017-12-11 14:47:11  Thread was being aborted.
+2017-12-11 15:13:08  Thread was being aborted.
+2017-12-11 15:19:44  Thread was being aborted.
+2017-12-11 15:43:09  Thread was being aborted.
+2017-12-11 15:57:09  Thread was being aborted.
+2017-12-11 17:32:32  Thread was being aborted.
+2017-12-11 17:39:33  Thread was being aborted.
+2017-12-11 18:16:23  Thread was being aborted.
+2017-12-11 21:49:20  Thread was being aborted.
+2017-12-12 10:04:32  Thread was being aborted.
+2017-12-12 10:39:51  Thread was being aborted.
+2017-12-12 11:12:38  Thread was being aborted.
+2017-12-13 7:09:32  Thread was being aborted.
+2017-12-13 7:41:48  Thread was being aborted.
+2017-12-13 8:55:15  Thread was being aborted.
+2017-12-13 13:48:34  Thread was being aborted.
+2017-12-13 13:48:43  Thread was being aborted.
+2017-12-13 13:48:51  Thread was being aborted.
+2017-12-13 14:16:58  Thread was being aborted.
+2017-12-13 14:31:11  Thread was being aborted.
+2017-12-13 15:51:56  Thread was being aborted.
+2017-12-13 15:53:34  Thread was being aborted.
+2017-12-14 13:16:25  Thread was being aborted.
+2017-12-14 13:18:52  Thread was being aborted.
+2017-12-14 14:28:20  Thread was being aborted.
+2017-12-14 14:31:48  Thread was being aborted.
+2017-12-14 14:34:56  Thread was being aborted.
+2017-12-14 17:04:28  Thread was being aborted.
+2017-12-14 18:01:18  Thread was being aborted.
+2017-12-14 19:09:03  Thread was being aborted.
+2017-12-14 20:37:39  Thread was being aborted.
+2017-12-14 20:51:05  Thread was being aborted.
+2017-12-15 0:16:13  Thread was being aborted.
+2017-12-15 0:16:30  Thread was being aborted.
+2017-12-15 0:26:56  Thread was being aborted.
+2017-12-15 0:29:13  Thread was being aborted.
+2017-12-15 1:08:37  Thread was being aborted.
+2017-12-15 1:33:37  Thread was being aborted.
+2017-12-15 1:41:25  Thread was being aborted.
+2017-12-15 1:50:42  Thread was being aborted.
+2017-12-15 2:06:40  Thread was being aborted.
+2017-12-15 2:53:49  Thread was being aborted.
+GetDataValue:select a.wtid, max(b.id30) as elec from  wtinfo as a, daydata as b where  a.wttype='1004'  and (b.wfid='642103') and a.wtid=b.wtid and b.rectime>='2016-12-22' and b.rectime<'2017-1-1'group by a.wtid union select a.wtid, max(b.id14) as elec from  wtinfo as a, daydata as b where  a.wttype>=1010 and a.wttype<=1020 and (b.wfid='642103')   and a.wtid=b.wtid and  b.rectime>='2016-12-22' and b.rectime<'2017-1-1'group by a.wtid union select a.wtid, max(b.id11) as elec from  wtinfo as a, daydata as b where  a.wttype='1030'  and (b.wfid='642103')   and a.wtid=b.wtid and  b.rectime>='2016-12-22' and b.rectime<'2017-1-1'group by a.wtid union select a.wtid, max(b.id12) as elec from  wtinfo as a, daydata as b where  a.wttype='1040'  and (b.wfid='642103')   and a.wtid=b.wtid and  b.rectime>='2016-12-22' and b.rectime<'2017-1-1'group by a.wtid union select a.wtid, max(b.id88) as elec from  wtinfo as a, daydata as b where  a.wttype='1041'  and (b.wfid='642103')   and a.wtid=b.wtid and  b.rectime>='2016-12-22' and b.rectime<'2017-1-1'group by a.wtid union select a.wtid, max(b.id6) as elec from  wtinfo as a, daydata as b where  a.wttype>=1061 and a.wttype<=1080  and (b.wfid='642103')   and a.wtid=b.wtid and  b.rectime>='2016-12-22' and b.rectime<'2017-1-1'group by a.wtid union select a.wtid, max(b.id13) as elec from  wtinfo as a, daydata as b where  a.wttype>=1800 and a.wttype<=1820  and (b.wfid='642103')   and a.wtid=b.wtid and  b.rectime>='2016-12-22' and b.rectime<'2017-1-1'group by a.wtid:2017-12-15 2:56:31  The Connection is broken.
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:0
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:1
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:2
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:3
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:4
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:0
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:5
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:1
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:6
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:2
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:7
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:8
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:9
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:6
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:10
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:7
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:11
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:8
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:12
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:9
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:13
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:10
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:14
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:11
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:15
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:12
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:16
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:13
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:17
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:14
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:15
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:16
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:17
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:18
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:19
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:23
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:20
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:24
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:21
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:25
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:26
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:27
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:25
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:28
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:27
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:30
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:29
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:0
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:1
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:0
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:1
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:2
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:3
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:4
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:5
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:6
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:7
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:8
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:11
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:12
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:11
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:13
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:12
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:14
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:13
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:15
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:14
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:16
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:15
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:17
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:16
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:18
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:17
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:19
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:18
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:20
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:19
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:21
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:20
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:22
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:21
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:23
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:22
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:24
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:23
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:25
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:24
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:26
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:25
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:27
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:26
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:28
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:27
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:29
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:28
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:30
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:29
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:30
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:0
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:0
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:1
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:3
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:4
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:5
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:6
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:5
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:7
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:6
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:8
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:7
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:9
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:8
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:10
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:9
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:11
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:10
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:12
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:11
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:13
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:12
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:14
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:13
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:15
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:14
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:16
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:16
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:17
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:17
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:18
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:18
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:19
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:19
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:20
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:20
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:21
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:21
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:22
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:22
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:23
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:23
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:24
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:24
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:25
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:25
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:26
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:26
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:27
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:27
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:28
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:28
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:29
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:29
+ListData : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index   dgColCount:0  ICol:30
+Start:2017-12-15 3:04:32
+2017-12-15 3:04:33  Thread was being aborted.
+2017-12-15 3:04:35  Thread was being aborted.
+2017-12-15 3:04:36  Thread was being aborted.
+2017-12-15 3:04:37  Thread was being aborted.
+2017-12-15 3:04:38  Thread was being aborted.
+2017-12-15 3:04:38  Thread was being aborted.
+2017-12-15 3:04:39  Thread was being aborted.
+2017-12-15 3:04:41  Thread was being aborted.
+2017-12-15 3:04:41  Thread was being aborted.
+2017-12-15 3:04:43  Thread was being aborted.
+2017-12-15 3:04:45  Thread was being aborted.
+2017-12-15 3:04:47  Thread was being aborted.
+2017-12-15 3:04:48  Thread was being aborted.
+2017-12-15 4:55:19  Thread was being aborted.
+2017-12-15 5:22:20  Thread was being aborted.
+2017-12-15 5:35:24  Thread was being aborted.
+2017-12-15 11:18:06  Thread was being aborted.
+2017-12-15 14:29:39  Thread was being aborted.
+GetDataValue:select a.wtid, max(b.id30) as elec from  wtinfo as a, daydata as b where  a.wttype='1004'  and (b.wfid='642103') and a.wtid=b.wtid and b.rectime>='2016-12-22' and b.rectime<'2017-1-1'group by a.wtid union select a.wtid, max(b.id14) as elec from  wtinfo as a, daydata as b where  a.wttype>=1010 and a.wttype<=1020 and (b.wfid='642103')   and a.wtid=b.wtid and  b.rectime>='2016-12-22' and b.rectime<'2017-1-1'group by a.wtid union select a.wtid, max(b.id11) as elec from  wtinfo as a, daydata as b where  a.wttype='1030'  and (b.wfid='642103')   and a.wtid=b.wtid and  b.rectime>='2016-12-22' and b.rectime<'2017-1-1'group by a.wtid union select a.wtid, max(b.id12) as elec from  wtinfo as a, daydata as b where  a.wttype='1040'  and (b.wfid='642103')   and a.wtid=b.wtid and  b.rectime>='2016-12-22' and b.rectime<'2017-1-1'group by a.wtid union select a.wtid, max(b.id88) as elec from  wtinfo as a, daydata as b where  a.wttype='1041'  and (b.wfid='642103')   and a.wtid=b.wtid and  b.rectime>='2016-12-22' and b.rectime<'2017-1-1'group by a.wtid union select a.wtid, max(b.id6) as elec from  wtinfo as a, daydata as b where  a.wttype>=1061 and a.wttype<=1080  and (b.wfid='642103')   and a.wtid=b.wtid and  b.rectime>='2016-12-22' and b.rectime<'2017-1-1'group by a.wtid union select a.wtid, max(b.id13) as elec from  wtinfo as a, daydata as b where  a.wttype>=1800 and a.wttype<=1820  and (b.wfid='642103')   and a.wtid=b.wtid and  b.rectime>='2016-12-22' and b.rectime<'2017-1-1'group by a.wtid:2017-12-15 16:01:01  The Connection is broken.
+2017-12-15 18:14:24  Thread was being aborted.
+2017-12-15 18:22:12  Thread was being aborted.
+2017-12-15 18:42:38  Thread was being aborted.
+2017-12-15 20:13:23  Thread was being aborted.
+2017-12-15 20:40:07  Thread was being aborted.
+2017-12-15 20:41:04  Thread was being aborted.
+2017-12-15 21:23:17  Thread was being aborted.
+2017-12-15 21:32:52  Thread was being aborted.
+2017-12-15 22:00:01  Thread was being aborted.
+2017-12-15 22:23:28  Thread was being aborted.
+2017-12-15 22:55:55  Thread was being aborted.
+2017-12-15 23:38:18  Thread was being aborted.
+2017-12-15 23:48:44  Thread was being aborted.
+2017-12-16 4:05:58  Thread was being aborted.
+2017-12-16 7:31:26  Thread was being aborted.
+2017-12-16 10:03:12  Thread was being aborted.
+2017-12-16 11:09:47  Thread was being aborted.
+2017-12-16 11:34:40  Thread was being aborted.
+2017-12-16 13:27:37  Thread was being aborted.
+2017-12-16 14:10:56  Thread was being aborted.
+2017-12-16 14:58:47  Thread was being aborted.
+2017-12-16 15:08:24  Thread was being aborted.
+2017-12-16 15:08:24  Thread was being aborted.
+2017-12-16 15:08:26  Thread was being aborted.
+2017-12-17 8:21:19  Thread was being aborted.
+2017-12-17 9:47:19  Thread was being aborted.
+2017-12-17 11:00:39  Thread was being aborted.
+2017-12-17 11:06:07  Thread was being aborted.
+2017-12-17 11:08:59  Thread was being aborted.
+2017-12-17 11:32:24  Thread was being aborted.
+2017-12-17 11:52:24  Thread was being aborted.
+2017-12-17 12:01:12  Thread was being aborted.
+2017-12-17 16:16:02  Thread was being aborted.
+2017-12-17 17:07:16  Thread was being aborted.
+2017-12-17 17:13:19  Thread was being aborted.
+2017-12-17 17:16:03  Thread was being aborted.
+2017-12-17 17:40:38  Thread was being aborted.
+2017-12-17 22:31:02  Thread was being aborted.
+2017-12-17 23:33:56  Thread was being aborted.
+2017-12-17 23:34:45  Thread was being aborted.
+2017-12-17 23:35:10  Thread was being aborted.
+2017-12-17 23:35:12  Thread was being aborted.
+2017-12-17 23:35:15  Thread was being aborted.
+2017-12-17 23:35:39  Thread was being aborted.
+2017-12-17 23:41:52  Thread was being aborted.
+2017-12-18 0:20:32  Thread was being aborted.
+2017-12-18 0:51:14  Thread was being aborted.
+2017-12-18 0:53:49  Thread was being aborted.
+2017-12-18 1:06:37  Thread was being aborted.
+2017-12-18 1:10:03  Thread was being aborted.
+2017-12-18 1:10:03  Thread was being aborted.
+2017-12-18 1:10:04  Thread was being aborted.
+2017-12-18 1:10:10  Thread was being aborted.
+2017-12-18 1:10:18  Thread was being aborted.
+2017-12-18 1:45:08  Thread was being aborted.
+2017-12-18 1:45:30  Thread was being aborted.
+2017-12-18 1:58:25  Thread was being aborted.
+2017-12-18 2:07:56  Thread was being aborted.
+2017-12-18 2:56:59  Thread was being aborted.
+2017-12-18 3:11:06  Thread was being aborted.
+2017-12-18 4:05:16  Thread was being aborted.
+2017-12-18 4:35:55  Thread was being aborted.
+2017-12-18 4:51:56  Thread was being aborted.
+2017-12-18 5:18:57  Thread was being aborted.
+2017-12-18 5:36:19  Thread was being aborted.
+2017-12-18 7:39:56  Thread was being aborted.
+2017-12-18 7:44:01  Thread was being aborted.
+2017-12-18 9:24:46  Thread was being aborted.
+2017-12-18 10:39:11  Thread was being aborted.
+2017-12-18 11:13:38  Thread was being aborted.
+2017-12-18 12:50:53  Thread was being aborted.
+2017-12-18 14:10:33  Thread was being aborted.
+2017-12-18 15:40:35  Thread was being aborted.
+2017-12-18 15:46:53  Thread was being aborted.
+2017-12-18 15:52:31  Thread was being aborted.
+2017-12-18 18:43:18  Thread was being aborted.
+2017-12-18 18:51:20  Thread was being aborted.
+2017-12-18 18:51:50  Thread was being aborted.
+2017-12-18 19:30:36  Thread was being aborted.
+2017-12-18 20:29:36  Thread was being aborted.
+2017-12-18 21:17:27  Thread was being aborted.
+2017-12-18 22:31:41  Thread was being aborted.
+2017-12-19 1:37:31  Thread was being aborted.
+2017-12-19 2:03:26  Thread was being aborted.
+2017-12-19 2:03:47  Thread was being aborted.
+2017-12-19 2:18:32  Thread was being aborted.
+2017-12-19 2:21:39  Thread was being aborted.
+2017-12-19 2:23:08  Thread was being aborted.
+2017-12-19 2:24:41  Thread was being aborted.
+2017-12-19 2:25:33  Thread was being aborted.
+2017-12-19 2:27:04  Thread was being aborted.
+2017-12-19 2:35:21  Thread was being aborted.
+2017-12-19 2:50:30  Thread was being aborted.
+2017-12-19 2:50:47  Thread was being aborted.
+2017-12-19 2:58:37  Thread was being aborted.
+2017-12-19 4:41:44  Thread was being aborted.
+2017-12-19 4:43:56  Thread was being aborted.
+2017-12-19 4:47:10  Thread was being aborted.
+2017-12-19 4:47:15  Thread was being aborted.
+2017-12-19 4:48:20  Thread was being aborted.
+2017-12-19 4:48:38  Thread was being aborted.
+2017-12-19 5:40:06  Thread was being aborted.
+2017-12-19 5:51:47  Thread was being aborted.
+2017-12-19 6:57:35  Thread was being aborted.
+2017-12-19 7:23:06  Thread was being aborted.
+2017-12-19 7:24:51  Thread was being aborted.
+2017-12-19 7:31:10  Thread was being aborted.
+2017-12-19 8:30:31  Thread was being aborted.
+2017-12-19 8:38:57  Thread was being aborted.
+2017-12-19 8:45:11  Thread was being aborted.
+2017-12-19 8:45:52  Thread was being aborted.
+2017-12-19 8:46:37  Thread was being aborted.
+2017-12-19 8:58:59  Thread was being aborted.
+2017-12-19 10:02:23  Thread was being aborted.
+2017-12-19 10:32:45  Thread was being aborted.
+2017-12-19 10:33:19  Thread was being aborted.
+2017-12-19 10:42:31  Thread was being aborted.
+2017-12-19 10:48:50  Thread was being aborted.
+2017-12-19 12:06:36  Thread was being aborted.
+2017-12-19 12:35:28  Thread was being aborted.
+2017-12-19 14:14:52  Thread was being aborted.
+2017-12-19 14:42:08  Thread was being aborted.
+2017-12-19 14:42:56  Thread was being aborted.
+2017-12-19 14:52:45  Thread was being aborted.
+2017-12-19 14:54:22  Thread was being aborted.
+2017-12-19 14:54:46  Thread was being aborted.
+2017-12-19 14:54:51  Thread was being aborted.
+2017-12-19 14:56:23  Thread was being aborted.
+2017-12-19 15:26:49  Thread was being aborted.
+2017-12-19 15:42:43  Thread was being aborted.
+2017-12-19 16:43:50  Thread was being aborted.
+2017-12-19 18:52:39  Thread was being aborted.
+2017-12-19 23:56:12  Thread was being aborted.
+2017-12-19 23:56:30  Thread was being aborted.
+2017-12-19 23:56:45  Thread was being aborted.
+2017-12-19 23:57:34  Thread was being aborted.
+2017-12-19 23:59:40  Thread was being aborted.
+2017-12-20 0:16:43  Thread was being aborted.
+2017-12-20 0:18:53  Thread was being aborted.
+2017-12-20 0:19:12  Thread was being aborted.
+2017-12-20 0:19:23  Thread was being aborted.
+2017-12-20 0:38:05  Thread was being aborted.
+2017-12-20 2:59:43  Thread was being aborted.
+2017-12-20 3:07:55  Thread was being aborted.
+2017-12-20 5:36:01  Thread was being aborted.
+2017-12-20 10:05:43  Thread was being aborted.
+2017-12-20 10:19:22  Thread was being aborted.
+2017-12-20 15:27:13  Thread was being aborted.
+2017-12-20 15:53:11  Thread was being aborted.
+2017-12-20 16:05:14  Thread was being aborted.
+2017-12-20 17:04:53  Thread was being aborted.
+2017-12-20 20:59:45  Thread was being aborted.
+2017-12-21 15:48:11  Thread was being aborted.
+2017-12-22 8:48:14  Thread was being aborted.
+2017-12-22 8:48:21  Thread was being aborted.
+2017-12-22 8:48:28  Thread was being aborted.
+2017-12-22 8:49:34  Thread was being aborted.
+2017-12-22 8:50:15  Thread was being aborted.
+2017-12-22 8:50:29  Thread was being aborted.
+2017-12-22 8:52:50  Thread was being aborted.
+2017-12-22 9:29:23  Thread was being aborted.
+2017-12-22 9:46:51  Thread was being aborted.
+2017-12-22 9:46:53  Thread was being aborted.
+2017-12-22 9:47:44  Thread was being aborted.
+2017-12-22 10:01:08  Thread was being aborted.
+2017-12-22 10:07:26  Thread was being aborted.
+2017-12-22 10:07:39  Thread was being aborted.
+2017-12-22 11:47:07  Thread was being aborted.
+2017-12-22 12:15:44  Thread was being aborted.
+2017-12-22 12:22:44  Thread was being aborted.
+2017-12-22 15:17:09  Thread was being aborted.
+2017-12-22 16:44:44  Thread was being aborted.
+2017-12-22 19:19:59  Thread was being aborted.
+2017-12-22 19:27:00  Thread was being aborted.
+2017-12-22 19:37:24  Thread was being aborted.
+2017-12-22 19:41:25  Thread was being aborted.
+2017-12-22 19:42:30  Thread was being aborted.
+2017-12-22 20:12:56  Thread was being aborted.
+2017-12-22 23:09:02  Thread was being aborted.
+2017-12-22 23:20:25  Thread was being aborted.
+2017-12-22 23:31:45  Thread was being aborted.
+2017-12-22 23:58:55  Thread was being aborted.
+2017-12-23 0:33:47  Thread was being aborted.
+2017-12-23 1:07:32  Thread was being aborted.
+2017-12-23 1:11:42  Thread was being aborted.
+2017-12-23 3:41:51  Thread was being aborted.
+2017-12-23 3:53:26  Thread was being aborted.
+2017-12-23 3:58:37  Thread was being aborted.
+2017-12-23 4:07:56  Thread was being aborted.
+2017-12-23 4:08:31  Thread was being aborted.
+2017-12-23 4:15:58  Thread was being aborted.
+2017-12-23 4:19:14  Thread was being aborted.
+2017-12-23 5:35:26  Thread was being aborted.
+2017-12-23 9:02:42  Thread was being aborted.
+2017-12-23 12:39:29  Thread was being aborted.
+2017-12-23 14:06:23  Thread was being aborted.
+2017-12-23 19:04:00  Thread was being aborted.
+2017-12-23 19:10:00  Thread was being aborted.
+2017-12-23 20:32:05  Thread was being aborted.
+2017-12-23 20:35:24  Thread was being aborted.
+2017-12-23 21:05:57  Thread was being aborted.
+2017-12-23 21:41:04  Thread was being aborted.
+2017-12-23 21:48:26  Thread was being aborted.
+2017-12-23 21:55:20  Thread was being aborted.
+2017-12-23 22:00:53  Thread was being aborted.
+2017-12-23 22:08:58  Thread was being aborted.
+2017-12-23 22:10:44  Thread was being aborted.
+2017-12-23 22:14:22  Thread was being aborted.
+2017-12-23 22:15:42  Thread was being aborted.
+2017-12-23 22:16:20  Thread was being aborted.
+2017-12-23 22:16:38  Thread was being aborted.
+2017-12-23 22:18:55  Thread was being aborted.
+2017-12-23 22:19:31  Thread was being aborted.
+2017-12-23 22:28:59  Thread was being aborted.
+2017-12-23 22:29:30  Thread was being aborted.
+2017-12-23 22:31:42  Thread was being aborted.
+2017-12-23 22:32:32  Thread was being aborted.
+2017-12-23 22:33:16  Thread was being aborted.
+2017-12-23 22:52:02  Thread was being aborted.
+2017-12-23 23:03:31  Thread was being aborted.
+2017-12-24 0:29:38  Thread was being aborted.
+2017-12-24 1:17:40  Thread was being aborted.
+2017-12-24 3:43:32  Thread was being aborted.
+2017-12-24 4:20:37  Thread was being aborted.
+2017-12-24 7:03:28  Thread was being aborted.
+2017-12-24 8:00:33  Thread was being aborted.
+2017-12-24 9:07:36  Thread was being aborted.
+2017-12-24 10:58:09  Thread was being aborted.
+2017-12-24 14:06:30  Thread was being aborted.
+2017-12-24 14:45:18  Thread was being aborted.
+2017-12-24 17:26:04  Thread was being aborted.
+2017-12-24 18:08:07  Thread was being aborted.
+2017-12-25 8:10:54  Thread was being aborted.
+2017-12-25 8:31:21  Thread was being aborted.
+2017-12-25 9:02:31  Thread was being aborted.
+2017-12-25 9:05:11  Thread was being aborted.
+2017-12-25 9:17:14  Thread was being aborted.
+2017-12-25 9:28:02  Thread was being aborted.
+2017-12-25 9:28:52  Thread was being aborted.
+2017-12-25 9:34:31  Thread was being aborted.
+2017-12-25 9:34:39  Thread was being aborted.
+2017-12-25 9:35:35  Thread was being aborted.
+2017-12-25 9:49:38  Thread was being aborted.
+2017-12-25 9:59:48  Thread was being aborted.
+2017-12-25 9:59:56  Thread was being aborted.
+2017-12-25 10:13:47  Thread was being aborted.
+2017-12-25 10:41:13  Thread was being aborted.
+2017-12-25 11:09:41  Thread was being aborted.
+2017-12-25 15:08:20  Thread was being aborted.
+Start:2017-12-25 16:37:16
+2017-12-25 16:37:25  Thread was being aborted.
+2017-12-25 16:37:26  Thread was being aborted.
+2017-12-25 16:37:26  Thread was being aborted.
+2017-12-25 16:37:26  Thread was being aborted.
+2017-12-25 16:37:27  Thread was being aborted.
+2017-12-25 16:37:28  Thread was being aborted.
+2017-12-25 16:37:29  Thread was being aborted.
+2017-12-25 16:37:34  Thread was being aborted.
+2017-12-25 17:04:07  Thread was being aborted.
+2017-12-25 18:18:34  Thread was being aborted.
+2017-12-25 18:22:51  Thread was being aborted.
+2017-12-25 18:44:16  Thread was being aborted.
+2017-12-25 19:20:37  Thread was being aborted.
+2017-12-25 19:34:07  Thread was being aborted.
+2017-12-25 19:40:40  Thread was being aborted.
+2017-12-25 19:41:04  Thread was being aborted.
+2017-12-25 19:44:56  Thread was being aborted.
+2017-12-25 19:46:20  Thread was being aborted.
+GetDataValue:select a.wtid, max(b.id30) as elec from  wtinfo as a, daydata as b where  a.wttype='1004'  and (b.wfid='642103') and a.wtid=b.wtid and b.rectime>='2016-12-22' and b.rectime<'2017-1-1'group by a.wtid union select a.wtid, max(b.id14) as elec from  wtinfo as a, daydata as b where  a.wttype>=1010 and a.wttype<=1020 and (b.wfid='642103')   and a.wtid=b.wtid and  b.rectime>='2016-12-22' and b.rectime<'2017-1-1'group by a.wtid union select a.wtid, max(b.id11) as elec from  wtinfo as a, daydata as b where  a.wttype='1030'  and (b.wfid='642103')   and a.wtid=b.wtid and  b.rectime>='2016-12-22' and b.rectime<'2017-1-1'group by a.wtid union select a.wtid, max(b.id12) as elec from  wtinfo as a, daydata as b where  a.wttype='1040'  and (b.wfid='642103')   and a.wtid=b.wtid and  b.rectime>='2016-12-22' and b.rectime<'2017-1-1'group by a.wtid union select a.wtid, max(b.id88) as elec from  wtinfo as a, daydata as b where  a.wttype='1041'  and (b.wfid='642103')   and a.wtid=b.wtid and  b.rectime>='2016-12-22' and b.rectime<'2017-1-1'group by a.wtid union select a.wtid, max(b.id6) as elec from  wtinfo as a, daydata as b where  a.wttype>=1061 and a.wttype<=1080  and (b.wfid='642103')   and a.wtid=b.wtid and  b.rectime>='2016-12-22' and b.rectime<'2017-1-1'group by a.wtid union select a.wtid, max(b.id13) as elec from  wtinfo as a, daydata as b where  a.wttype>=1800 and a.wttype<=1820  and (b.wfid='642103')   and a.wtid=b.wtid and  b.rectime>='2016-12-22' and b.rectime<'2017-1-1'group by a.wtid:2017-12-25 19:49:10  The Connection is broken.
+2017-12-25 19:52:14  Thread was being aborted.
+2017-12-25 19:53:31  Thread was being aborted.
+2017-12-25 19:53:38  Thread was being aborted.
+2017-12-25 19:53:42  Thread was being aborted.
+2017-12-25 19:53:43  Thread was being aborted.
+2017-12-25 19:53:48  Thread was being aborted.
+2017-12-25 19:53:52  Thread was being aborted.
+2017-12-25 19:54:03  Thread was being aborted.
+2017-12-25 19:54:05  Thread was being aborted.
+2017-12-25 19:54:06  Thread was being aborted.
+2017-12-25 19:55:29  Thread was being aborted.
+Start:2017-12-25 19:55:47
+2017-12-25 19:55:49  Thread was being aborted.
+2017-12-25 19:55:49  Thread was being aborted.
+2017-12-25 19:55:51  Thread was being aborted.
+2017-12-25 19:55:53  Thread was being aborted.
+2017-12-25 19:55:54  Thread was being aborted.
+2017-12-25 19:55:55  Thread was being aborted.
+2017-12-25 19:55:55  Thread was being aborted.
+2017-12-25 19:55:57  Thread was being aborted.
+2017-12-25 19:55:57  Thread was being aborted.
+2017-12-25 19:55:58  Thread was being aborted.
+2017-12-25 19:55:59  Thread was being aborted.
+2017-12-25 19:56:00  Thread was being aborted.
+2017-12-25 19:56:01  Thread was being aborted.
+2017-12-25 19:56:01  Thread was being aborted.
+2017-12-25 19:56:02  Thread was being aborted.
+2017-12-25 19:56:03  Thread was being aborted.
+2017-12-25 19:57:49  Thread was being aborted.
+2017-12-25 19:57:57  Thread was being aborted.
+2017-12-25 19:58:07  Thread was being aborted.
+2017-12-25 19:59:04  Thread was being aborted.
+2017-12-25 19:59:38  Thread was being aborted.
+2017-12-25 20:00:18  Thread was being aborted.
+2017-12-25 20:03:11  Thread was being aborted.
+2017-12-25 20:07:28  Thread was being aborted.
+2017-12-25 20:09:51  Thread was being aborted.
+2017-12-25 20:13:10  Thread was being aborted.
+2017-12-25 20:26:21  Thread was being aborted.
+2017-12-25 20:27:39  Thread was being aborted.
+2017-12-25 20:28:33  Thread was being aborted.
+2017-12-25 20:32:21  Thread was being aborted.
+2017-12-25 20:36:57  Thread was being aborted.
+2017-12-25 20:39:37  Thread was being aborted.
+2017-12-25 22:27:33  Thread was being aborted.
+2017-12-26 1:13:11  Thread was being aborted.
+2017-12-26 2:06:42  Thread was being aborted.
+2017-12-26 6:09:19  Thread was being aborted.
+2017-12-26 6:36:39  Thread was being aborted.
+2017-12-26 7:45:47  Thread was being aborted.
+2017-12-26 7:50:21  Thread was being aborted.
+2017-12-26 8:05:26  Thread was being aborted.
+2017-12-26 10:18:31  Thread was being aborted.
+2017-12-26 10:21:40  Thread was being aborted.
+2017-12-26 10:49:14  Thread was being aborted.
+2017-12-26 11:05:54  Thread was being aborted.
+2017-12-26 13:44:25  Thread was being aborted.
+2017-12-26 15:33:03  Thread was being aborted.
+2017-12-26 15:33:09  Thread was being aborted.
+2017-12-26 15:33:12  Thread was being aborted.
+2017-12-27 0:20:06  Thread was being aborted.
+2017-12-27 7:23:32  Thread was being aborted.
+2017-12-27 8:10:02  Thread was being aborted.
+2017-12-27 8:23:46  Thread was being aborted.
+2017-12-27 8:23:52  Thread was being aborted.
+2017-12-27 8:23:53  Thread was being aborted.
+2017-12-27 8:23:59  Thread was being aborted.
+2017-12-27 8:24:05  Thread was being aborted.
+2017-12-27 8:24:06  Thread was being aborted.
+2017-12-27 8:24:12  Thread was being aborted.
+2017-12-27 8:24:22  Thread was being aborted.
+2017-12-27 8:31:09  Thread was being aborted.
+2017-12-27 8:31:15  Thread was being aborted.
+2017-12-27 9:47:49  Thread was being aborted.
+2017-12-27 13:32:18  Thread was being aborted.
+2017-12-27 15:22:39  Thread was being aborted.
+2017-12-27 15:38:48  Thread was being aborted.
+2017-12-27 15:52:45  Thread was being aborted.
+2017-12-27 16:03:06  Thread was being aborted.
+2017-12-27 16:10:26  Thread was being aborted.
+2017-12-27 16:11:48  Thread was being aborted.
+2017-12-27 19:26:34  Thread was being aborted.
+2017-12-27 21:12:20  Thread was being aborted.
+2017-12-28 9:42:44  Thread was being aborted.
+2017-12-28 11:14:50  Thread was being aborted.
+2017-12-28 11:25:39  Thread was being aborted.
+2017-12-28 12:32:03  Thread was being aborted.
+2017-12-28 13:49:13  Thread was being aborted.
+2017-12-28 14:52:16  Thread was being aborted.
+2017-12-28 15:11:13  Thread was being aborted.
+2017-12-28 15:47:04  Thread was being aborted.
+2017-12-28 19:25:32  Thread was being aborted.
+2017-12-29 1:07:59  Thread was being aborted.
+2017-12-29 4:33:47  Thread was being aborted.
+2017-12-29 5:16:30  Thread was being aborted.
+2017-12-29 5:16:47  Thread was being aborted.
+2017-12-29 5:17:02  Thread was being aborted.
+2017-12-29 5:17:05  Thread was being aborted.
+2017-12-29 7:40:35  Thread was being aborted.
+2017-12-29 7:40:59  Thread was being aborted.
+2017-12-29 8:18:23  Thread was being aborted.
+2017-12-29 8:28:51  Thread was being aborted.
+2017-12-29 9:03:39  Thread was being aborted.
+2017-12-29 11:24:18  Thread was being aborted.
+2017-12-29 11:24:20  Thread was being aborted.
+2017-12-29 11:24:21  Thread was being aborted.
+2017-12-29 11:24:22  Thread was being aborted.
+2017-12-29 11:24:24  Thread was being aborted.
+2017-12-29 11:24:26  Thread was being aborted.
+2017-12-29 11:24:26  Thread was being aborted.
+2017-12-29 11:24:28  Thread was being aborted.
+2017-12-29 11:24:31  Thread was being aborted.
+2017-12-29 11:24:33  Thread was being aborted.
+2017-12-29 11:24:44  Thread was being aborted.
+2017-12-29 11:25:35  Thread was being aborted.
+2017-12-29 11:25:42  Thread was being aborted.
+2017-12-29 11:26:48  Thread was being aborted.
+2017-12-29 11:37:54  Thread was being aborted.
+2017-12-29 11:49:27  Thread was being aborted.
+2017-12-29 12:49:55  Thread was being aborted.
+2017-12-29 13:14:42  Thread was being aborted.
+2017-12-29 13:14:49  Thread was being aborted.
+2017-12-29 13:15:13  Thread was being aborted.
+2017-12-29 13:26:54  Thread was being aborted.
+2017-12-29 13:27:18  Thread was being aborted.
+2017-12-29 13:30:02  Thread was being aborted.
+2017-12-29 13:38:51  Thread was being aborted.
+2017-12-29 13:38:52  Thread was being aborted.
+2017-12-29 13:38:55  Thread was being aborted.
+2017-12-29 13:39:00  Thread was being aborted.
+2017-12-29 13:39:07  Thread was being aborted.
+2017-12-29 13:53:51  Thread was being aborted.
+2017-12-29 14:03:02  Thread was being aborted.
+2017-12-29 14:07:46  Thread was being aborted.
+2017-12-29 14:13:21  Thread was being aborted.
+2017-12-29 14:18:26  Thread was being aborted.
+2017-12-29 14:18:46  Thread was being aborted.
+2017-12-29 14:18:54  Thread was being aborted.
+2017-12-29 14:19:23  Thread was being aborted.
+2017-12-29 14:19:35  Thread was being aborted.
+2017-12-29 14:40:21  Thread was being aborted.
+2017-12-29 14:41:03  Thread was being aborted.
+2017-12-29 14:46:35  Thread was being aborted.
+2017-12-29 14:59:35  Thread was being aborted.
+2017-12-29 15:10:20  Thread was being aborted.
+2017-12-29 15:31:37  Thread was being aborted.
+2017-12-29 15:47:06  Thread was being aborted.
+2017-12-29 16:13:24  Thread was being aborted.
+2017-12-29 16:21:57  Thread was being aborted.
+2017-12-29 16:41:45  Thread was being aborted.
+2017-12-29 16:43:08  Thread was being aborted.
+2017-12-29 19:35:08  Thread was being aborted.
+2017-12-29 20:57:37  Thread was being aborted.
+2017-12-29 21:20:13  Thread was being aborted.
+2017-12-29 22:38:20  Thread was being aborted.
+2017-12-30 7:43:28  Thread was being aborted.
+2017-12-30 9:52:26  Thread was being aborted.
+2017-12-30 10:54:28  Thread was being aborted.
+2017-12-30 11:08:35  Thread was being aborted.
+2017-12-30 11:14:18  Thread was being aborted.
+2017-12-30 11:41:10  Thread was being aborted.
+2017-12-30 11:52:26  Thread was being aborted.
+2017-12-30 13:04:13  Thread was being aborted.
+2017-12-30 13:45:30  Thread was being aborted.
+2017-12-30 17:25:34  Thread was being aborted.
+2017-12-31 6:32:13  Thread was being aborted.
+2017-12-31 7:00:46  Thread was being aborted.
+2017-12-31 7:56:43  Thread was being aborted.
+2017-12-31 9:26:07  Thread was being aborted.
+2017-12-31 9:37:05  Thread was being aborted.
+2017-12-31 11:00:52  Thread was being aborted.
+2017-12-31 13:01:02  Thread was being aborted.
+2017-12-31 13:54:12  Thread was being aborted.
+2017-12-31 15:13:32  Thread was being aborted.
+2017-12-31 15:37:18  Thread was being aborted.
+2017-12-31 16:58:49  Thread was being aborted.
+2017-12-31 18:14:12  Thread was being aborted.
+2017-12-31 20:03:05  Thread was being aborted.
+2017-12-31 21:22:36  Thread was being aborted.
