@@ -14,6 +14,7 @@ public class ScadaStatisticsApplication
 {
     public static void main(String[] args)
     {
+        System.out.println("hello scada-statistics");
         SpringApplication.run(ScadaStatisticsApplication.class, args);
     }
 }
