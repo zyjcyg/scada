@@ -28,6 +28,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -37,6 +40,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1bcr535juU1XPmmNx4gKtjgaQpS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -49,14 +53,15 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/sql" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
@@ -115,11 +120,35 @@
       <workItem from="1589548670070" duration="615000" />
       <workItem from="1589550843332" duration="630000" />
       <workItem from="1589553678618" duration="3018000" />
+      <workItem from="1589722836692" duration="826000" />
     </task>
+    <task id="LOCAL-00001" summary="test">
+      <created>1589723031451</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1589723031452</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
   <component name="WindowStateProjectService">
     <state x="521" y="197" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588947962029">
@@ -134,6 +163,10 @@
       <screen x="1920" y="0" width="1440" height="900" />
     </state>
     <state x="2386" y="301" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1858.1080/1920.0.1440.900@1920.0.1440.900" timestamp="1588942433195" />
+    <state x="484" y="45" key="CommitChangelistDialog2" timestamp="1589723030476">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="484" y="45" key="CommitChangelistDialog2/0.0.1858.1080/1920.0.1440.900@0.0.1858.1080" timestamp="1589723030476" />
     <state x="2419" y="203" key="FileChooserDialogImpl" timestamp="1588942292925">
       <screen x="1920" y="0" width="1440" height="900" />
     </state>
@@ -178,10 +211,10 @@
     </state>
     <state width="1810" height="305" key="GridCell.Tab.1.right/0.0.1858.1080/1920.0.1440.900@0.0.1858.1080" timestamp="1589641178918" />
     <state width="841" height="305" key="GridCell.Tab.1.right/0.0.1858.1080/1920.0.1440.900@1920.0.1440.900" timestamp="1589556872942" />
-    <state x="2247" y="143" key="SettingsEditor" timestamp="1589554000711">
-      <screen x="1920" y="0" width="1440" height="900" />
+    <state x="422" y="171" key="SettingsEditor" timestamp="1589722938183">
+      <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state x="422" y="171" key="SettingsEditor/0.0.1858.1080/1920.0.1440.900@0.0.1858.1080" timestamp="1588948669826" />
+    <state x="422" y="171" key="SettingsEditor/0.0.1858.1080/1920.0.1440.900@0.0.1858.1080" timestamp="1589722938183" />
     <state x="2247" y="143" key="SettingsEditor/0.0.1858.1080/1920.0.1440.900@1920.0.1440.900" timestamp="1589554000711" />
     <state width="527" height="669" key="SwitcherDM" timestamp="1588951467760">
       <screen x="0" y="0" width="1858" height="1080" />
