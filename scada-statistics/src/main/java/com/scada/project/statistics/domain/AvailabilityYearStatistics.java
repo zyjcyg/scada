@@ -2,6 +2,9 @@ package com.scada.project.statistics.domain;
 
 import java.util.Date;
 import com.scada.framework.aspectj.lang.annotation.Excel;
+import com.scada.framework.web.domain.BaseEntity;
+import org.apache.commons.lang3.builder.ToStringBuilder;
+import org.apache.commons.lang3.builder.ToStringStyle;
 
 /**
  * 可利用率统计按年统计对象 t_availability_year_statistics

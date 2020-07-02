@@ -1,6 +1,9 @@
 package com.scada.project.statistics.domain;
 
 import com.scada.framework.aspectj.lang.annotation.Excel;
+import com.scada.framework.web.domain.BaseEntity;
+import org.apache.commons.lang3.builder.ToStringBuilder;
+import org.apache.commons.lang3.builder.ToStringStyle;
 
 /**
  * 十分钟日志对象 t_ten_minute_log

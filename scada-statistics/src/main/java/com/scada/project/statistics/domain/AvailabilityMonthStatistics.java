@@ -2,6 +2,9 @@ package com.scada.project.statistics.domain;
 
 import java.util.Date;
 import com.scada.framework.aspectj.lang.annotation.Excel;
+import com.scada.framework.web.domain.BaseEntity;
+import org.apache.commons.lang3.builder.ToStringBuilder;
+import org.apache.commons.lang3.builder.ToStringStyle;
 
 /**
  * 可利用率统计按月统计对象 t_availability_month_statistics
@@ -210,7 +213,7 @@ public class AvailabilityMonthStatistics extends BaseEntity
 
     @Override
     public String toString() {
-        return new ToStringBuilder(this,ToStringStyle.MULTI_LINE_STYLE)
+        return new ToStringBuilder(this, ToStringStyle.MULTI_LINE_STYLE)
             .append("id", getId())
             .append("windFieldId", getWindFieldId())
             .append("windFieldName", getWindFieldName())

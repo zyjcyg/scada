@@ -1,11 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4afa041-6835-4e57-a1e6-d07954d938cd" name="Default Changelist" comment="" />
+    <list default="true" id="c4afa041-6835-4e57-a1e6-d07954d938cd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scada/project/monitor/job/task/ScadaTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scada/ScadaStatisticsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scada/ScadaStatisticsApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scada/project/demo/controller/DemoDialogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scada/project/demo/controller/DemoDialogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/domain/AvailabilityDayStatistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/domain/AvailabilityDayStatistics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/domain/AvailabilityMonthStatistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/domain/AvailabilityMonthStatistics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/domain/AvailabilityYearStatistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/domain/AvailabilityYearStatistics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/domain/ComponentDayStatistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/domain/ComponentDayStatistics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/domain/FaultDayStatistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/domain/FaultDayStatistics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/domain/MainStateLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/domain/MainStateLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/domain/PowerCurveDayStatistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/domain/PowerCurveDayStatistics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/domain/StateCodeLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/domain/StateCodeLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/domain/TenMinuteLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/domain/TenMinuteLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/domain/TurbineInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/domain/TurbineInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/domain/WindRegimeStatistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/domain/WindRegimeStatistics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/scada-statistics.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/scada/ScadaStatisticsApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/scada/ScadaStatisticsApplication.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -25,6 +63,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="UML Use Case" />
       </list>
     </option>
   </component>
@@ -34,44 +73,64 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="D:/program/apache-maven-3.6.3" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../../program/apache-maven-3.6.3" />
         <option name="userSettingsFile" value="D:\work\mvn\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
   <component name="ProjectId" id="1bcr535juU1XPmmNx4gKtjgaQpS" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="新增" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultPlantUmlFileTemplate" value="UML Use Case" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="SDK" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.scada.project.monitor.job.task" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\work\scada\code\scada-statistics\sql" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="应用程序.ScadaStatisticsApplication">
+    <configuration name="ScadaStatisticsApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.scada.ScadaStatisticsApplication" />
+      <module name="scada-statistics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.scada.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ScadaStatisticsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="scada-statistics" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.scada.ScadaStatisticsApplication" />
@@ -79,33 +138,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.ScadaStatisticsApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SQLPlugin.ProjectConfiguration">
     <queries />
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:ry@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:ry@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@7c56b0cb" type="9fbbdea:ServiceModel$ServiceNode" />
-              </path>
-            </expand>
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="32" BundledDictionary0="@types.dic" BundledDictionary1="lodash.dic" BundledDictionary2="eslint-config-airbnb.dic" BundledDictionary3="jetbrains.dic" BundledDictionary4="firebase.dic" BundledDictionary5="english.dic" BundledDictionary6="vuex.dic" BundledDictionary7="eslint.dic" BundledDictionary8="redux.dic" BundledDictionary9="less.dic" BundledDictionary10="core-js.dic" BundledDictionary11="express.dic" BundledDictionary12="prettier.dic" BundledDictionary13="angular.dic" BundledDictionary14="rxjs.dic" BundledDictionary15="vuetify.dic" BundledDictionary16="css.dic" BundledDictionary17="request.dic" BundledDictionary18="zone.js.dic" BundledDictionary19="@angular.dic" BundledDictionary20="async.dic" BundledDictionary21="bluebird.dic" BundledDictionary22="_javascript.dic" BundledDictionary23="cloudfront.dic" BundledDictionary24="android.dic" BundledDictionary25="struts2.dic" BundledDictionary26="/resources/dictionaries/spring.dic" BundledDictionary27="graphql.dic" BundledDictionary28="javascript.dic" BundledDictionary29="heroku.dic" BundledDictionary30="vue.dic" BundledDictionary31="debug.dic" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="project-level" UseSingleDictionary="false" />
+  <component name="SpellCheckerSettings" BundledDictionaries="3" BundledDictionary0="android.dic" BundledDictionary1="jetbrains.dic" BundledDictionary2="english.dic" RuntimeDictionaries="1" RuntimeDictionary0="Extended Dictionary" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="project-level" UseSingleDictionary="false" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -120,7 +162,13 @@
       <workItem from="1589548670070" duration="615000" />
       <workItem from="1589550843332" duration="630000" />
       <workItem from="1589553678618" duration="3018000" />
-      <workItem from="1589722836692" duration="826000" />
+      <workItem from="1589722836692" duration="2050000" />
+      <workItem from="1590100184944" duration="10000" />
+      <workItem from="1590100519514" duration="2882000" />
+      <workItem from="1591221674199" duration="110000" />
+      <workItem from="1591221855721" duration="223000" />
+      <workItem from="1591222299995" duration="101000" />
+      <workItem from="1591222719471" duration="6000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1589723031451</created>
@@ -133,7 +181,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -145,6 +193,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
@@ -155,10 +204,23 @@
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="521" y="197" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1858.1080/1920.0.1440.900@0.0.1858.1080" timestamp="1588947962029" />
+    <state x="606" y="310" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1591220615390">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="606" y="310" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1858.1080/1920.0.1440.900@0.0.1858.1080" timestamp="1591220615390" />
+    <state x="2390" y="258" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1858.1080/1920.0.1440.900@1920.0.1440.900" timestamp="1590099945499" />
     <state x="2081" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1588942218601">
       <screen x="1920" y="0" width="1440" height="900" />
     </state>
     <state x="2081" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1858.1080/1920.0.1440.900@1920.0.1440.900" timestamp="1588942218601" />
+    <state x="822" y="375" key="#通知" timestamp="1593641690111">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="822" y="375" key="#通知/0.0.1858.1080/1920.0.1440.900@0.0.1858.1080" timestamp="1593641690111" />
+    <state x="409" y="113" key="#项目结构" timestamp="1591282917886">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="409" y="113" key="#项目结构/0.0.1858.1080@0.0.1858.1080" timestamp="1591282917886" />
     <state x="2386" y="301" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1588942433195">
       <screen x="1920" y="0" width="1440" height="900" />
     </state>
@@ -167,30 +229,39 @@
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="484" y="45" key="CommitChangelistDialog2/0.0.1858.1080/1920.0.1440.900@0.0.1858.1080" timestamp="1589723030476" />
-    <state x="2419" y="203" key="FileChooserDialogImpl" timestamp="1588942292925">
-      <screen x="1920" y="0" width="1440" height="900" />
+    <state x="459" y="194" key="DBNavigator.ProjectSettingsDialog" timestamp="1591282503435">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="459" y="194" key="DBNavigator.ProjectSettingsDialog/0.0.1858.1080@0.0.1858.1080" timestamp="1591282503435" />
+    <state x="644" y="244" key="FileChooserDialogImpl" timestamp="1591282726405">
+      <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="2419" y="203" key="FileChooserDialogImpl/0.0.1858.1080/1920.0.1440.900@1920.0.1440.900" timestamp="1588942292925" />
-    <state width="1810" height="305" key="GridCell.Tab.0.bottom" timestamp="1589641178918">
+    <state x="644" y="244" key="FileChooserDialogImpl/0.0.1858.1080@0.0.1858.1080" timestamp="1591282726405" />
+    <state width="1814" height="281" key="GridCell.Tab.0.bottom" timestamp="1593641648307">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="1810" height="305" key="GridCell.Tab.0.bottom/0.0.1858.1080/1920.0.1440.900@0.0.1858.1080" timestamp="1589641178918" />
+    <state width="1814" height="281" key="GridCell.Tab.0.bottom/0.0.1858.1080/1920.0.1440.900@0.0.1858.1080" timestamp="1593641648307" />
     <state width="841" height="305" key="GridCell.Tab.0.bottom/0.0.1858.1080/1920.0.1440.900@1920.0.1440.900" timestamp="1589556872941" />
-    <state width="1810" height="305" key="GridCell.Tab.0.center" timestamp="1589641178917">
+    <state width="1814" height="281" key="GridCell.Tab.0.bottom/0.0.1858.1080@0.0.1858.1080" timestamp="1591309857846" />
+    <state width="1814" height="281" key="GridCell.Tab.0.center" timestamp="1593641648307">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="1810" height="305" key="GridCell.Tab.0.center/0.0.1858.1080/1920.0.1440.900@0.0.1858.1080" timestamp="1589641178917" />
+    <state width="1814" height="281" key="GridCell.Tab.0.center/0.0.1858.1080/1920.0.1440.900@0.0.1858.1080" timestamp="1593641648307" />
     <state width="841" height="305" key="GridCell.Tab.0.center/0.0.1858.1080/1920.0.1440.900@1920.0.1440.900" timestamp="1589556872941" />
-    <state width="1810" height="305" key="GridCell.Tab.0.left" timestamp="1589641178917">
+    <state width="1814" height="281" key="GridCell.Tab.0.center/0.0.1858.1080@0.0.1858.1080" timestamp="1591309857846" />
+    <state width="1814" height="281" key="GridCell.Tab.0.left" timestamp="1593641648307">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="1810" height="305" key="GridCell.Tab.0.left/0.0.1858.1080/1920.0.1440.900@0.0.1858.1080" timestamp="1589641178917" />
+    <state width="1814" height="281" key="GridCell.Tab.0.left/0.0.1858.1080/1920.0.1440.900@0.0.1858.1080" timestamp="1593641648307" />
     <state width="841" height="305" key="GridCell.Tab.0.left/0.0.1858.1080/1920.0.1440.900@1920.0.1440.900" timestamp="1589556872941" />
-    <state width="1810" height="305" key="GridCell.Tab.0.right" timestamp="1589641178918">
+    <state width="1814" height="281" key="GridCell.Tab.0.left/0.0.1858.1080@0.0.1858.1080" timestamp="1591309857846" />
+    <state width="1814" height="281" key="GridCell.Tab.0.right" timestamp="1593641648307">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="1810" height="305" key="GridCell.Tab.0.right/0.0.1858.1080/1920.0.1440.900@0.0.1858.1080" timestamp="1589641178918" />
+    <state width="1814" height="281" key="GridCell.Tab.0.right/0.0.1858.1080/1920.0.1440.900@0.0.1858.1080" timestamp="1593641648307" />
     <state width="841" height="305" key="GridCell.Tab.0.right/0.0.1858.1080/1920.0.1440.900@1920.0.1440.900" timestamp="1589556872941" />
+    <state width="1814" height="281" key="GridCell.Tab.0.right/0.0.1858.1080@0.0.1858.1080" timestamp="1591309857846" />
     <state width="1810" height="305" key="GridCell.Tab.1.bottom" timestamp="1589641178918">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
@@ -211,11 +282,16 @@
     </state>
     <state width="1810" height="305" key="GridCell.Tab.1.right/0.0.1858.1080/1920.0.1440.900@0.0.1858.1080" timestamp="1589641178918" />
     <state width="841" height="305" key="GridCell.Tab.1.right/0.0.1858.1080/1920.0.1440.900@1920.0.1440.900" timestamp="1589556872942" />
-    <state x="422" y="171" key="SettingsEditor" timestamp="1589722938183">
+    <state x="500" y="89" width="858" height="651" key="Registry" timestamp="1591283445393">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state x="422" y="171" key="SettingsEditor/0.0.1858.1080/1920.0.1440.900@0.0.1858.1080" timestamp="1589722938183" />
+    <state x="500" y="89" width="858" height="651" key="Registry/0.0.1858.1080@0.0.1858.1080" timestamp="1591283445393" />
+    <state x="422" y="171" key="SettingsEditor" timestamp="1593642370969">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="422" y="171" key="SettingsEditor/0.0.1858.1080/1920.0.1440.900@0.0.1858.1080" timestamp="1593642370969" />
     <state x="2247" y="143" key="SettingsEditor/0.0.1858.1080/1920.0.1440.900@1920.0.1440.900" timestamp="1589554000711" />
+    <state x="422" y="103" key="SettingsEditor/0.0.1858.1080@0.0.1858.1080" timestamp="1591283823744" />
     <state width="527" height="669" key="SwitcherDM" timestamp="1588951467760">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
@@ -231,7 +307,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/scada/project/scada/statistics/service/impl/FaultDayStatisticsServiceImpl.java</url>
           <line>53</line>
-          <properties class="com.scada.project.scada.statistics.service.impl.FaultDayStatisticsServiceImpl" method="insertFaultDayStatistics">
+          <properties class="com.scada.project.scada.statistics.service.impl.FaultDayStatisticsServiceImpl">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="1" />

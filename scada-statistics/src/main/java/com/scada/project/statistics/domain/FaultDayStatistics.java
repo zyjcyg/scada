@@ -2,6 +2,9 @@ package com.scada.project.statistics.domain;
 
 import java.util.Date;
 import com.scada.framework.aspectj.lang.annotation.Excel;
+import com.scada.framework.web.domain.BaseEntity;
+import org.apache.commons.lang3.builder.ToStringBuilder;
+import org.apache.commons.lang3.builder.ToStringStyle;
 
 /**
  * 故障统计按天统计对象 t_fault_day_statistics

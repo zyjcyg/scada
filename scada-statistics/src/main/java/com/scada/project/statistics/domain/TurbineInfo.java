@@ -1,6 +1,9 @@
 package com.scada.project.statistics.domain;
 
 import com.scada.framework.aspectj.lang.annotation.Excel;
+import com.scada.framework.web.domain.BaseEntity;
+import org.apache.commons.lang3.builder.ToStringBuilder;
+import org.apache.commons.lang3.builder.ToStringStyle;
 
 /**
  * 机组信息对象 t_turbine_info
