@@ -10,7 +10,7 @@ import org.apache.commons.lang3.builder.ToStringStyle;
  * 故障统计按天统计对象 t_fault_day_statistics
  * 
  * @author 张继勇
- * @date 2020-05-15
+ * @date 2020-07-11
  */
 public class FaultDayStatistics extends BaseEntity
 {
@@ -41,15 +41,15 @@ public class FaultDayStatistics extends BaseEntity
 
     /** 机组名称 */
     @Excel(name = "机组名称")
-    private String turbineIdName;
+    private String turbineName;
 
-    /** 停机次数 */
-    @Excel(name = "停机次数")
-    private Long downCount;
+    /** 停机时间 */
+    @Excel(name = "停机时间", width = 30, dateFormat = "yyyy-MM-dd")
+    private Date downTime;
 
     /** 停机时长 */
     @Excel(name = "停机时长")
-    private Long downTimeLength;
+    private Double downTimeLength;
 
     /** 停机类别 */
     @Excel(name = "停机类别")
@@ -141,30 +141,30 @@ public class FaultDayStatistics extends BaseEntity
     {
         return turbineId;
     }
-    public void setTurbineIdName(String turbineIdName) 
+    public void setTurbineName(String turbineName) 
     {
-        this.turbineIdName = turbineIdName;
+        this.turbineName = turbineName;
     }
 
-    public String getTurbineIdName() 
+    public String getTurbineName() 
     {
-        return turbineIdName;
+        return turbineName;
     }
-    public void setDownCount(Long downCount) 
+    public void setDownTime(Date downTime) 
     {
-        this.downCount = downCount;
+        this.downTime = downTime;
     }
 
-    public Long getDownCount() 
+    public Date getDownTime() 
     {
-        return downCount;
+        return downTime;
     }
-    public void setDownTimeLength(Long downTimeLength) 
+    public void setDownTimeLength(Double downTimeLength) 
     {
         this.downTimeLength = downTimeLength;
     }
 
-    public Long getDownTimeLength() 
+    public Double getDownTimeLength() 
     {
         return downTimeLength;
     }
@@ -252,15 +252,15 @@ public class FaultDayStatistics extends BaseEntity
 
     @Override
     public String toString() {
-        return new ToStringBuilder(this,ToStringStyle.MULTI_LINE_STYLE)
+        return new ToStringBuilder(this, ToStringStyle.MULTI_LINE_STYLE)
             .append("id", getId())
             .append("windFieldId", getWindFieldId())
             .append("windFieldName", getWindFieldName())
             .append("lineId", getLineId())
             .append("lineName", getLineName())
             .append("turbineId", getTurbineId())
-            .append("turbineIdName", getTurbineIdName())
-            .append("downCount", getDownCount())
+            .append("turbineName", getTurbineName())
+            .append("downTime", getDownTime())
             .append("downTimeLength", getDownTimeLength())
             .append("downCategory", getDownCategory())
             .append("downStateCode", getDownStateCode())

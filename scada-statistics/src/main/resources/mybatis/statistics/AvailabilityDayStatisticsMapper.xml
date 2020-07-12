@@ -45,6 +45,46 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
             <if test="alternateField3 != null  and alternateField3 != ''"> and alternate_field3 = #{alternateField3}</if>
         </where>
     </select>
+
+    <select id="selectTurbineAvailabilityStatisticsByDay" resultMap="AvailabilityDayStatisticsResult">
+        SELECT
+            a.turbine_id,
+            b.turbine_name,
+            a.total_time_length,
+            a.total_available_time_length,
+            b.line_id,
+            b.line_name,
+            b.wind_field_id,
+            b.wind_field_name
+        FROM
+            (
+                SELECT
+                    t.turbine_id,
+                    (MAX( t.total_time_length ) - MIN( t.total_time_length )) total_time_length,
+                    (
+                        (MAX( t.total_suspended_time_length ) - MIN( t.total_suspended_time_length )) * 1 +
+                        (MAX( t.total_production_time_length ) - MIN( t.total_production_time_length )) * 1 +
+                        (MAX( t.total_mannul_stop_time_length ) - MIN( t.total_mannul_stop_time_length )) * 1 +
+                        (MAX( t.total_wether_stop_time_length ) - MIN( t.total_wether_stop_time_length )) * 1 +
+                        (MAX( t.total_force_majeure_time_length ) - MIN( t.total_force_majeure_time_length )) * 1 +
+                        (MAX( t.total_grid_fault_stop_time_length ) - MIN( t.total_grid_fault_stop_time_length )) * 1 +
+                        (MAX( t.total_full_performance_time_length ) - MIN( t.total_full_performance_time_length )) * 1 +
+                        (MAX( t.total_technical_standby_time_length ) - MIN( t.total_technical_standby_time_length )) * 1 +
+                        (MAX( t.total_turbine_fault_stop_time_length ) - MIN( t.total_turbine_fault_stop_time_length )) * 1 +
+                        (MAX( t.total_shceduled_maintenance_time_length ) - MIN( t.total_shceduled_maintenance_time_length )) * 1 +
+                        (MAX( t.total_information_unavailable_time_length ) - MIN( t.total_information_unavailable_time_length )) * 1 +
+                        (MAX( t.total_planned_corrective_action_time_length ) - MIN( t.total_planned_corrective_action_time_length )) * 1
+                    ) total_available_time_length
+                FROM
+                    t_main_state_log t
+                WHERE
+                    t.create_time BETWEEN DATE_ADD( DATE_SUB( CURDATE(), INTERVAL 1 DAY ), INTERVAL 0 HOUR )
+                        AND DATE_ADD( CURDATE(), INTERVAL 10 SECOND )
+                GROUP BY
+                    t.turbine_id
+            ) AS a
+                LEFT JOIN t_turbine_info b ON a.turbine_id = b.turbine_id
+    </select>
     
     <select id="selectAvailabilityDayStatisticsById" parameterType="String" resultMap="AvailabilityDayStatisticsResult">
         <include refid="selectAvailabilityDayStatisticsVo"/>

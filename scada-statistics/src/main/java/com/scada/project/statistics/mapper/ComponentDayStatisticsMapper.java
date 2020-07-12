@@ -7,7 +7,7 @@ import com.scada.project.statistics.domain.ComponentDayStatistics;
  * 部件统计按天统计Mapper接口
  * 
  * @author 张继勇
- * @date 2020-05-15
+ * @date 2020-07-11
  */
 public interface ComponentDayStatisticsMapper 
 {

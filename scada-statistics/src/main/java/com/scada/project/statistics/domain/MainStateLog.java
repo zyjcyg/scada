@@ -10,7 +10,7 @@ import org.apache.commons.lang3.builder.ToStringStyle;
  * 主状态日志对象 t_main_state_log
  * 
  * @author 张继勇
- * @date 2020-05-15
+ * @date 2020-07-11
  */
 public class MainStateLog extends BaseEntity
 {
@@ -551,7 +551,7 @@ public class MainStateLog extends BaseEntity
 
     @Override
     public String toString() {
-        return new ToStringBuilder(this,ToStringStyle.MULTI_LINE_STYLE)
+        return new ToStringBuilder(this, ToStringStyle.MULTI_LINE_STYLE)
             .append("id", getId())
             .append("createTime", getCreateTime())
             .append("timeNanoSec", getTimeNanoSec())

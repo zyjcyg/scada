@@ -7,7 +7,7 @@ import com.scada.project.statistics.domain.TurbineInfo;
  * 机组信息Service接口
  * 
  * @author 张继勇
- * @date 2020-05-15
+ * @date 2020-07-11
  */
 public interface ITurbineInfoService 
 {

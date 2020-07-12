@@ -7,7 +7,7 @@ import com.scada.project.statistics.domain.AvailabilityDayStatistics;
  * 可利用率按天统计Mapper接口
  * 
  * @author 张继勇
- * @date 2020-05-15
+ * @date 2020-07-11
  */
 public interface AvailabilityDayStatisticsMapper 
 {
@@ -26,6 +26,13 @@ public interface AvailabilityDayStatisticsMapper
      * @return 可利用率按天统计集合
      */
     public List<AvailabilityDayStatistics> selectAvailabilityDayStatisticsList(AvailabilityDayStatistics availabilityDayStatistics);
+
+    /**
+     * 查询可利用率按天统计列表
+     *
+     * @return 可利用率按天统计集合
+     */
+    public List<AvailabilityDayStatistics> selectTurbineAvailabilityStatisticsByDay();
 
     /**
      * 新增可利用率按天统计

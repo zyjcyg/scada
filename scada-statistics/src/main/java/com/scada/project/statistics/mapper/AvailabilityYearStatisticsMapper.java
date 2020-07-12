@@ -7,7 +7,7 @@ import com.scada.project.statistics.domain.AvailabilityYearStatistics;
  * 可利用率统计按年统计Mapper接口
  * 
  * @author 张继勇
- * @date 2020-05-15
+ * @date 2020-07-11
  */
 public interface AvailabilityYearStatisticsMapper 
 {

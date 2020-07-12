@@ -10,7 +10,7 @@ import org.apache.commons.lang3.builder.ToStringStyle;
  * 风况统计按天统计对象 t_wind_regime_statistics
  * 
  * @author 张继勇
- * @date 2020-05-15
+ * @date 2020-07-11
  */
 public class WindRegimeStatistics extends BaseEntity
 {
@@ -239,7 +239,7 @@ public class WindRegimeStatistics extends BaseEntity
 
     @Override
     public String toString() {
-        return new ToStringBuilder(this,ToStringStyle.MULTI_LINE_STYLE)
+        return new ToStringBuilder(this, ToStringStyle.MULTI_LINE_STYLE)
             .append("id", getId())
             .append("windFieldId", getWindFieldId())
             .append("windFieldName", getWindFieldName())

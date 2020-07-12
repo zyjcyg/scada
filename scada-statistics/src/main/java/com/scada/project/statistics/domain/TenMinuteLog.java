@@ -9,7 +9,7 @@ import org.apache.commons.lang3.builder.ToStringStyle;
  * 十分钟日志对象 t_ten_minute_log
  * 
  * @author 张继勇
- * @date 2020-05-15
+ * @date 2020-07-11
  */
 public class TenMinuteLog extends BaseEntity
 {
@@ -550,7 +550,7 @@ public class TenMinuteLog extends BaseEntity
 
     @Override
     public String toString() {
-        return new ToStringBuilder(this,ToStringStyle.MULTI_LINE_STYLE)
+        return new ToStringBuilder(this, ToStringStyle.MULTI_LINE_STYLE)
             .append("id", getId())
             .append("createTime", getCreateTime())
             .append("turbineId", getTurbineId())

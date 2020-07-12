@@ -12,7 +12,7 @@ import com.scada.common.utils.text.Convert;
  * 功率统计按天统计Service业务层处理
  * 
  * @author 张继勇
- * @date 2020-05-15
+ * @date 2020-07-11
  */
 @Service
 public class PowerCurveDayStatisticsServiceImpl implements IPowerCurveDayStatisticsService 

@@ -10,7 +10,7 @@ import org.apache.commons.lang3.builder.ToStringStyle;
  * 可利用率按天统计对象 t_availability_day_statistics
  * 
  * @author 张继勇
- * @date 2020-05-15
+ * @date 2020-07-11
  */
 public class AvailabilityDayStatistics extends BaseEntity
 {

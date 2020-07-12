@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+hjyu777777777777777777777ki8mun98bu <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper
 PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
@@ -11,8 +11,8 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         <result property="lineId"    column="line_id"    />
         <result property="lineName"    column="line_name"    />
         <result property="turbineId"    column="turbine_id"    />
-        <result property="turbineIdName"    column="turbine_id_name"    />
-        <result property="downCount"    column="down_count"    />
+        <result property="turbineName"    column="turbine_name"    />
+        <result property="downTime"    column="down_time"    />
         <result property="downTimeLength"    column="down_time_length"    />
         <result property="downCategory"    column="down_category"    />
         <result property="downStateCode"    column="down_state_code"    />
@@ -26,7 +26,7 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
     </resultMap>
 
     <sql id="selectFaultDayStatisticsVo">
-        select id, wind_field_id, wind_field_name, line_id, line_name, turbine_id, turbine_id_name, down_count, down_time_length, down_category, down_state_code, down_state_name, statistical_time_length, statistical_time, computing_time, alternate_field1, alternate_field2, alternate_field3 from t_fault_day_statistics
+        select id, wind_field_id, wind_field_name, line_id, line_name, turbine_id, turbine_name, down_time, down_time_length, down_category, down_state_code, down_state_name, statistical_time_length, statistical_time, computing_time, alternate_field1, alternate_field2, alternate_field3 from t_fault_day_statistics
     </sql>
 
     <select id="selectFaultDayStatisticsList" parameterType="FaultDayStatistics" resultMap="FaultDayStatisticsResult">
@@ -37,8 +37,8 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
             <if test="lineId != null "> and line_id = #{lineId}</if>
             <if test="lineName != null  and lineName != ''"> and line_name like concat('%', #{lineName}, '%')</if>
             <if test="turbineId != null  and turbineId != ''"> and turbine_id = #{turbineId}</if>
-            <if test="turbineIdName != null  and turbineIdName != ''"> and turbine_id_name like concat('%', #{turbineIdName}, '%')</if>
-            <if test="downCount != null "> and down_count = #{downCount}</if>
+            <if test="turbineName != null  and turbineName != ''"> and turbine_name like concat('%', #{turbineName}, '%')</if>
+            <if test="downTime != null "> and down_time = #{downTime}</if>
             <if test="downTimeLength != null "> and down_time_length = #{downTimeLength}</if>
             <if test="downCategory != null  and downCategory != ''"> and down_category = #{downCategory}</if>
             <if test="downStateCode != null "> and down_state_code = #{downStateCode}</if>
@@ -66,8 +66,8 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
             <if test="lineId != null ">line_id,</if>
             <if test="lineName != null  and lineName != ''">line_name,</if>
             <if test="turbineId != null  and turbineId != ''">turbine_id,</if>
-            <if test="turbineIdName != null  and turbineIdName != ''">turbine_id_name,</if>
-            <if test="downCount != null ">down_count,</if>
+            <if test="turbineName != null  and turbineName != ''">turbine_name,</if>
+            <if test="downTime != null ">down_time,</if>
             <if test="downTimeLength != null ">down_time_length,</if>
             <if test="downCategory != null  and downCategory != ''">down_category,</if>
             <if test="downStateCode != null ">down_state_code,</if>
@@ -86,8 +86,8 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
             <if test="lineId != null ">#{lineId},</if>
             <if test="lineName != null  and lineName != ''">#{lineName},</if>
             <if test="turbineId != null  and turbineId != ''">#{turbineId},</if>
-            <if test="turbineIdName != null  and turbineIdName != ''">#{turbineIdName},</if>
-            <if test="downCount != null ">#{downCount},</if>
+            <if test="turbineName != null  and turbineName != ''">#{turbineName},</if>
+            <if test="downTime != null ">#{downTime},</if>
             <if test="downTimeLength != null ">#{downTimeLength},</if>
             <if test="downCategory != null  and downCategory != ''">#{downCategory},</if>
             <if test="downStateCode != null ">#{downStateCode},</if>
@@ -109,8 +109,8 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
             <if test="lineId != null ">line_id = #{lineId},</if>
             <if test="lineName != null  and lineName != ''">line_name = #{lineName},</if>
             <if test="turbineId != null  and turbineId != ''">turbine_id = #{turbineId},</if>
-            <if test="turbineIdName != null  and turbineIdName != ''">turbine_id_name = #{turbineIdName},</if>
-            <if test="downCount != null ">down_count = #{downCount},</if>
+            <if test="turbineName != null  and turbineName != ''">turbine_name = #{turbineName},</if>
+            <if test="downTime != null ">down_time = #{downTime},</if>
             <if test="downTimeLength != null ">down_time_length = #{downTimeLength},</if>
             <if test="downCategory != null  and downCategory != ''">down_category = #{downCategory},</if>
             <if test="downStateCode != null ">down_state_code = #{downStateCode},</if>

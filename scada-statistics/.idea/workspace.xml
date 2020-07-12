@@ -20,9 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4afa041-6835-4e57-a1e6-d07954d938cd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scada/project/monitor/job/task/ScadaTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql/ruoyi.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sql/ruoyi.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql/status.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sql/status.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/scada/ScadaStatisticsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scada/ScadaStatisticsApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scada/project/demo/controller/DemoDialogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scada/project/demo/controller/DemoDialogController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/domain/AvailabilityDayStatistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/domain/AvailabilityDayStatistics.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/domain/AvailabilityMonthStatistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/domain/AvailabilityMonthStatistics.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/domain/AvailabilityYearStatistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/domain/AvailabilityYearStatistics.java" afterDir="false" />
@@ -34,9 +34,50 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/domain/TenMinuteLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/domain/TenMinuteLog.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/domain/TurbineInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/domain/TurbineInfo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/domain/WindRegimeStatistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/domain/WindRegimeStatistics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/scada-statistics.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/mapper/AvailabilityDayStatisticsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/mapper/AvailabilityDayStatisticsMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/mapper/AvailabilityMonthStatisticsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/mapper/AvailabilityMonthStatisticsMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/mapper/AvailabilityYearStatisticsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/mapper/AvailabilityYearStatisticsMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/mapper/ComponentDayStatisticsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/mapper/ComponentDayStatisticsMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/mapper/FaultDayStatisticsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/mapper/FaultDayStatisticsMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/mapper/MainStateLogMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/mapper/MainStateLogMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/mapper/PowerCurveDayStatisticsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/mapper/PowerCurveDayStatisticsMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/mapper/StateCodeLogMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/mapper/StateCodeLogMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/mapper/TenMinuteLogMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/mapper/TenMinuteLogMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/mapper/TurbineInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/mapper/TurbineInfoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/mapper/WindRegimeStatisticsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/mapper/WindRegimeStatisticsMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/service/IAvailabilityDayStatisticsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/service/IAvailabilityDayStatisticsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/service/IAvailabilityMonthStatisticsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/service/IAvailabilityMonthStatisticsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/service/IAvailabilityYearStatisticsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/service/IAvailabilityYearStatisticsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/service/IComponentDayStatisticsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/service/IComponentDayStatisticsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/service/IFaultDayStatisticsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/service/IFaultDayStatisticsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/service/IMainStateLogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/service/IMainStateLogService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/service/IPowerCurveDayStatisticsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/service/IPowerCurveDayStatisticsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/service/IStateCodeLogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/service/IStateCodeLogService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/service/ITenMinuteLogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/service/ITenMinuteLogService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/service/ITurbineInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/service/ITurbineInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/service/IWindRegimeStatisticsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/service/IWindRegimeStatisticsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/service/impl/AvailabilityDayStatisticsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/service/impl/AvailabilityDayStatisticsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/service/impl/AvailabilityMonthStatisticsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/service/impl/AvailabilityMonthStatisticsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/service/impl/AvailabilityYearStatisticsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/service/impl/AvailabilityYearStatisticsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/service/impl/ComponentDayStatisticsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/service/impl/ComponentDayStatisticsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/service/impl/FaultDayStatisticsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/service/impl/FaultDayStatisticsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/service/impl/MainStateLogServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/service/impl/MainStateLogServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/service/impl/PowerCurveDayStatisticsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/service/impl/PowerCurveDayStatisticsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/service/impl/StateCodeLogServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/service/impl/StateCodeLogServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/service/impl/TenMinuteLogServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/service/impl/TenMinuteLogServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/service/impl/TurbineInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/service/impl/TurbineInfoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/service/impl/WindRegimeStatisticsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scada/project/statistics/service/impl/WindRegimeStatisticsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-druid.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-druid.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis/statistics/AvailabilityDayStatisticsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis/statistics/AvailabilityDayStatisticsMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis/statistics/FaultDayStatisticsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis/statistics/FaultDayStatisticsMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application-druid.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-druid.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/scada/ScadaStatisticsApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/scada/ScadaStatisticsApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/scada/project/statistics/domain/FaultDayStatistics.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/scada/project/statistics/domain/FaultDayStatistics.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/scada/project/statistics/mapper/AvailabilityDayStatisticsMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/scada/project/statistics/mapper/AvailabilityDayStatisticsMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mybatis/statistics/AvailabilityDayStatisticsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mybatis/statistics/AvailabilityDayStatisticsMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mybatis/statistics/FaultDayStatisticsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mybatis/statistics/FaultDayStatisticsMapper.xml" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,20 +114,26 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="$PROJECT_DIR$/../../../../../program/apache-maven-3.6.3" />
+        <option name="mavenHome" value="D:/program/apache-maven-3.6.3" />
         <option name="userSettingsFile" value="D:\work\mvn\settings.xml" />
       </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectId" id="1bcr535juU1XPmmNx4gKtjgaQpS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="新增" />
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultPlantUmlFileTemplate" value="UML Use Case" />
     <property name="RequestMappingsPanelOrder0" value="0" />
@@ -99,12 +146,13 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../mydemo/zjycode" />
     <property name="project.structure.last.edited" value="SDK" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
@@ -117,7 +165,33 @@
       <recent name="D:\work\scada\code\scada-statistics\sql" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.ScadaStatisticsApplication">
+  <component name="RestServicesNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="Found 249 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+        </path>
+        <path>
+          <item name="Found 249 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+          <item name="scada-statistics" type="c588b436:RestServiceStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.ScadaStatisticsApplication">
     <configuration name="ScadaStatisticsApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.scada.ScadaStatisticsApplication" />
       <module name="scada-statistics" />
@@ -140,14 +214,14 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.ScadaStatisticsApplication" />
+        <item itemvalue="Application.ScadaStatisticsApplication" />
       </list>
     </recent_temporary>
   </component>
   <component name="SQLPlugin.ProjectConfiguration">
     <queries />
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="3" BundledDictionary0="android.dic" BundledDictionary1="jetbrains.dic" BundledDictionary2="english.dic" RuntimeDictionaries="1" RuntimeDictionary0="Extended Dictionary" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="project-level" UseSingleDictionary="false" />
+  <component name="SpellCheckerSettings" BundledDictionaries="33" BundledDictionary0="@types.dic" BundledDictionary1="lodash.dic" BundledDictionary2="eslint-config-airbnb.dic" BundledDictionary3="jetbrains.dic" BundledDictionary4="firebase.dic" BundledDictionary5="english.dic" BundledDictionary6="vuex.dic" BundledDictionary7="go.dic" BundledDictionary8="eslint.dic" BundledDictionary9="redux.dic" BundledDictionary10="less.dic" BundledDictionary11="core-js.dic" BundledDictionary12="express.dic" BundledDictionary13="prettier.dic" BundledDictionary14="angular.dic" BundledDictionary15="rxjs.dic" BundledDictionary16="vuetify.dic" BundledDictionary17="css.dic" BundledDictionary18="request.dic" BundledDictionary19="zone.js.dic" BundledDictionary20="@angular.dic" BundledDictionary21="async.dic" BundledDictionary22="bluebird.dic" BundledDictionary23="_javascript.dic" BundledDictionary24="cloudfront.dic" BundledDictionary25="android.dic" BundledDictionary26="struts2.dic" BundledDictionary27="/resources/dictionaries/spring.dic" BundledDictionary28="graphql.dic" BundledDictionary29="javascript.dic" BundledDictionary30="heroku.dic" BundledDictionary31="vue.dic" BundledDictionary32="debug.dic" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="project-level" UseSingleDictionary="false" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -169,6 +243,10 @@
       <workItem from="1591221855721" duration="223000" />
       <workItem from="1591222299995" duration="101000" />
       <workItem from="1591222719471" duration="6000" />
+      <workItem from="1594424996122" duration="1449000" />
+      <workItem from="1594471083099" duration="1492000" />
+      <workItem from="1594473210179" duration="1785000" />
+      <workItem from="1594475167190" duration="12535000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1589723031451</created>
@@ -181,21 +259,23 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="test" />
     <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>

@@ -13,7 +13,7 @@ import com.scada.common.utils.text.Convert;
  * 主状态日志Service业务层处理
  * 
  * @author 张继勇
- * @date 2020-05-15
+ * @date 2020-07-11
  */
 @Service
 public class MainStateLogServiceImpl implements IMainStateLogService 
