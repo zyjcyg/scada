@@ -28,6 +28,14 @@ public interface AvailabilityYearStatisticsMapper
     public List<AvailabilityYearStatistics> selectAvailabilityYearStatisticsList(AvailabilityYearStatistics availabilityYearStatistics);
 
     /**
+     * 查询可利用率统计按年统计列表
+     *
+     * @return 可利用率统计按年统计集合
+     */
+    public List<AvailabilityYearStatistics> selectTurbineAvailabilityStatisticsByYear();
+
+    
+    /**
      * 新增可利用率统计按年统计
      * 
      * @param availabilityYearStatistics 可利用率统计按年统计
