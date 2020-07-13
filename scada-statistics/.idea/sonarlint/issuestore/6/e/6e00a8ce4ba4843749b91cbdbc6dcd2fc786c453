@@ -1,7 +1,0 @@
-
-E
-java:S2093{"*Change this "try" to a try-with-resources.(ç£êúÿÿÿÿ
-o
-java:S2293†"YReplace the type specification in this constructor call with the diamond operator ("<>").(ŒîÌ/
-W	java:S125Ñ"<This block of commented-out lines of code should be removed.(â‚ÃÚûÿÿÿÿ
-R	java:S125„"<This block of commented-out lines of code should be removed.(æóÎŠ
