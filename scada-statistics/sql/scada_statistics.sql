@@ -11,7 +11,7 @@
  Target Server Version : 50729
  File Encoding         : 65001
 
- Date: 15/05/2020 23:46:32
+ Date: 14/07/2020 07:07:50
 */
 
 SET NAMES utf8mb4;
@@ -39,7 +39,7 @@ CREATE TABLE `gen_table`  (
   `update_time` datetime(0) NULL DEFAULT NULL COMMENT '更新时间',
   `remark` varchar(500) CHARACTER SET utf8 COLLATE utf8_bin NULL DEFAULT NULL COMMENT '备注',
   PRIMARY KEY (`table_id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 13 CHARACTER SET = utf8 COLLATE = utf8_bin COMMENT = '代码生成业务表' ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 14 CHARACTER SET = utf8 COLLATE = utf8_bin COMMENT = '代码生成业务表' ROW_FORMAT = Dynamic;
 
 -- ----------------------------
 -- Records of gen_table
@@ -48,13 +48,13 @@ INSERT INTO `gen_table` VALUES (1, 't_availability_day_statistics', '可利用�
 INSERT INTO `gen_table` VALUES (2, 't_availability_month_statistics', '可利用率统计按月统计表', 'AvailabilityMonthStatistics', 'crud', 'com.scada.project', 'statistics', 'statistics', '可利用率统计按月统计', '张继勇', '{\"treeName\":\"\",\"treeParentCode\":\"\",\"treeCode\":\"\"}', 'admin', '2020-05-15 23:33:33', '', '2020-05-15 23:35:26', '');
 INSERT INTO `gen_table` VALUES (3, 't_availability_year_statistics', '可利用率统计按年统计表', 'AvailabilityYearStatistics', 'crud', 'com.scada.project', 'statistics', 'statistics', '可利用率统计按年统计', '张继勇', '{\"treeName\":\"\",\"treeParentCode\":\"\",\"treeCode\":\"\"}', 'admin', '2020-05-15 23:33:33', '', '2020-05-15 23:36:12', '');
 INSERT INTO `gen_table` VALUES (4, 't_component_day_statistics', '部件统计按天统计表', 'ComponentDayStatistics', 'crud', 'com.scada.project', 'statistics', 'statistics', '部件统计按天统计', '张继勇', '{\"treeName\":\"\",\"treeParentCode\":\"\",\"treeCode\":\"\"}', 'admin', '2020-05-15 23:33:33', '', '2020-05-15 23:37:01', '');
-INSERT INTO `gen_table` VALUES (5, 't_fault_day_statistics', '故障统计按天统计表', 'FaultDayStatistics', 'crud', 'com.scada.project', 'statistics', 'statistics', '故障统计按天统计', '张继勇', '{\"treeName\":\"\",\"treeParentCode\":\"\",\"treeCode\":\"\"}', 'admin', '2020-05-15 23:33:33', '', '2020-05-15 23:37:26', '');
 INSERT INTO `gen_table` VALUES (6, 't_main_state_log', '主状态日志', 'MainStateLog', 'crud', 'com.scada.project', 'statistics', 'statistics', '主状态日志', '张继勇', '{\"treeName\":\"\",\"treeParentCode\":\"\",\"treeCode\":\"\"}', 'admin', '2020-05-15 23:33:33', '', '2020-05-15 23:43:44', '');
 INSERT INTO `gen_table` VALUES (7, 't_power_curve_day_statistics', '功率统计按天统计表', 'PowerCurveDayStatistics', 'crud', 'com.scada.project', 'statistics', 'statistics', '功率统计按天统计', '张继勇', '{\"treeName\":\"\",\"treeParentCode\":\"\",\"treeCode\":\"\"}', 'admin', '2020-05-15 23:33:33', '', '2020-05-15 23:39:22', '');
 INSERT INTO `gen_table` VALUES (8, 't_state_code_log', '状态码日志', 'StateCodeLog', 'crud', 'com.scada.project', 'statistics', 'statistics', '状态码日志', '张继勇', '{\"treeName\":\"\",\"treeParentCode\":\"\",\"treeCode\":\"\"}', 'admin', '2020-05-15 23:33:33', '', '2020-05-15 23:39:43', '');
 INSERT INTO `gen_table` VALUES (10, 't_turbine_info', '机组信息表', 'TurbineInfo', 'crud', 'com.scada.project', 'statistics', 'statistics', '机组信息', '张继勇', '{\"treeName\":\"\",\"treeParentCode\":\"\",\"treeCode\":\"\"}', 'admin', '2020-05-15 23:33:33', '', '2020-05-15 23:40:25', '');
 INSERT INTO `gen_table` VALUES (11, 't_wind_regime_statistics', '风况统计按天统计表', 'WindRegimeStatistics', 'crud', 'com.scada.project', 'statistics', 'statistics', '风况统计按天统计', '张继勇', '{\"treeName\":\"\",\"treeParentCode\":\"\",\"treeCode\":\"\"}', 'admin', '2020-05-15 23:33:33', '', '2020-05-15 23:41:03', '');
 INSERT INTO `gen_table` VALUES (12, 't_ten_minute_log', '十分钟日志', 'TenMinuteLog', 'crud', 'com.scada.project', 'statistics', 'statistics', '十分钟日志', '张继勇', '{\"treeName\":\"\",\"treeParentCode\":\"\",\"treeCode\":\"\"}', 'admin', '2020-05-15 23:41:56', '', '2020-05-15 23:43:33', '');
+INSERT INTO `gen_table` VALUES (13, 't_fault_day_statistics', '故障统计按天统计表', 'FaultDayStatistics', 'crud', 'com.scada.project', 'statistics', 'statistics', '故障统计按天统计', '张继勇', '{\"treeName\":\"\",\"treeParentCode\":\"\",\"treeCode\":\"\"}', 'admin', '2020-07-11 22:22:55', '', '2020-07-11 22:28:45', '');
 
 -- ----------------------------
 -- Table structure for gen_table_column
@@ -84,7 +84,7 @@ CREATE TABLE `gen_table_column`  (
   `update_by` varchar(64) CHARACTER SET utf8 COLLATE utf8_bin NULL DEFAULT '' COMMENT '更新者',
   `update_time` datetime(0) NULL DEFAULT NULL COMMENT '更新时间',
   PRIMARY KEY (`column_id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 277 CHARACTER SET = utf8 COLLATE = utf8_bin COMMENT = '代码生成业务表字段' ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 295 CHARACTER SET = utf8 COLLATE = utf8_bin COMMENT = '代码生成业务表字段' ROW_FORMAT = Dynamic;
 
 -- ----------------------------
 -- Records of gen_table_column
@@ -169,24 +169,6 @@ INSERT INTO `gen_table_column` VALUES (77, '4', 'computing_time', '计算时间'
 INSERT INTO `gen_table_column` VALUES (78, '4', 'alternate_field1', '备用字段1', 'varchar(30)', 'String', 'alternateField1', '0', '0', NULL, '1', '1', '1', '1', 'EQ', 'input', '', 33, 'admin', '2020-05-15 23:33:33', NULL, '2020-05-15 23:37:01');
 INSERT INTO `gen_table_column` VALUES (79, '4', 'alternate_field2', '备用字段2', 'varchar(30)', 'String', 'alternateField2', '0', '0', NULL, '1', '1', '1', '1', 'EQ', 'input', '', 34, 'admin', '2020-05-15 23:33:33', NULL, '2020-05-15 23:37:01');
 INSERT INTO `gen_table_column` VALUES (80, '4', 'alternate_field3', '备用字段3', 'varchar(30)', 'String', 'alternateField3', '0', '0', NULL, '1', '1', '1', '1', 'EQ', 'input', '', 35, 'admin', '2020-05-15 23:33:33', NULL, '2020-05-15 23:37:01');
-INSERT INTO `gen_table_column` VALUES (81, '5', 'id', '主键ID', 'varchar(8)', 'String', 'id', '1', '0', NULL, '1', NULL, NULL, NULL, 'EQ', 'input', '', 1, 'admin', '2020-05-15 23:33:33', NULL, '2020-05-15 23:37:26');
-INSERT INTO `gen_table_column` VALUES (82, '5', 'wind_field_id', '风场ID', 'int(11)', 'Long', 'windFieldId', '0', '0', NULL, '1', '1', '1', '1', 'EQ', 'input', '', 2, 'admin', '2020-05-15 23:33:33', NULL, '2020-05-15 23:37:26');
-INSERT INTO `gen_table_column` VALUES (83, '5', 'wind_field_name', '风场名称', 'varchar(50)', 'String', 'windFieldName', '0', '0', NULL, '1', '1', '1', '1', 'LIKE', 'input', '', 3, 'admin', '2020-05-15 23:33:33', NULL, '2020-05-15 23:37:26');
-INSERT INTO `gen_table_column` VALUES (84, '5', 'line_id', '线路ID', 'int(11)', 'Long', 'lineId', '0', '0', NULL, '1', '1', '1', '1', 'EQ', 'input', '', 4, 'admin', '2020-05-15 23:33:33', NULL, '2020-05-15 23:37:26');
-INSERT INTO `gen_table_column` VALUES (85, '5', 'line_name', '线路名称', 'varchar(50)', 'String', 'lineName', '0', '0', NULL, '1', '1', '1', '1', 'LIKE', 'input', '', 5, 'admin', '2020-05-15 23:33:33', NULL, '2020-05-15 23:37:27');
-INSERT INTO `gen_table_column` VALUES (86, '5', 'turbine_id', '机组ID', 'varchar(50)', 'String', 'turbineId', '0', '0', NULL, '1', '1', '1', '1', 'EQ', 'input', '', 6, 'admin', '2020-05-15 23:33:33', NULL, '2020-05-15 23:37:27');
-INSERT INTO `gen_table_column` VALUES (87, '5', 'turbine_id_name', '机组名称', 'varchar(50)', 'String', 'turbineIdName', '0', '0', NULL, '1', '1', '1', '1', 'LIKE', 'input', '', 7, 'admin', '2020-05-15 23:33:33', NULL, '2020-05-15 23:37:27');
-INSERT INTO `gen_table_column` VALUES (88, '5', 'down_count', '停机次数', 'int(11)', 'Long', 'downCount', '0', '0', NULL, '1', '1', '1', '1', 'EQ', 'input', '', 8, 'admin', '2020-05-15 23:33:33', NULL, '2020-05-15 23:37:27');
-INSERT INTO `gen_table_column` VALUES (89, '5', 'down_time_length', '停机时长', 'float', 'Long', 'downTimeLength', '0', '0', NULL, '1', '1', '1', '1', 'EQ', 'input', '', 9, 'admin', '2020-05-15 23:33:33', NULL, '2020-05-15 23:37:27');
-INSERT INTO `gen_table_column` VALUES (90, '5', 'down_category', '停机类别', 'varchar(50)', 'String', 'downCategory', '0', '0', NULL, '1', '1', '1', '1', 'EQ', 'input', '', 10, 'admin', '2020-05-15 23:33:33', NULL, '2020-05-15 23:37:27');
-INSERT INTO `gen_table_column` VALUES (91, '5', 'down_state_code', '停机状态码', 'int(11)', 'Long', 'downStateCode', '0', '0', NULL, '1', '1', '1', '1', 'EQ', 'input', '', 11, 'admin', '2020-05-15 23:33:33', NULL, '2020-05-15 23:37:27');
-INSERT INTO `gen_table_column` VALUES (92, '5', 'down_state_name', '停机状态名称', 'varchar(20)', 'String', 'downStateName', '0', '0', NULL, '1', '1', '1', '1', 'LIKE', 'input', '', 12, 'admin', '2020-05-15 23:33:33', NULL, '2020-05-15 23:37:27');
-INSERT INTO `gen_table_column` VALUES (93, '5', 'statistical_time_length', '统计时长', 'float', 'Double', 'statisticalTimeLength', '0', '0', NULL, '1', '1', '1', '1', 'EQ', 'input', '', 13, 'admin', '2020-05-15 23:33:33', NULL, '2020-05-15 23:37:27');
-INSERT INTO `gen_table_column` VALUES (94, '5', 'statistical_time', '统计时间', 'datetime', 'Date', 'statisticalTime', '0', '0', NULL, '1', '1', '1', '1', 'EQ', 'datetime', '', 14, 'admin', '2020-05-15 23:33:33', NULL, '2020-05-15 23:37:27');
-INSERT INTO `gen_table_column` VALUES (95, '5', 'computing_time', '计算时间', 'datetime', 'Date', 'computingTime', '0', '0', NULL, '1', '1', '1', '1', 'EQ', 'datetime', '', 15, 'admin', '2020-05-15 23:33:33', NULL, '2020-05-15 23:37:27');
-INSERT INTO `gen_table_column` VALUES (96, '5', 'alternate_field1', '备用字段1', 'varchar(30)', 'String', 'alternateField1', '0', '0', NULL, '1', '1', '1', '1', 'EQ', 'input', '', 16, 'admin', '2020-05-15 23:33:33', NULL, '2020-05-15 23:37:27');
-INSERT INTO `gen_table_column` VALUES (97, '5', 'alternate_field2', '备用字段2', 'varchar(30)', 'String', 'alternateField2', '0', '0', NULL, '1', '1', '1', '1', 'EQ', 'input', '', 17, 'admin', '2020-05-15 23:33:33', NULL, '2020-05-15 23:37:27');
-INSERT INTO `gen_table_column` VALUES (98, '5', 'alternate_field3', '备用字段3', 'varchar(30)', 'String', 'alternateField3', '0', '0', NULL, '1', '1', '1', '1', 'EQ', 'input', '', 18, 'admin', '2020-05-15 23:33:33', NULL, '2020-05-15 23:37:27');
 INSERT INTO `gen_table_column` VALUES (99, '6', 'ID', '索引', 'int(11)', 'Long', 'id', '1', '0', NULL, '1', NULL, NULL, NULL, 'EQ', 'input', '', 1, 'admin', '2020-05-15 23:33:33', NULL, '2020-05-15 23:43:44');
 INSERT INTO `gen_table_column` VALUES (100, '6', 'create_time', '日期时间', 'datetime', 'Date', 'createTime', '0', '0', NULL, '1', NULL, NULL, NULL, 'EQ', 'datetime', '', 2, 'admin', '2020-05-15 23:33:33', NULL, '2020-05-15 23:43:44');
 INSERT INTO `gen_table_column` VALUES (101, '6', 'time_nano_sec', '纳秒时间', 'timestamp', 'Date', 'timeNanoSec', '0', '0', NULL, '1', '1', '1', '1', 'EQ', 'datetime', '', 3, 'admin', '2020-05-15 23:33:33', NULL, '2020-05-15 23:43:44');
@@ -323,6 +305,24 @@ INSERT INTO `gen_table_column` VALUES (273, '12', 'yaw_err_avg', 'TML相对风�
 INSERT INTO `gen_table_column` VALUES (274, '12', 'backup1', '备用字段1', 'float', 'Double', 'backup1', '0', '0', NULL, '1', '1', '1', '1', 'EQ', 'input', '', 40, 'admin', '2020-05-15 23:41:56', NULL, '2020-05-15 23:43:33');
 INSERT INTO `gen_table_column` VALUES (275, '12', 'backup2', '备用字段2', 'float', 'Double', 'backup2', '0', '0', NULL, '1', '1', '1', '1', 'EQ', 'input', '', 41, 'admin', '2020-05-15 23:41:56', NULL, '2020-05-15 23:43:33');
 INSERT INTO `gen_table_column` VALUES (276, '12', 'backup3', '备用字段3', 'float', 'Double', 'backup3', '0', '0', NULL, '1', '1', '1', '1', 'EQ', 'input', '', 42, 'admin', '2020-05-15 23:41:56', NULL, '2020-05-15 23:43:33');
+INSERT INTO `gen_table_column` VALUES (277, '13', 'id', '主键ID', 'varchar(8)', 'String', 'id', '1', '0', NULL, '1', NULL, NULL, NULL, 'EQ', 'input', '', 1, 'admin', '2020-07-11 22:22:55', NULL, '2020-07-11 22:28:45');
+INSERT INTO `gen_table_column` VALUES (278, '13', 'wind_field_id', '风场ID', 'int(11)', 'Long', 'windFieldId', '0', '0', NULL, '1', '1', '1', '1', 'EQ', 'input', '', 2, 'admin', '2020-07-11 22:22:55', NULL, '2020-07-11 22:28:45');
+INSERT INTO `gen_table_column` VALUES (279, '13', 'wind_field_name', '风场名称', 'varchar(50)', 'String', 'windFieldName', '0', '0', NULL, '1', '1', '1', '1', 'LIKE', 'input', '', 3, 'admin', '2020-07-11 22:22:55', NULL, '2020-07-11 22:28:45');
+INSERT INTO `gen_table_column` VALUES (280, '13', 'line_id', '线路ID', 'int(11)', 'Long', 'lineId', '0', '0', NULL, '1', '1', '1', '1', 'EQ', 'input', '', 4, 'admin', '2020-07-11 22:22:55', NULL, '2020-07-11 22:28:45');
+INSERT INTO `gen_table_column` VALUES (281, '13', 'line_name', '线路名称', 'varchar(50)', 'String', 'lineName', '0', '0', NULL, '1', '1', '1', '1', 'LIKE', 'input', '', 5, 'admin', '2020-07-11 22:22:55', NULL, '2020-07-11 22:28:45');
+INSERT INTO `gen_table_column` VALUES (282, '13', 'turbine_id', '机组ID', 'varchar(50)', 'String', 'turbineId', '0', '0', NULL, '1', '1', '1', '1', 'EQ', 'input', '', 6, 'admin', '2020-07-11 22:22:55', NULL, '2020-07-11 22:28:45');
+INSERT INTO `gen_table_column` VALUES (283, '13', 'turbine_name', '机组名称', 'varchar(50)', 'String', 'turbineName', '0', '0', NULL, '1', '1', '1', '1', 'LIKE', 'input', '', 7, 'admin', '2020-07-11 22:22:55', NULL, '2020-07-11 22:28:45');
+INSERT INTO `gen_table_column` VALUES (284, '13', 'down_time', '停机时间', 'datetime', 'Date', 'downTime', '0', '0', NULL, '1', '1', '1', '1', 'EQ', 'datetime', '', 8, 'admin', '2020-07-11 22:22:55', NULL, '2020-07-11 22:28:45');
+INSERT INTO `gen_table_column` VALUES (285, '13', 'down_time_length', '停机时长', 'float', 'Double', 'downTimeLength', '0', '0', NULL, '1', '1', '1', '1', 'EQ', 'input', '', 9, 'admin', '2020-07-11 22:22:55', NULL, '2020-07-11 22:28:45');
+INSERT INTO `gen_table_column` VALUES (286, '13', 'down_category', '停机类别', 'varchar(50)', 'String', 'downCategory', '0', '0', NULL, '1', '1', '1', '1', 'EQ', 'input', '', 10, 'admin', '2020-07-11 22:22:55', NULL, '2020-07-11 22:28:45');
+INSERT INTO `gen_table_column` VALUES (287, '13', 'down_state_code', '停机状态码', 'int(11)', 'Long', 'downStateCode', '0', '0', NULL, '1', '1', '1', '1', 'EQ', 'input', '', 11, 'admin', '2020-07-11 22:22:55', NULL, '2020-07-11 22:28:45');
+INSERT INTO `gen_table_column` VALUES (288, '13', 'down_state_name', '停机状态名称', 'varchar(20)', 'String', 'downStateName', '0', '0', NULL, '1', '1', '1', '1', 'LIKE', 'input', '', 12, 'admin', '2020-07-11 22:22:55', NULL, '2020-07-11 22:28:45');
+INSERT INTO `gen_table_column` VALUES (289, '13', 'statistical_time_length', '统计时长', 'float', 'Double', 'statisticalTimeLength', '0', '0', NULL, '1', '1', '1', '1', 'EQ', 'input', '', 13, 'admin', '2020-07-11 22:22:55', NULL, '2020-07-11 22:28:45');
+INSERT INTO `gen_table_column` VALUES (290, '13', 'statistical_time', '统计时间', 'datetime', 'Date', 'statisticalTime', '0', '0', NULL, '1', '1', '1', '1', 'EQ', 'datetime', '', 14, 'admin', '2020-07-11 22:22:55', NULL, '2020-07-11 22:28:45');
+INSERT INTO `gen_table_column` VALUES (291, '13', 'computing_time', '计算时间', 'datetime', 'Date', 'computingTime', '0', '0', NULL, '1', '1', '1', '1', 'EQ', 'datetime', '', 15, 'admin', '2020-07-11 22:22:55', NULL, '2020-07-11 22:28:45');
+INSERT INTO `gen_table_column` VALUES (292, '13', 'alternate_field1', '备用字段1', 'varchar(30)', 'String', 'alternateField1', '0', '0', NULL, '1', '1', '1', '1', 'EQ', 'input', '', 16, 'admin', '2020-07-11 22:22:55', NULL, '2020-07-11 22:28:45');
+INSERT INTO `gen_table_column` VALUES (293, '13', 'alternate_field2', '备用字段2', 'varchar(30)', 'String', 'alternateField2', '0', '0', NULL, '1', '1', '1', '1', 'EQ', 'input', '', 17, 'admin', '2020-07-11 22:22:55', NULL, '2020-07-11 22:28:45');
+INSERT INTO `gen_table_column` VALUES (294, '13', 'alternate_field3', '备用字段3', 'varchar(30)', 'String', 'alternateField3', '0', '0', NULL, '1', '1', '1', '1', 'EQ', 'input', '', 18, 'admin', '2020-07-11 22:22:55', NULL, '2020-07-11 22:28:45');
 
 -- ----------------------------
 -- Table structure for qrtz_blob_triggers
@@ -456,7 +456,7 @@ CREATE TABLE `qrtz_scheduler_state`  (
 -- ----------------------------
 -- Records of qrtz_scheduler_state
 -- ----------------------------
-INSERT INTO `qrtz_scheduler_state` VALUES ('ScadaStatisticsScheduler', 'zjy-pc1589555285269', 1589557584205, 15000);
+INSERT INTO `qrtz_scheduler_state` VALUES ('ScadaStatisticsScheduler', 'zjy-pc1594517004940', 1594534989618, 15000);
 
 -- ----------------------------
 -- Table structure for qrtz_simple_triggers
@@ -525,9 +525,9 @@ CREATE TABLE `qrtz_triggers`  (
 -- ----------------------------
 -- Records of qrtz_triggers
 -- ----------------------------
-INSERT INTO `qrtz_triggers` VALUES ('ScadaStatisticsScheduler', 'TASK_CLASS_NAME1', 'DEFAULT', 'TASK_CLASS_NAME1', 'DEFAULT', NULL, 1589555290000, -1, 5, 'PAUSED', 'CRON', 1589555285000, 0, NULL, 2, '');
-INSERT INTO `qrtz_triggers` VALUES ('ScadaStatisticsScheduler', 'TASK_CLASS_NAME2', 'DEFAULT', 'TASK_CLASS_NAME2', 'DEFAULT', NULL, 1589555295000, -1, 5, 'PAUSED', 'CRON', 1589555285000, 0, NULL, 2, '');
-INSERT INTO `qrtz_triggers` VALUES ('ScadaStatisticsScheduler', 'TASK_CLASS_NAME3', 'DEFAULT', 'TASK_CLASS_NAME3', 'DEFAULT', NULL, 1589555300000, -1, 5, 'PAUSED', 'CRON', 1589555285000, 0, NULL, 2, '');
+INSERT INTO `qrtz_triggers` VALUES ('ScadaStatisticsScheduler', 'TASK_CLASS_NAME1', 'DEFAULT', 'TASK_CLASS_NAME1', 'DEFAULT', NULL, 1594517010000, -1, 5, 'PAUSED', 'CRON', 1594517005000, 0, NULL, 2, '');
+INSERT INTO `qrtz_triggers` VALUES ('ScadaStatisticsScheduler', 'TASK_CLASS_NAME2', 'DEFAULT', 'TASK_CLASS_NAME2', 'DEFAULT', NULL, 1594517010000, -1, 5, 'PAUSED', 'CRON', 1594517005000, 0, NULL, 2, '');
+INSERT INTO `qrtz_triggers` VALUES ('ScadaStatisticsScheduler', 'TASK_CLASS_NAME3', 'DEFAULT', 'TASK_CLASS_NAME3', 'DEFAULT', NULL, 1594517020000, -1, 5, 'PAUSED', 'CRON', 1594517005000, 0, NULL, 2, '');
 
 -- ----------------------------
 -- Table structure for sys_config
@@ -545,7 +545,7 @@ CREATE TABLE `sys_config`  (
   `update_time` datetime(0) NULL DEFAULT NULL COMMENT '更新时间',
   `remark` varchar(500) CHARACTER SET utf8 COLLATE utf8_bin NULL DEFAULT NULL COMMENT '备注',
   PRIMARY KEY (`config_id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 100 CHARACTER SET = utf8 COLLATE = utf8_bin COMMENT = '参数配置表' ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 5 CHARACTER SET = utf8 COLLATE = utf8_bin COMMENT = '参数配置表' ROW_FORMAT = Dynamic;
 
 -- ----------------------------
 -- Records of sys_config
@@ -575,7 +575,7 @@ CREATE TABLE `sys_dept`  (
   `update_by` varchar(64) CHARACTER SET utf8 COLLATE utf8_bin NULL DEFAULT '' COMMENT '更新者',
   `update_time` datetime(0) NULL DEFAULT NULL COMMENT '更新时间',
   PRIMARY KEY (`dept_id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 200 CHARACTER SET = utf8 COLLATE = utf8_bin COMMENT = '部门表' ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 110 CHARACTER SET = utf8 COLLATE = utf8_bin COMMENT = '部门表' ROW_FORMAT = Dynamic;
 
 -- ----------------------------
 -- Records of sys_dept
@@ -611,7 +611,7 @@ CREATE TABLE `sys_dict_data`  (
   `update_time` datetime(0) NULL DEFAULT NULL COMMENT '更新时间',
   `remark` varchar(500) CHARACTER SET utf8 COLLATE utf8_bin NULL DEFAULT NULL COMMENT '备注',
   PRIMARY KEY (`dict_code`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 100 CHARACTER SET = utf8 COLLATE = utf8_bin COMMENT = '字典数据表' ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 30 CHARACTER SET = utf8 COLLATE = utf8_bin COMMENT = '字典数据表' ROW_FORMAT = Dynamic;
 
 -- ----------------------------
 -- Records of sys_dict_data
@@ -662,7 +662,7 @@ CREATE TABLE `sys_dict_type`  (
   `remark` varchar(500) CHARACTER SET utf8 COLLATE utf8_bin NULL DEFAULT NULL COMMENT '备注',
   PRIMARY KEY (`dict_id`) USING BTREE,
   UNIQUE INDEX `dict_type`(`dict_type`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 100 CHARACTER SET = utf8 COLLATE = utf8_bin COMMENT = '字典类型表' ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 11 CHARACTER SET = utf8 COLLATE = utf8_bin COMMENT = '字典类型表' ROW_FORMAT = Dynamic;
 
 -- ----------------------------
 -- Records of sys_dict_type
@@ -697,7 +697,7 @@ CREATE TABLE `sys_job`  (
   `update_time` datetime(0) NULL DEFAULT NULL COMMENT '更新时间',
   `remark` varchar(500) CHARACTER SET utf8 COLLATE utf8_bin NULL DEFAULT '' COMMENT '备注信息',
   PRIMARY KEY (`job_id`, `job_name`, `job_group`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 100 CHARACTER SET = utf8 COLLATE = utf8_bin COMMENT = '定时任务调度表' ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 4 CHARACTER SET = utf8 COLLATE = utf8_bin COMMENT = '定时任务调度表' ROW_FORMAT = Dynamic;
 
 -- ----------------------------
 -- Records of sys_job
@@ -737,12 +737,15 @@ CREATE TABLE `sys_logininfor`  (
   `msg` varchar(255) CHARACTER SET utf8 COLLATE utf8_bin NULL DEFAULT '' COMMENT '提示消息',
   `login_time` datetime(0) NULL DEFAULT NULL COMMENT '访问时间',
   PRIMARY KEY (`info_id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 101 CHARACTER SET = utf8 COLLATE = utf8_bin COMMENT = '系统访问记录' ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 104 CHARACTER SET = utf8 COLLATE = utf8_bin COMMENT = '系统访问记录' ROW_FORMAT = Dynamic;
 
 -- ----------------------------
 -- Records of sys_logininfor
 -- ----------------------------
 INSERT INTO `sys_logininfor` VALUES (100, 'admin', '127.0.0.1', '内网IP', 'Chrome 8', 'Windows 7', '0', '登录成功', '2020-05-15 23:14:40');
+INSERT INTO `sys_logininfor` VALUES (101, 'admin', '127.0.0.1', '内网IP', 'Chrome 8', 'Windows 7', '0', '登录成功', '2020-07-11 21:57:47');
+INSERT INTO `sys_logininfor` VALUES (102, 'admin', '127.0.0.1', '内网IP', 'Chrome 8', 'Windows 7', '1', '验证码错误', '2020-07-11 22:22:07');
+INSERT INTO `sys_logininfor` VALUES (103, 'admin', '127.0.0.1', '内网IP', 'Chrome 8', 'Windows 7', '0', '登录成功', '2020-07-11 22:22:12');
 
 -- ----------------------------
 -- Table structure for sys_menu
@@ -765,7 +768,7 @@ CREATE TABLE `sys_menu`  (
   `update_time` datetime(0) NULL DEFAULT NULL COMMENT '更新时间',
   `remark` varchar(500) CHARACTER SET utf8 COLLATE utf8_bin NULL DEFAULT '' COMMENT '备注',
   PRIMARY KEY (`menu_id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 2000 CHARACTER SET = utf8 COLLATE = utf8_bin COMMENT = '菜单权限表' ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 1062 CHARACTER SET = utf8 COLLATE = utf8_bin COMMENT = '菜单权限表' ROW_FORMAT = Dynamic;
 
 -- ----------------------------
 -- Records of sys_menu
@@ -870,7 +873,7 @@ CREATE TABLE `sys_notice`  (
   `update_time` datetime(0) NULL DEFAULT NULL COMMENT '更新时间',
   `remark` varchar(255) CHARACTER SET utf8 COLLATE utf8_bin NULL DEFAULT NULL COMMENT '备注',
   PRIMARY KEY (`notice_id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 10 CHARACTER SET = utf8 COLLATE = utf8_bin COMMENT = '通知公告表' ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 3 CHARACTER SET = utf8 COLLATE = utf8_bin COMMENT = '通知公告表' ROW_FORMAT = Dynamic;
 
 -- ----------------------------
 -- Records of sys_notice
@@ -900,7 +903,7 @@ CREATE TABLE `sys_oper_log`  (
   `error_msg` varchar(2000) CHARACTER SET utf8 COLLATE utf8_bin NULL DEFAULT '' COMMENT '错误消息',
   `oper_time` datetime(0) NULL DEFAULT NULL COMMENT '操作时间',
   PRIMARY KEY (`oper_id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 117 CHARACTER SET = utf8 COLLATE = utf8_bin COMMENT = '操作日志记录' ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 123 CHARACTER SET = utf8 COLLATE = utf8_bin COMMENT = '操作日志记录' ROW_FORMAT = Dynamic;
 
 -- ----------------------------
 -- Records of sys_oper_log
@@ -922,6 +925,12 @@ INSERT INTO `sys_oper_log` VALUES (113, '代码生成', 6, 'com.scada.project.to
 INSERT INTO `sys_oper_log` VALUES (114, '代码生成', 2, 'com.scada.project.tool.gen.controller.GenController.editSave()', 'POST', 1, 'admin', '研发部门', '/tool/gen/edit', '127.0.0.1', '内网IP', '{\"tableId\":[\"12\"],\"tableName\":[\"t_ten_minute_log\"],\"tableComment\":[\"十分钟日志\"],\"className\":[\"TenMinuteLog\"],\"functionAuthor\":[\"张继勇\"],\"remark\":[\"\"],\"columns[0].columnId\":[\"235\"],\"columns[0].sort\":[\"1\"],\"columns[0].columnComment\":[\"主键ID\"],\"columns[0].javaType\":[\"Long\"],\"columns[0].javaField\":[\"id\"],\"columns[0].isInsert\":[\"1\"],\"columns[0].queryType\":[\"EQ\"],\"columns[0].htmlType\":[\"input\"],\"columns[0].dictType\":[\"\"],\"columns[1].columnId\":[\"236\"],\"columns[1].sort\":[\"2\"],\"columns[1].columnComment\":[\"日期时间\"],\"columns[1].javaType\":[\"Date\"],\"columns[1].javaField\":[\"createTime\"],\"columns[1].isInsert\":[\"1\"],\"columns[1].queryType\":[\"EQ\"],\"columns[1].htmlType\":[\"datetime\"],\"columns[1].dictType\":[\"\"],\"columns[2].columnId\":[\"237\"],\"columns[2].sort\":[\"3\"],\"columns[2].columnComment\":[\"机组号\"],\"columns[2].javaType\":[\"String\"],\"columns[2].javaField\":[\"turbineId\"],\"columns[2].isInsert\":[\"1\"],\"columns[2].isEdit\":[\"1\"],\"columns[2].isList\":[\"1\"],\"columns[2].isQuery\":[\"1\"],\"columns[2].queryType\":[\"EQ\"],\"columns[2].htmlType\":[\"input\"],\"columns[2].dictType\":[\"\"],\"columns[3].columnId\":[\"238\"],\"columns[3].sort\":[\"4\"],\"columns[3].columnComment\":[\"机组状态\"],\"columns[3].javaType\":[\"Long\"],\"columns[3].javaField\":[\"statusBitMask\"],\"columns[3].isInsert\":[\"1\"],\"columns[3].isEdit\":[\"1\"],\"columns[3].isList\":[\"1\"],\"columns[3].isQuery\":[\"1\"],\"columns[3].queryType\":[\"EQ\"],\"columns[3].htmlType\":[\"input\"],\"columns[3].dictType\":[\"\"],\"columns[4].columnId\":[\"239\"],\"columns[4].sort\":[\"5\"],\"columns[4].columnComment\":[\"TML有功功率平均值\"],\"columns[4].javaType\":[\"Double\"],\"columns[4].javaField\":[\"activePowerAvg\"],\"columns[4].isInsert\":[\"1\"],\"columns[4].isEdit\":[\"1\"],\"columns[4].isList\":[\"1\"],\"columns[4].isQuery\":[\"1\"],\"columns[4].queryType\":[\"EQ\"],\"columns[4].htmlType\":[\"input\"],\"columns[4].dictType\":[\"\"],\"columns[5].columnId\":[\"240\"],\"columns[5].sort\":[\"6\"],\"columns[5].columnComment\":[\"TML有功功率最小值\"],\"columns[5].javaType\":[\"Double\"],\"columns[5].javaField\":[\"activePowerMin\"],\"columns[5].isInsert\":[\"1\"],\"columns[5].isEdit\":[\"1\"],\"col', '{\"msg\":\"操作成功\",\"code\":0}', 0, NULL, '2020-05-15 23:43:33');
 INSERT INTO `sys_oper_log` VALUES (115, '代码生成', 2, 'com.scada.project.tool.gen.controller.GenController.editSave()', 'POST', 1, 'admin', '研发部门', '/tool/gen/edit', '127.0.0.1', '内网IP', '{\"tableId\":[\"6\"],\"tableName\":[\"t_main_state_log\"],\"tableComment\":[\"主状态日志\"],\"className\":[\"MainStateLog\"],\"functionAuthor\":[\"张继勇\"],\"remark\":[\"\"],\"columns[0].columnId\":[\"99\"],\"columns[0].sort\":[\"1\"],\"columns[0].columnComment\":[\"索引\"],\"columns[0].javaType\":[\"Long\"],\"columns[0].javaField\":[\"id\"],\"columns[0].isInsert\":[\"1\"],\"columns[0].queryType\":[\"EQ\"],\"columns[0].htmlType\":[\"input\"],\"columns[0].dictType\":[\"\"],\"columns[1].columnId\":[\"100\"],\"columns[1].sort\":[\"2\"],\"columns[1].columnComment\":[\"日期时间\"],\"columns[1].javaType\":[\"Date\"],\"columns[1].javaField\":[\"createTime\"],\"columns[1].isInsert\":[\"1\"],\"columns[1].queryType\":[\"EQ\"],\"columns[1].htmlType\":[\"datetime\"],\"columns[1].dictType\":[\"\"],\"columns[2].columnId\":[\"101\"],\"columns[2].sort\":[\"3\"],\"columns[2].columnComment\":[\"纳秒时间\"],\"columns[2].javaType\":[\"Date\"],\"columns[2].javaField\":[\"timeNanoSec\"],\"columns[2].isInsert\":[\"1\"],\"columns[2].isEdit\":[\"1\"],\"columns[2].isList\":[\"1\"],\"columns[2].isQuery\":[\"1\"],\"columns[2].queryType\":[\"EQ\"],\"columns[2].htmlType\":[\"datetime\"],\"columns[2].dictType\":[\"\"],\"columns[3].columnId\":[\"102\"],\"columns[3].sort\":[\"4\"],\"columns[3].columnComment\":[\"机组号\"],\"columns[3].javaType\":[\"String\"],\"columns[3].javaField\":[\"turbineId\"],\"columns[3].isInsert\":[\"1\"],\"columns[3].isEdit\":[\"1\"],\"columns[3].isList\":[\"1\"],\"columns[3].isQuery\":[\"1\"],\"columns[3].queryType\":[\"EQ\"],\"columns[3].htmlType\":[\"input\"],\"columns[3].dictType\":[\"\"],\"columns[4].columnId\":[\"103\"],\"columns[4].sort\":[\"5\"],\"columns[4].columnComment\":[\"主状态\"],\"columns[4].javaType\":[\"Long\"],\"columns[4].javaField\":[\"mainState\"],\"columns[4].isInsert\":[\"1\"],\"columns[4].isEdit\":[\"1\"],\"columns[4].isList\":[\"1\"],\"columns[4].isQuery\":[\"1\"],\"columns[4].queryType\":[\"EQ\"],\"columns[4].htmlType\":[\"input\"],\"columns[4].dictType\":[\"\"],\"columns[5].columnId\":[\"104\"],\"columns[5].sort\":[\"6\"],\"columns[5].columnComment\":[\"子状态\"],\"columns[5].javaType\":[\"Long\"],\"columns[5].javaField\":[\"subState\"],\"columns[5].isInsert\":[\"1\"],\"columns[5].isEdit\":[\"1\"],\"columns[5].isList\":[\"1\"],\"columns[5', '{\"msg\":\"操作成功\",\"code\":0}', 0, NULL, '2020-05-15 23:43:44');
 INSERT INTO `sys_oper_log` VALUES (116, '代码生成', 8, 'com.scada.project.tool.gen.controller.GenController.batchGenCode()', 'GET', 1, 'admin', '研发部门', '/tool/gen/batchGenCode', '127.0.0.1', '内网IP', '{\"tables\":[\"t_ten_minute_log,t_availability_day_statistics,t_availability_month_statistics,t_availability_year_statistics,t_component_day_statistics,t_fault_day_statistics,t_main_state_log,t_power_curve_day_statistics,t_state_code_log,t_turbine_info,t_wind_regime_statistics\"]}', 'null', 0, NULL, '2020-05-15 23:44:30');
+INSERT INTO `sys_oper_log` VALUES (117, '代码生成', 3, 'com.scada.project.tool.gen.controller.GenController.remove()', 'POST', 1, 'admin', '研发部门', '/tool/gen/remove', '127.0.0.1', '内网IP', '{\"ids\":[\"5\"]}', '{\"msg\":\"操作成功\",\"code\":0}', 0, NULL, '2020-07-11 22:22:30');
+INSERT INTO `sys_oper_log` VALUES (118, '代码生成', 6, 'com.scada.project.tool.gen.controller.GenController.importTableSave()', 'POST', 1, 'admin', '研发部门', '/tool/gen/importTable', '127.0.0.1', '内网IP', '{\"tables\":[\"t_fault_day_statistics\"]}', '{\"msg\":\"操作成功\",\"code\":0}', 0, NULL, '2020-07-11 22:22:55');
+INSERT INTO `sys_oper_log` VALUES (119, '代码生成', 2, 'com.scada.project.tool.gen.controller.GenController.editSave()', 'POST', 1, 'admin', '研发部门', '/tool/gen/edit', '127.0.0.1', '内网IP', '{\"tableId\":[\"13\"],\"tableName\":[\"t_fault_day_statistics\"],\"tableComment\":[\"故障统计按天统计表\"],\"className\":[\"FaultDayStatistics\"],\"functionAuthor\":[\"张继勇\"],\"remark\":[\"\"],\"columns[0].columnId\":[\"277\"],\"columns[0].sort\":[\"1\"],\"columns[0].columnComment\":[\"主键ID\"],\"columns[0].javaType\":[\"String\"],\"columns[0].javaField\":[\"id\"],\"columns[0].isInsert\":[\"1\"],\"columns[0].queryType\":[\"EQ\"],\"columns[0].htmlType\":[\"input\"],\"columns[0].dictType\":[\"\"],\"columns[1].columnId\":[\"278\"],\"columns[1].sort\":[\"2\"],\"columns[1].columnComment\":[\"风场ID\"],\"columns[1].javaType\":[\"Long\"],\"columns[1].javaField\":[\"windFieldId\"],\"columns[1].isInsert\":[\"1\"],\"columns[1].isEdit\":[\"1\"],\"columns[1].isList\":[\"1\"],\"columns[1].isQuery\":[\"1\"],\"columns[1].queryType\":[\"EQ\"],\"columns[1].htmlType\":[\"input\"],\"columns[1].dictType\":[\"\"],\"columns[2].columnId\":[\"279\"],\"columns[2].sort\":[\"3\"],\"columns[2].columnComment\":[\"风场名称\"],\"columns[2].javaType\":[\"String\"],\"columns[2].javaField\":[\"windFieldName\"],\"columns[2].isInsert\":[\"1\"],\"columns[2].isEdit\":[\"1\"],\"columns[2].isList\":[\"1\"],\"columns[2].isQuery\":[\"1\"],\"columns[2].queryType\":[\"LIKE\"],\"columns[2].htmlType\":[\"input\"],\"columns[2].dictType\":[\"\"],\"columns[3].columnId\":[\"280\"],\"columns[3].sort\":[\"4\"],\"columns[3].columnComment\":[\"线路ID\"],\"columns[3].javaType\":[\"Long\"],\"columns[3].javaField\":[\"lineId\"],\"columns[3].isInsert\":[\"1\"],\"columns[3].isEdit\":[\"1\"],\"columns[3].isList\":[\"1\"],\"columns[3].isQuery\":[\"1\"],\"columns[3].queryType\":[\"EQ\"],\"columns[3].htmlType\":[\"input\"],\"columns[3].dictType\":[\"\"],\"columns[4].columnId\":[\"281\"],\"columns[4].sort\":[\"5\"],\"columns[4].columnComment\":[\"线路名称\"],\"columns[4].javaType\":[\"String\"],\"columns[4].javaField\":[\"lineName\"],\"columns[4].isInsert\":[\"1\"],\"columns[4].isEdit\":[\"1\"],\"columns[4].isList\":[\"1\"],\"columns[4].isQuery\":[\"1\"],\"columns[4].queryType\":[\"LIKE\"],\"columns[4].htmlType\":[\"input\"],\"columns[4].dictType\":[\"\"],\"columns[5].columnId\":[\"282\"],\"columns[5].sort\":[\"6\"],\"columns[5].columnComment\":[\"机组ID\"],\"columns[5].javaType\":[\"String\"],\"columns[5].javaField', '{\"msg\":\"操作成功\",\"code\":0}', 0, NULL, '2020-07-11 22:27:18');
+INSERT INTO `sys_oper_log` VALUES (120, '代码生成', 2, 'com.scada.project.tool.gen.controller.GenController.editSave()', 'POST', 1, 'admin', '研发部门', '/tool/gen/edit', '127.0.0.1', '内网IP', '{\"tableId\":[\"13\"],\"tableName\":[\"t_fault_day_statistics\"],\"tableComment\":[\"故障统计按天统计表\"],\"className\":[\"FaultDayStatistics\"],\"functionAuthor\":[\"张继勇\"],\"remark\":[\"\"],\"columns[0].columnId\":[\"277\"],\"columns[0].sort\":[\"1\"],\"columns[0].columnComment\":[\"主键ID\"],\"columns[0].javaType\":[\"String\"],\"columns[0].javaField\":[\"id\"],\"columns[0].isInsert\":[\"1\"],\"columns[0].queryType\":[\"EQ\"],\"columns[0].htmlType\":[\"input\"],\"columns[0].dictType\":[\"\"],\"columns[1].columnId\":[\"278\"],\"columns[1].sort\":[\"2\"],\"columns[1].columnComment\":[\"风场ID\"],\"columns[1].javaType\":[\"Long\"],\"columns[1].javaField\":[\"windFieldId\"],\"columns[1].isInsert\":[\"1\"],\"columns[1].isEdit\":[\"1\"],\"columns[1].isList\":[\"1\"],\"columns[1].isQuery\":[\"1\"],\"columns[1].queryType\":[\"EQ\"],\"columns[1].htmlType\":[\"input\"],\"columns[1].dictType\":[\"\"],\"columns[2].columnId\":[\"279\"],\"columns[2].sort\":[\"3\"],\"columns[2].columnComment\":[\"风场名称\"],\"columns[2].javaType\":[\"String\"],\"columns[2].javaField\":[\"windFieldName\"],\"columns[2].isInsert\":[\"1\"],\"columns[2].isEdit\":[\"1\"],\"columns[2].isList\":[\"1\"],\"columns[2].isQuery\":[\"1\"],\"columns[2].queryType\":[\"LIKE\"],\"columns[2].htmlType\":[\"input\"],\"columns[2].dictType\":[\"\"],\"columns[3].columnId\":[\"280\"],\"columns[3].sort\":[\"4\"],\"columns[3].columnComment\":[\"线路ID\"],\"columns[3].javaType\":[\"Long\"],\"columns[3].javaField\":[\"lineId\"],\"columns[3].isInsert\":[\"1\"],\"columns[3].isEdit\":[\"1\"],\"columns[3].isList\":[\"1\"],\"columns[3].isQuery\":[\"1\"],\"columns[3].queryType\":[\"EQ\"],\"columns[3].htmlType\":[\"input\"],\"columns[3].dictType\":[\"\"],\"columns[4].columnId\":[\"281\"],\"columns[4].sort\":[\"5\"],\"columns[4].columnComment\":[\"线路名称\"],\"columns[4].javaType\":[\"String\"],\"columns[4].javaField\":[\"lineName\"],\"columns[4].isInsert\":[\"1\"],\"columns[4].isEdit\":[\"1\"],\"columns[4].isList\":[\"1\"],\"columns[4].isQuery\":[\"1\"],\"columns[4].queryType\":[\"LIKE\"],\"columns[4].htmlType\":[\"input\"],\"columns[4].dictType\":[\"\"],\"columns[5].columnId\":[\"282\"],\"columns[5].sort\":[\"6\"],\"columns[5].columnComment\":[\"机组ID\"],\"columns[5].javaType\":[\"String\"],\"columns[5].javaField', '{\"msg\":\"操作成功\",\"code\":0}', 0, NULL, '2020-07-11 22:28:23');
+INSERT INTO `sys_oper_log` VALUES (121, '代码生成', 2, 'com.scada.project.tool.gen.controller.GenController.editSave()', 'POST', 1, 'admin', '研发部门', '/tool/gen/edit', '127.0.0.1', '内网IP', '{\"tableId\":[\"13\"],\"tableName\":[\"t_fault_day_statistics\"],\"tableComment\":[\"故障统计按天统计表\"],\"className\":[\"FaultDayStatistics\"],\"functionAuthor\":[\"张继勇\"],\"remark\":[\"\"],\"columns[0].columnId\":[\"277\"],\"columns[0].sort\":[\"1\"],\"columns[0].columnComment\":[\"主键ID\"],\"columns[0].javaType\":[\"String\"],\"columns[0].javaField\":[\"id\"],\"columns[0].isInsert\":[\"1\"],\"columns[0].queryType\":[\"EQ\"],\"columns[0].htmlType\":[\"input\"],\"columns[0].dictType\":[\"\"],\"columns[1].columnId\":[\"278\"],\"columns[1].sort\":[\"2\"],\"columns[1].columnComment\":[\"风场ID\"],\"columns[1].javaType\":[\"Long\"],\"columns[1].javaField\":[\"windFieldId\"],\"columns[1].isInsert\":[\"1\"],\"columns[1].isEdit\":[\"1\"],\"columns[1].isList\":[\"1\"],\"columns[1].isQuery\":[\"1\"],\"columns[1].queryType\":[\"EQ\"],\"columns[1].htmlType\":[\"input\"],\"columns[1].dictType\":[\"\"],\"columns[2].columnId\":[\"279\"],\"columns[2].sort\":[\"3\"],\"columns[2].columnComment\":[\"风场名称\"],\"columns[2].javaType\":[\"String\"],\"columns[2].javaField\":[\"windFieldName\"],\"columns[2].isInsert\":[\"1\"],\"columns[2].isEdit\":[\"1\"],\"columns[2].isList\":[\"1\"],\"columns[2].isQuery\":[\"1\"],\"columns[2].queryType\":[\"LIKE\"],\"columns[2].htmlType\":[\"input\"],\"columns[2].dictType\":[\"\"],\"columns[3].columnId\":[\"280\"],\"columns[3].sort\":[\"4\"],\"columns[3].columnComment\":[\"线路ID\"],\"columns[3].javaType\":[\"Long\"],\"columns[3].javaField\":[\"lineId\"],\"columns[3].isInsert\":[\"1\"],\"columns[3].isEdit\":[\"1\"],\"columns[3].isList\":[\"1\"],\"columns[3].isQuery\":[\"1\"],\"columns[3].queryType\":[\"EQ\"],\"columns[3].htmlType\":[\"input\"],\"columns[3].dictType\":[\"\"],\"columns[4].columnId\":[\"281\"],\"columns[4].sort\":[\"5\"],\"columns[4].columnComment\":[\"线路名称\"],\"columns[4].javaType\":[\"String\"],\"columns[4].javaField\":[\"lineName\"],\"columns[4].isInsert\":[\"1\"],\"columns[4].isEdit\":[\"1\"],\"columns[4].isList\":[\"1\"],\"columns[4].isQuery\":[\"1\"],\"columns[4].queryType\":[\"LIKE\"],\"columns[4].htmlType\":[\"input\"],\"columns[4].dictType\":[\"\"],\"columns[5].columnId\":[\"282\"],\"columns[5].sort\":[\"6\"],\"columns[5].columnComment\":[\"机组ID\"],\"columns[5].javaType\":[\"String\"],\"columns[5].javaField', '{\"msg\":\"操作成功\",\"code\":0}', 0, NULL, '2020-07-11 22:28:45');
+INSERT INTO `sys_oper_log` VALUES (122, '代码生成', 8, 'com.scada.project.tool.gen.controller.GenController.batchGenCode()', 'GET', 1, 'admin', '研发部门', '/tool/gen/batchGenCode', '127.0.0.1', '内网IP', '{\"tables\":[\"t_fault_day_statistics,t_ten_minute_log,t_availability_day_statistics,t_availability_month_statistics,t_availability_year_statistics,t_component_day_statistics,t_main_state_log,t_power_curve_day_statistics,t_state_code_log,t_turbine_info,t_wind_regime_statistics\"]}', 'null', 0, NULL, '2020-07-11 22:28:54');
 
 -- ----------------------------
 -- Table structure for sys_post
@@ -967,7 +976,7 @@ CREATE TABLE `sys_role`  (
   `update_time` datetime(0) NULL DEFAULT NULL COMMENT '更新时间',
   `remark` varchar(500) CHARACTER SET utf8 COLLATE utf8_bin NULL DEFAULT NULL COMMENT '备注',
   PRIMARY KEY (`role_id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 100 CHARACTER SET = utf8 COLLATE = utf8_bin COMMENT = '角色信息表' ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 3 CHARACTER SET = utf8 COLLATE = utf8_bin COMMENT = '角色信息表' ROW_FORMAT = Dynamic;
 
 -- ----------------------------
 -- Records of sys_role
@@ -1115,12 +1124,12 @@ CREATE TABLE `sys_user`  (
   `update_time` datetime(0) NULL DEFAULT NULL COMMENT '更新时间',
   `remark` varchar(500) CHARACTER SET utf8 COLLATE utf8_bin NULL DEFAULT NULL COMMENT '备注',
   PRIMARY KEY (`user_id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 100 CHARACTER SET = utf8 COLLATE = utf8_bin COMMENT = '用户信息表' ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 3 CHARACTER SET = utf8 COLLATE = utf8_bin COMMENT = '用户信息表' ROW_FORMAT = Dynamic;
 
 -- ----------------------------
 -- Records of sys_user
 -- ----------------------------
-INSERT INTO `sys_user` VALUES (1, 103, 'admin', '若依', '00', 'ry@163.com', '15888888888', '1', '', '29c67a30398638269fe600f73a054934', '111111', '0', '0', '127.0.0.1', '2020-05-15 23:14:40', 'admin', '2018-03-16 11:33:00', 'ry', '2020-05-15 23:14:40', '管理员');
+INSERT INTO `sys_user` VALUES (1, 103, 'admin', '若依', '00', 'ry@163.com', '15888888888', '1', '', '29c67a30398638269fe600f73a054934', '111111', '0', '0', '127.0.0.1', '2020-07-11 22:22:13', 'admin', '2018-03-16 11:33:00', 'ry', '2020-07-11 22:22:12', '管理员');
 INSERT INTO `sys_user` VALUES (2, 105, 'ry', '若依', '00', 'ry@qq.com', '15666666666', '1', '', '8e6d98b90472783cc73c17047ddccf36', '222222', '0', '0', '127.0.0.1', '2018-03-16 11:33:00', 'admin', '2018-03-16 11:33:00', 'ry', '2018-03-16 11:33:00', '测试员');
 
 -- ----------------------------
@@ -1145,7 +1154,7 @@ CREATE TABLE `sys_user_online`  (
 -- ----------------------------
 -- Records of sys_user_online
 -- ----------------------------
-INSERT INTO `sys_user_online` VALUES ('c80f3593-da5b-4f3b-94f3-8e01fd1b0ff9', 'admin', '研发部门', '127.0.0.1', '内网IP', 'Chrome 8', 'Windows 7', 'on_line', '2020-05-15 23:14:27', '2020-05-15 23:43:34', 1800000);
+INSERT INTO `sys_user_online` VALUES ('d75cb6ef-f8a4-4bad-bc92-157e7de14693', 'admin', '研发部门', '127.0.0.1', '内网IP', 'Chrome 8', 'Windows 7', 'on_line', '2020-07-11 22:21:50', '2020-07-11 22:28:23', 1800000);
 
 -- ----------------------------
 -- Table structure for sys_user_post
@@ -1201,6 +1210,11 @@ CREATE TABLE `t_availability_day_statistics`  (
   `alternate_field3` varchar(30) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '备用字段3',
   PRIMARY KEY (`id`) USING BTREE
 ) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_general_ci COMMENT = '可利用率按天统计表' ROW_FORMAT = Dynamic;
+
+-- ----------------------------
+-- Records of t_availability_day_statistics
+-- ----------------------------
+INSERT INTO `t_availability_day_statistics` VALUES ('1', 2, '12', 12, '12', '1', '123', 23, 24, 99, '2020-05-23 07:20:40', '2020-05-24 06:32:41', NULL, NULL, NULL);
 
 -- ----------------------------
 -- Table structure for t_availability_month_statistics
@@ -1302,12 +1316,12 @@ CREATE TABLE `t_fault_day_statistics`  (
   `line_id` int(11) NULL DEFAULT NULL COMMENT '线路ID',
   `line_name` varchar(50) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '线路名称',
   `turbine_id` varchar(50) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '机组ID',
-  `turbine_id_name` varchar(50) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '机组名称',
-  `down_count` int(11) NULL DEFAULT NULL COMMENT '停机次数',
-  `down_time_length` float NULL DEFAULT NULL COMMENT '停机时长',
-  `down_category` varchar(50) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '停机类别',
-  `down_state_code` int(11) NULL DEFAULT NULL COMMENT '停机状态码',
-  `down_state_name` varchar(20) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '停机状态名称',
+  `turbine_name` varchar(50) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '机组名称',
+  `stop_time` datetime(0) NULL DEFAULT NULL COMMENT '停机时间',
+  `stop_time_length` float NULL DEFAULT NULL COMMENT '停机时长',
+  `stop_category` varchar(50) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '停机类别',
+  `stop_state_code` int(11) NULL DEFAULT NULL COMMENT '停机状态码',
+  `stop_state_name` varchar(20) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '停机状态名称',
   `statistical_time_length` float NULL DEFAULT NULL COMMENT '统计时长',
   `statistical_time` datetime(0) NULL DEFAULT NULL COMMENT '统计时间',
   `computing_time` datetime(0) NULL DEFAULT CURRENT_TIMESTAMP(0) ON UPDATE CURRENT_TIMESTAMP(0) COMMENT '计算时间',
@@ -1329,7 +1343,7 @@ CREATE TABLE `t_main_state_log`  (
   `main_state` int(11) NULL DEFAULT NULL COMMENT '主状态',
   `sub_state` int(11) NULL DEFAULT NULL COMMENT '子状态',
   `active_code` int(11) NULL DEFAULT NULL COMMENT '当前激活的状态码',
-  `availbility_status` varchar(50) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '风机可利用率',
+  `availbility_status` varchar(50) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '风机可利用状态',
   `act_power_production` float NULL DEFAULT NULL COMMENT '风机有功发电量',
   `act_power_consumption` float NULL DEFAULT NULL COMMENT '风机有功耗电量',
   `react_power_production` float NULL DEFAULT NULL COMMENT '风机无功发电量',
@@ -1466,6 +1480,7 @@ DROP TABLE IF EXISTS `t_turbine_info`;
 CREATE TABLE `t_turbine_info`  (
   `id` int(32) NOT NULL AUTO_INCREMENT COMMENT '索引',
   `turbine_id` varchar(50) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '机组ID',
+  `turbine_name` varchar(50) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '机组名称',
   `type` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '类型',
   `capacity` int(16) NULL DEFAULT NULL COMMENT '容量',
   `line_id` int(11) NULL DEFAULT NULL COMMENT '线路ID',
