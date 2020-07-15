@@ -45,6 +45,17 @@ public class AvailabilityMonthStatisticsServiceImpl implements IAvailabilityMont
     }
 
     /**
+     * 查询可利用率统计按月统计列表
+     *
+     * @return 可利用率统计按月统计
+     */
+    public List<AvailabilityMonthStatistics> selectTurbineAvailabilityMonthStatistics()
+    {
+        return availabilityMonthStatisticsMapper.selectTurbineAvailabilityStatisticsByMonth();
+    }
+
+
+    /**
      * 新增可利用率统计按月统计
      * 
      * @param availabilityMonthStatistics 可利用率统计按月统计

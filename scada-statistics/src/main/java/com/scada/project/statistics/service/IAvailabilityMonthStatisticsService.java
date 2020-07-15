@@ -27,6 +27,14 @@ public interface IAvailabilityMonthStatisticsService
      */
     public List<AvailabilityMonthStatistics> selectAvailabilityMonthStatisticsList(AvailabilityMonthStatistics availabilityMonthStatistics);
 
+
+    /**
+     * 查询可利用率统计按月统计列表
+     *
+     * @return 可利用率统计按月统计集合
+     */
+    public List<AvailabilityMonthStatistics> selectTurbineAvailabilityMonthStatistics();
+
     /**
      * 新增可利用率统计按月统计
      * 

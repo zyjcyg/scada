@@ -57,6 +57,16 @@ public class AvailabilityYearStatisticsServiceImpl implements IAvailabilityYearS
     }
 
     /**
+     * 查询可利用率统计按年统计列表
+     *
+     * @return 可利用率统计按年统计集合
+     */
+    public List<AvailabilityYearStatistics> selectTurbineAvailabilityYearStatistics()
+    {
+        return availabilityYearStatisticsMapper.selectTurbineAvailabilityStatisticsByYear();
+    }
+
+    /**
      * 修改可利用率统计按年统计
      * 
      * @param availabilityYearStatistics 可利用率统计按年统计
