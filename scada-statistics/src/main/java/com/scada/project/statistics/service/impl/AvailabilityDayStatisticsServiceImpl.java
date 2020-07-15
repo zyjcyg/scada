@@ -45,6 +45,16 @@ public class AvailabilityDayStatisticsServiceImpl implements IAvailabilityDaySta
     }
 
     /**
+     * 查询可利用率按天统计列表
+     *
+     * @return 可利用率按天统计
+     */
+    @Override
+    public List<AvailabilityDayStatistics> selectTurbineAvailabilityDayStatistics()
+    {
+        return availabilityDayStatisticsMapper.selectTurbineAvailabilityStatisticsByDay();
+    }
+    /**
      * 新增可利用率按天统计
      * 
      * @param availabilityDayStatistics 可利用率按天统计

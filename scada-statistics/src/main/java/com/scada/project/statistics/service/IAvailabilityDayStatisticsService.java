@@ -28,6 +28,13 @@ public interface IAvailabilityDayStatisticsService
     public List<AvailabilityDayStatistics> selectAvailabilityDayStatisticsList(AvailabilityDayStatistics availabilityDayStatistics);
 
     /**
+     * 查询可利用率按天统计列表
+     *
+     * @return 可利用率按天统计集合
+     */
+    public List<AvailabilityDayStatistics> selectTurbineAvailabilityDayStatistics();
+
+    /**
      * 新增可利用率按天统计
      * 
      * @param availabilityDayStatistics 可利用率按天统计

@@ -30,8 +30,8 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         SELECT
             a.turbine_id,
             b.turbine_name,
-            a.count_num,
-            a.active_power_avg,
+            a.count,
+            a.power,
             b.line_id,
             b.line_name,
             b.wind_field_id,
@@ -40,8 +40,8 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
             (
                 SELECT
                     t.`turbine_id`,
-                    COUNT(*) AS count_num,
-                    t.`active_power_avg`
+                    COUNT(*) AS count,
+                    t.`active_power_avg` AS power
                 FROM
                     t_ten_minute_log t
                 WHERE
