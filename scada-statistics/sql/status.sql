@@ -125,38 +125,68 @@ FROM
         INNER JOIN t_availability_month_statistics b ON a.turbine_id = b.turbine_id;
 
 SELECT
-    t.`turbine_id`,
-    t.`availbility_status`,
-    t.`active_code`,
-    MIN(t.create_time) AS stop_time,
-    (
-                            MAX( t.total_mannul_stop_time_length ) - MIN( t.total_mannul_stop_time_length ) +
-                            MAX( t.total_wether_stop_time_length ) - MIN( t.total_wether_stop_time_length )+
-                            MAX( t.total_grid_fault_stop_time_length ) - MIN( t.total_grid_fault_stop_time_length )*
-                                                                         MAX( t.total_turbine_fault_stop_time_length ) - MIN( t.total_turbine_fault_stop_time_length )
-    ) stop_time_length
-
+    a.turbine_id,
+    b.turbine_name,
+    a.stop_time,
+    a.stop_time_length,
+    a.stop_state_code,
+    a.stop_category,
+    b.line_id,
+    b.line_name,
+    b.wind_field_id,
+    b.wind_field_name
 FROM
-    t_main_state_log t
-WHERE t.`availbility_status` != '运行'
-  AND t.`create_time` BETWEEN DATE_SUB(NOW(), INTERVAL 1 HOUR)
-    AND NOW()
-GROUP BY t.`turbine_id`,
-         t.`availbility_status`,
-         t.`active_code`;
+    (
+        SELECT
+            t.`turbine_id`,
+            t.`availbility_status` AS stop_category,
+            t.`active_code` AS stop_state_code,
+            MIN( t.create_time ) AS stop_time,
+            (MAX( t.total_mannul_stop_time_length ) - MIN( t.total_mannul_stop_time_length ) +
+             MAX( t.total_wether_stop_time_length ) - MIN( t.total_wether_stop_time_length ) +
+             MAX( t.total_grid_fault_stop_time_length ) - MIN( t.total_grid_fault_stop_time_length ) +
+             MAX( t.total_turbine_fault_stop_time_length ) - MIN( t.total_turbine_fault_stop_time_length )
+            ) stop_time_length
+        FROM
+            t_main_state_log t
+        WHERE
+                t.`availbility_status` != '运行'
+          AND t.`create_time` BETWEEN DATE_SUB( NOW(), INTERVAL 1 HOUR )
+            AND NOW()
+        GROUP BY
+            t.`turbine_id`,
+            t.`availbility_status`,
+            t.`active_code`
+    ) AS a
+        LEFT JOIN t_turbine_info b ON a.turbine_id = b.turbine_id;
 
 
 SELECT
-    t.`turbine_id`,
-    COUNT(*) AS count_num,
-    t.`active_power_avg`
+    a.turbine_id,
+    b.turbine_name,
+    a.count_num,
+    a.active_power_avg,
+    b.line_id,
+    b.line_name,
+    b.wind_field_id,
+    b.wind_field_name
 FROM
-    t_ten_minute_log t
-WHERE t.`status_bit_mask` = 12
-  AND t.`create_time` BETWEEN DATE_SUB(CURDATE(), INTERVAL 1 DAY)
-    AND CURDATE()
-  AND t.`stand_wind_spd` BETWEEN 0.25
-    AND 0.75
-GROUP BY t.`turbine_id`,
-         t.`active_power_avg` ;
+    (
+        SELECT
+            t.`turbine_id`,
+            COUNT(*) AS count_num,
+            t.`active_power_avg`
+        FROM
+            t_ten_minute_log t
+        WHERE
+                t.`status_bit_mask` = 12
+          AND t.`create_time` BETWEEN DATE_SUB( CURDATE(), INTERVAL 1 DAY )
+            AND CURDATE()
+          AND t.`stand_wind_spd` BETWEEN 0.25
+            AND 0.75
+        GROUP BY
+            t.`turbine_id`,
+            t.`active_power_avg`
+    ) AS a
+        LEFT JOIN t_turbine_info b ON a.turbine_id = b.turbine_id;
 

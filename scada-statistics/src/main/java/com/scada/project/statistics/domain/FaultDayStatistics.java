@@ -10,7 +10,7 @@ import org.apache.commons.lang3.builder.ToStringStyle;
  * 故障统计按天统计对象 t_fault_day_statistics
  * 
  * @author 张继勇
- * @date 2020-07-11
+ * @date 2020-07-15
  */
 public class FaultDayStatistics extends BaseEntity
 {
@@ -45,23 +45,23 @@ public class FaultDayStatistics extends BaseEntity
 
     /** 停机时间 */
     @Excel(name = "停机时间", width = 30, dateFormat = "yyyy-MM-dd")
-    private Date downTime;
+    private Date stopTime;
 
     /** 停机时长 */
     @Excel(name = "停机时长")
-    private Double downTimeLength;
+    private Double stopTimeLength;
 
     /** 停机类别 */
     @Excel(name = "停机类别")
-    private String downCategory;
+    private String stopCategory;
 
     /** 停机状态码 */
     @Excel(name = "停机状态码")
-    private Long downStateCode;
+    private Long stopStateCode;
 
     /** 停机状态名称 */
     @Excel(name = "停机状态名称")
-    private String downStateName;
+    private String stopStateName;
 
     /** 统计时长 */
     @Excel(name = "统计时长")
@@ -150,50 +150,50 @@ public class FaultDayStatistics extends BaseEntity
     {
         return turbineName;
     }
-    public void setDownTime(Date downTime) 
+    public void setStopTime(Date stopTime) 
     {
-        this.downTime = downTime;
+        this.stopTime = stopTime;
     }
 
-    public Date getDownTime() 
+    public Date getStopTime() 
     {
-        return downTime;
+        return stopTime;
     }
-    public void setDownTimeLength(Double downTimeLength) 
+    public void setStopTimeLength(Double stopTimeLength) 
     {
-        this.downTimeLength = downTimeLength;
-    }
-
-    public Double getDownTimeLength() 
-    {
-        return downTimeLength;
-    }
-    public void setDownCategory(String downCategory) 
-    {
-        this.downCategory = downCategory;
+        this.stopTimeLength = stopTimeLength;
     }
 
-    public String getDownCategory() 
+    public Double getStopTimeLength() 
     {
-        return downCategory;
+        return stopTimeLength;
     }
-    public void setDownStateCode(Long downStateCode) 
+    public void setStopCategory(String stopCategory) 
     {
-        this.downStateCode = downStateCode;
-    }
-
-    public Long getDownStateCode() 
-    {
-        return downStateCode;
-    }
-    public void setDownStateName(String downStateName) 
-    {
-        this.downStateName = downStateName;
+        this.stopCategory = stopCategory;
     }
 
-    public String getDownStateName() 
+    public String getStopCategory() 
     {
-        return downStateName;
+        return stopCategory;
+    }
+    public void setStopStateCode(Long stopStateCode) 
+    {
+        this.stopStateCode = stopStateCode;
+    }
+
+    public Long getStopStateCode() 
+    {
+        return stopStateCode;
+    }
+    public void setStopStateName(String stopStateName) 
+    {
+        this.stopStateName = stopStateName;
+    }
+
+    public String getStopStateName() 
+    {
+        return stopStateName;
     }
     public void setStatisticalTimeLength(Double statisticalTimeLength) 
     {
@@ -260,11 +260,11 @@ public class FaultDayStatistics extends BaseEntity
             .append("lineName", getLineName())
             .append("turbineId", getTurbineId())
             .append("turbineName", getTurbineName())
-            .append("downTime", getDownTime())
-            .append("downTimeLength", getDownTimeLength())
-            .append("downCategory", getDownCategory())
-            .append("downStateCode", getDownStateCode())
-            .append("downStateName", getDownStateName())
+            .append("stopTime", getStopTime())
+            .append("stopTimeLength", getStopTimeLength())
+            .append("stopCategory", getStopCategory())
+            .append("stopStateCode", getStopStateCode())
+            .append("stopStateName", getStopStateName())
             .append("statisticalTimeLength", getStatisticalTimeLength())
             .append("statisticalTime", getStatisticalTime())
             .append("computingTime", getComputingTime())

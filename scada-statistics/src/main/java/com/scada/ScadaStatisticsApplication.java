@@ -18,6 +18,7 @@ public class ScadaStatisticsApplication
     {
         SpringApplication.run(ScadaStatisticsApplication.class, args);
         System.out.println("args = " + Arrays.deepToString(args));
+        System.out.println("args = " + Arrays.deepToString(args));
 
     }
 }

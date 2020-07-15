@@ -12,7 +12,7 @@ import com.scada.common.utils.text.Convert;
  * 故障统计按天统计Service业务层处理
  * 
  * @author 张继勇
- * @date 2020-07-11
+ * @date 2020-07-15
  */
 @Service
 public class FaultDayStatisticsServiceImpl implements IFaultDayStatisticsService 

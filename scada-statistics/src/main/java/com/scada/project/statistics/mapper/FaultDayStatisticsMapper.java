@@ -7,7 +7,7 @@ import com.scada.project.statistics.domain.FaultDayStatistics;
  * 故障统计按天统计Mapper接口
  * 
  * @author 张继勇
- * @date 2020-07-11
+ * @date 2020-07-15
  */
 public interface FaultDayStatisticsMapper 
 {

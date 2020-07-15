@@ -12,11 +12,11 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         <result property="lineName"    column="line_name"    />
         <result property="turbineId"    column="turbine_id"    />
         <result property="turbineName"    column="turbine_name"    />
-        <result property="downTime"    column="down_time"    />
-        <result property="downTimeLength"    column="down_time_length"    />
-        <result property="downCategory"    column="down_category"    />
-        <result property="downStateCode"    column="down_state_code"    />
-        <result property="downStateName"    column="down_state_name"    />
+        <result property="stopTime"    column="stop_time"    />
+        <result property="stopTimeLength"    column="stop_time_length"    />
+        <result property="stopCategory"    column="stop_category"    />
+        <result property="stopStateCode"    column="stop_state_code"    />
+        <result property="stopStateName"    column="stop_state_name"    />
         <result property="statisticalTimeLength"    column="statistical_time_length"    />
         <result property="statisticalTime"    column="statistical_time"    />
         <result property="computingTime"    column="computing_time"    />
@@ -26,7 +26,7 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
     </resultMap>
 
     <sql id="selectFaultDayStatisticsVo">
-        select id, wind_field_id, wind_field_name, line_id, line_name, turbine_id, turbine_name, down_time, down_time_length, down_category, down_state_code, down_state_name, statistical_time_length, statistical_time, computing_time, alternate_field1, alternate_field2, alternate_field3 from t_fault_day_statistics
+        select id, wind_field_id, wind_field_name, line_id, line_name, turbine_id, turbine_name, stop_time, stop_time_length, stop_category, stop_state_code, stop_state_name, statistical_time_length, statistical_time, computing_time, alternate_field1, alternate_field2, alternate_field3 from t_fault_day_statistics
     </sql>
 
     <select id="selectFaultDayStatisticsList" parameterType="FaultDayStatistics" resultMap="FaultDayStatisticsResult">
@@ -38,11 +38,11 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
             <if test="lineName != null  and lineName != ''"> and line_name like concat('%', #{lineName}, '%')</if>
             <if test="turbineId != null  and turbineId != ''"> and turbine_id = #{turbineId}</if>
             <if test="turbineName != null  and turbineName != ''"> and turbine_name like concat('%', #{turbineName}, '%')</if>
-            <if test="downTime != null "> and down_time = #{downTime}</if>
-            <if test="downTimeLength != null "> and down_time_length = #{downTimeLength}</if>
-            <if test="downCategory != null  and downCategory != ''"> and down_category = #{downCategory}</if>
-            <if test="downStateCode != null "> and down_state_code = #{downStateCode}</if>
-            <if test="downStateName != null  and downStateName != ''"> and down_state_name like concat('%', #{downStateName}, '%')</if>
+            <if test="stopTime != null "> and stop_time = #{stopTime}</if>
+            <if test="stopTimeLength != null "> and stop_time_length = #{stopTimeLength}</if>
+            <if test="stopCategory != null  and stopCategory != ''"> and stop_category = #{stopCategory}</if>
+            <if test="stopStateCode != null "> and stop_state_code = #{stopStateCode}</if>
+            <if test="stopStateName != null  and stopStateName != ''"> and stop_state_name like concat('%', #{stopStateName}, '%')</if>
             <if test="statisticalTimeLength != null "> and statistical_time_length = #{statisticalTimeLength}</if>
             <if test="statisticalTime != null "> and statistical_time = #{statisticalTime}</if>
             <if test="computingTime != null "> and computing_time = #{computingTime}</if>
@@ -67,11 +67,11 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
             <if test="lineName != null  and lineName != ''">line_name,</if>
             <if test="turbineId != null  and turbineId != ''">turbine_id,</if>
             <if test="turbineName != null  and turbineName != ''">turbine_name,</if>
-            <if test="downTime != null ">down_time,</if>
-            <if test="downTimeLength != null ">down_time_length,</if>
-            <if test="downCategory != null  and downCategory != ''">down_category,</if>
-            <if test="downStateCode != null ">down_state_code,</if>
-            <if test="downStateName != null  and downStateName != ''">down_state_name,</if>
+            <if test="stopTime != null ">stop_time,</if>
+            <if test="stopTimeLength != null ">stop_time_length,</if>
+            <if test="stopCategory != null  and stopCategory != ''">stop_category,</if>
+            <if test="stopStateCode != null ">stop_state_code,</if>
+            <if test="stopStateName != null  and stopStateName != ''">stop_state_name,</if>
             <if test="statisticalTimeLength != null ">statistical_time_length,</if>
             <if test="statisticalTime != null ">statistical_time,</if>
             <if test="computingTime != null ">computing_time,</if>
@@ -87,11 +87,11 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
             <if test="lineName != null  and lineName != ''">#{lineName},</if>
             <if test="turbineId != null  and turbineId != ''">#{turbineId},</if>
             <if test="turbineName != null  and turbineName != ''">#{turbineName},</if>
-            <if test="downTime != null ">#{downTime},</if>
-            <if test="downTimeLength != null ">#{downTimeLength},</if>
-            <if test="downCategory != null  and downCategory != ''">#{downCategory},</if>
-            <if test="downStateCode != null ">#{downStateCode},</if>
-            <if test="downStateName != null  and downStateName != ''">#{downStateName},</if>
+            <if test="stopTime != null ">#{stopTime},</if>
+            <if test="stopTimeLength != null ">#{stopTimeLength},</if>
+            <if test="stopCategory != null  and stopCategory != ''">#{stopCategory},</if>
+            <if test="stopStateCode != null ">#{stopStateCode},</if>
+            <if test="stopStateName != null  and stopStateName != ''">#{stopStateName},</if>
             <if test="statisticalTimeLength != null ">#{statisticalTimeLength},</if>
             <if test="statisticalTime != null ">#{statisticalTime},</if>
             <if test="computingTime != null ">#{computingTime},</if>
@@ -110,11 +110,11 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
             <if test="lineName != null  and lineName != ''">line_name = #{lineName},</if>
             <if test="turbineId != null  and turbineId != ''">turbine_id = #{turbineId},</if>
             <if test="turbineName != null  and turbineName != ''">turbine_name = #{turbineName},</if>
-            <if test="downTime != null ">down_time = #{downTime},</if>
-            <if test="downTimeLength != null ">down_time_length = #{downTimeLength},</if>
-            <if test="downCategory != null  and downCategory != ''">down_category = #{downCategory},</if>
-            <if test="downStateCode != null ">down_state_code = #{downStateCode},</if>
-            <if test="downStateName != null  and downStateName != ''">down_state_name = #{downStateName},</if>
+            <if test="stopTime != null ">stop_time = #{stopTime},</if>
+            <if test="stopTimeLength != null ">stop_time_length = #{stopTimeLength},</if>
+            <if test="stopCategory != null  and stopCategory != ''">stop_category = #{stopCategory},</if>
+            <if test="stopStateCode != null ">stop_state_code = #{stopStateCode},</if>
+            <if test="stopStateName != null  and stopStateName != ''">stop_state_name = #{stopStateName},</if>
             <if test="statisticalTimeLength != null ">statistical_time_length = #{statisticalTimeLength},</if>
             <if test="statisticalTime != null ">statistical_time = #{statisticalTime},</if>
             <if test="computingTime != null ">computing_time = #{computingTime},</if>
