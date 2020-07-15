@@ -58,4 +58,11 @@ public interface IFaultDayStatisticsService
      * @return 结果
      */
     public int deleteFaultDayStatisticsById(String id);
+
+    /**
+     * 查询故障统计按天统计列表
+     *
+     * @return 故障统计按天统计集合
+     */
+    public List<FaultDayStatistics> selectShutdownStatistics();
 }
