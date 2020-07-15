@@ -21,11 +21,18 @@ public interface FaultDayStatisticsMapper
 
     /**
      * 查询故障统计按天统计列表
-     * 
+     *
      * @param faultDayStatistics 故障统计按天统计
      * @return 故障统计按天统计集合
      */
     public List<FaultDayStatistics> selectFaultDayStatisticsList(FaultDayStatistics faultDayStatistics);
+
+    /**
+     * 查询故障统计按天统计列表
+     *
+     * @return 故障统计按天统计集合
+     */
+    public List<FaultDayStatistics> selectShutdownStatistics();
 
     /**
      * 新增故障统计按天统计

@@ -26,6 +26,36 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
     <sql id="selectPowerCurveDayStatisticsVo">
         select id, wind_field_id, wind_field_name, line_id, line_name, turbine_id, turbine_name, wind_speed, pover, count, statistical_time_length, statistical_time, computing_time, alternate_field1, alternate_field2, alternate_field3 from t_power_curve_day_statistics
     </sql>
+    <select id="selectPowerCurveStatistics" resultMap="PowerCurveDayStatisticsResult">
+        SELECT
+            a.turbine_id,
+            b.turbine_name,
+            a.count_num,
+            a.active_power_avg,
+            b.line_id,
+            b.line_name,
+            b.wind_field_id,
+            b.wind_field_name
+        FROM
+            (
+                SELECT
+                    t.`turbine_id`,
+                    COUNT(*) AS count_num,
+                    t.`active_power_avg`
+                FROM
+                    t_ten_minute_log t
+                WHERE
+                    t.`status_bit_mask` = 12
+                  AND t.`create_time` BETWEEN DATE_SUB( CURDATE(), INTERVAL 1 DAY )
+                    AND CURDATE()
+                  AND t.`stand_wind_spd` BETWEEN 0.25
+                    AND 0.75
+                GROUP BY
+                    t.`turbine_id`,
+                    t.`active_power_avg`
+            ) AS a
+                LEFT JOIN t_turbine_info b ON a.turbine_id = b.turbine_id
+    </select>
 
     <select id="selectPowerCurveDayStatisticsList" parameterType="PowerCurveDayStatistics" resultMap="PowerCurveDayStatisticsResult">
         <include refid="selectPowerCurveDayStatisticsVo"/>

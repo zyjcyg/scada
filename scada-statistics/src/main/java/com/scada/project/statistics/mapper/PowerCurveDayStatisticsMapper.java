@@ -28,6 +28,13 @@ public interface PowerCurveDayStatisticsMapper
     public List<PowerCurveDayStatistics> selectPowerCurveDayStatisticsList(PowerCurveDayStatistics powerCurveDayStatistics);
 
     /**
+     * 查询功率统计按天统计列表
+     *
+     * @return 功率统计按天统计集合
+     */
+    public List<PowerCurveDayStatistics> selectPowerCurveStatistics();
+
+    /**
      * 新增功率统计按天统计
      * 
      * @param powerCurveDayStatistics 功率统计按天统计

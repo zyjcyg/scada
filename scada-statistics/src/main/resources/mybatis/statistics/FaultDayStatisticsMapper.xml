@@ -25,6 +25,43 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         <result property="alternateField3"    column="alternate_field3"    />
     </resultMap>
 
+    <select id="selectShutdownStatistics" resultMap="FaultDayStatisticsResult">
+        SELECT
+            a.turbine_id,
+            b.turbine_name,
+            a.stop_time,
+            a.stop_time_length,
+            a.stop_state_code,
+            a.stop_category,
+            b.line_id,
+            b.line_name,
+            b.wind_field_id,
+            b.wind_field_name
+        FROM
+            (
+                SELECT
+                    t.`turbine_id`,
+                    t.`availbility_status` AS stop_category,
+                    t.`active_code` AS stop_state_code,
+                    MIN( t.create_time ) AS stop_time,
+                    (MAX( t.total_mannul_stop_time_length ) - MIN( t.total_mannul_stop_time_length ) +
+                     MAX( t.total_wether_stop_time_length ) - MIN( t.total_wether_stop_time_length ) +
+                     MAX( t.total_grid_fault_stop_time_length ) - MIN( t.total_grid_fault_stop_time_length ) +
+                     MAX( t.total_turbine_fault_stop_time_length ) - MIN( t.total_turbine_fault_stop_time_length )
+                        ) stop_time_length
+                FROM
+                    t_main_state_log t
+                WHERE
+                    t.`availbility_status` != '运行'
+                  AND t.`create_time` BETWEEN DATE_SUB( NOW(), INTERVAL 1 HOUR )
+                    AND NOW()
+                GROUP BY
+                    t.`turbine_id`,
+                    t.`availbility_status`,
+                    t.`active_code`
+            ) AS a
+                LEFT JOIN t_turbine_info b ON a.turbine_id = b.turbine_id
+    </select>
     <sql id="selectFaultDayStatisticsVo">
         select id, wind_field_id, wind_field_name, line_id, line_name, turbine_id, turbine_name, stop_time, stop_time_length, stop_category, stop_state_code, stop_state_name, statistical_time_length, statistical_time, computing_time, alternate_field1, alternate_field2, alternate_field3 from t_fault_day_statistics
     </sql>
