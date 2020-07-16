@@ -73,4 +73,16 @@ public class ScadaTask {
         }
 
     }
+    
+    @Autowired
+    private IPowerCurveDayStatisticsService powerCurveDayStatisticsService;
+
+    public void PowerCurveStat() {
+        List<PowerCurveDayStatistics> powerCurveDayStatistics = powerCurveDayStatisticsService.selectPowerCurveStatistics();
+        for (PowerCurveDayStatistics item : powerCurveDayStatistics) {
+            System.out.println(item.toString());
+            //TODO add fields
+            powerCurveDayStatisticsService.insertPowerCurveDayStatistics(item);
+        }
+    }
 }
