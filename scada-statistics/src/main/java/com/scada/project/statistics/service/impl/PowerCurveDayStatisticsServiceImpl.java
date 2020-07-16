@@ -43,6 +43,16 @@ public class PowerCurveDayStatisticsServiceImpl implements IPowerCurveDayStatist
     {
         return powerCurveDayStatisticsMapper.selectPowerCurveDayStatisticsList(powerCurveDayStatistics);
     }
+    
+    /**
+     * 查询功率统计按天统计列表
+     *
+     * @return 功率统计按天统计集合
+     */
+    public List<PowerCurveDayStatistics> selectPowerCurveStatistics()
+    {
+        return powerCurveDayStatisticsMapper.selectPowerCurveStatistics();
+    }
 
     /**
      * 新增功率统计按天统计
