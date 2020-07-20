@@ -169,7 +169,7 @@ WHERE
 t.`status_bit_mask` = 12
 AND t.`create_time` BETWEEN DATE_SUB( CURDATE(), INTERVAL 1 DAY )
 AND CURDATE()
-AND t.`stand_wind_spd` BETWEEN 0.25 AND 0.75 这两个值在写代码的时候要传入。（X轴范围0-30m/s，每隔-0.5m/s取一个点，例如功率曲线中3m/s风速的功率为：（2.75，3.25）之间的风速计算的功率平均值）
+AND t.`stand_wind_spd` BETWEEN 0.25 AND 0.75 #这两个值在写代码的时候要传入。（X轴范围0-30m/s，每隔-0.5m/s取一个点，例如功率曲线中3m/s风速的功率为：（2.75，3.25）之间的风速计算的功率平均值）
 GROUP BY
 t.`turbine_id`,
 t.`active_power_avg`
