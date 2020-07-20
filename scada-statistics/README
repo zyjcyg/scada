@@ -38,7 +38,8 @@ t.turbine_id,
 FROM
 t_main_state_log t
 WHERE
-t.create_time BETWEEN DATE_ADD( DATE_SUB( CURDATE(), INTERVAL 1 DAY ), INTERVAL 0 HOUR ) AND DATE_ADD( CURDATE(), INTERVAL 10 SECOND ) #这里之所以要加10秒，是因为观察原有的主状态日志
+t.create_time BETWEEN DATE_ADD( DATE_SUB( CURDATE(), INTERVAL 1 DAY ), INTERVAL 0 HOUR ) AND DATE_ADD( CURDATE(), INTERVAL 10 SECOND ) 
+#这里之所以要加10秒，是因为观察原有的主状态日志记录，每天最后一条记录，都是零点以后10秒之内的数据，为了保证把一天之内的记录查全，这里加了10秒。
 GROUP BY
 t.turbine_id
 ) AS a
@@ -48,6 +49,8 @@ LEFT JOIN t_turbine_info b ON a.turbine_id = b.turbine_id;
 可利用率始终是按照12组来计算的。
 可利用率= SUM(12组里各种停机的时间*factor)  / 总统计时间 * 100%
 这个是基本的查询语句，需要根据实际情况加以修改。
+查询sql如果有变动，需要同步修改到对应的mybatis的xml文件。
+代码中只是把这些关键的字段查询出来，还有一些字段需要额外补充一下。
 b.可利用率按月统计
 (1).统计任务名称：avaiStatByMonth
 (2).sql语句
@@ -77,6 +80,9 @@ INNER JOIN t_availability_day_statistics b ON a.turbine_id = b.turbine_id;
 (3).任务说明
 这里只需要将上月的按天统计结果累加入库即可。一个月计算一次上个月。
 或者是每天计算当月的统计值，更新数据库。每天统计一次。
+这个是基本的查询语句，需要根据实际情况加以修改。
+查询sql如果有变动，需要同步修改到对应的mybatis的xml文件。
+代码中只是把这些关键的字段查询出来，还有一些字段需要额外补充一下。
 c.可利用率按年统计
 (1).统计任务名称：avaiStatByYear
 (2).sql语句
@@ -106,6 +112,9 @@ INNER JOIN t_availability_month_statistics b ON a.turbine_id = b.turbine_id;
 (3).任务说明
 这里只需要将上一年的按月统计结果累加入库即可。一个年计算一次上一年。
 或者是每天计算当年的统计值，更新数据库。每天统计一次。
+这个是基本的查询语句，需要根据实际情况加以修改。
+查询sql如果有变动，需要同步修改到对应的mybatis的xml文件。
+代码中只是把这些关键的字段查询出来，还有一些字段需要额外补充一下。
 d.停机按小时统计
 (1).统计任务名称：shutdownStat
 (2).sql语句
@@ -145,6 +154,9 @@ t.`active_code`
 LEFT JOIN t_turbine_info b ON a.turbine_id = b.turbine_id;
 (3).任务说明
 这个统计结果并不是很准确，如果机组一天都处于停机状态，可能会被统计到多次，这里最好在讨论一下。
+这个是基本的查询语句，需要根据实际情况加以修改。
+查询sql如果有变动，需要同步修改到对应的mybatis的xml文件。
+代码中只是把这些关键的字段查询出来，还有一些字段需要额外补充一下。
 e.功率曲线按天统计
 (1).统计任务名称：powerCurveStat
 (2).sql语句
@@ -176,5 +188,9 @@ t.`active_power_avg`
 ) AS a
 LEFT JOIN t_turbine_info b ON a.turbine_id = b.turbine_id;
 (3).任务说明
+这个是基本的查询语句，需要根据实际情况加以修改。
+查询sql如果有变动，需要同步修改到对应的mybatis的xml文件。
+代码中只是把这些关键的字段查询出来，还有一些字段需要额外补充一下。
+PS：按照查询码要求，每次查询如要查询60次，（因为X轴范围0-30m/s，每隔-0.5m/s取一个点）这个需要在代码中处理
 f.风况按天统计（30秒粒度没有思路，10分钟粒度不用统计，直接查询十分钟日志应该就可以）
 g.部件按天统计（未做）
